@@ -202,19 +202,17 @@ BREED_MAP = {
 
 # 3. Map props, buildings, foliage, roads, trenches (map)
 MAP_ENTITY_MAP = {
-    # Farm buildings & walls
-    "121_f3w1b": "c_house1_1",
-    "121_f3w2b": "c_house1_2",
-    "e_farm_112": "barn001",
-    "e_farm_112a": "barn001",
-    "e_farm_120": "barn001",
-    "e_farm_121ca": "barn001",
-    "e_farm_122ca": "euro_barn_shed",
-    "e_farm_c3": "c_house1_3",
-    "e_farm_c4": "c_house4_1",
-    "e_farm_c5": "c_house4_2",
-    "e_farm_c7": "c_house5_1",
-    "e_farm_c9": "c_house5_2",
+    # Farm buildings & barns (real full-size GoH European/Ostfront farmhouses & barns!)
+    "e_farm_112": "e_farm002",
+    "e_farm_112a": "e_farm003",
+    "e_farm_120": "eastern-europe_barns1",
+    "e_farm_121ca": "e_farm004",
+    "e_farm_122ca": "eastern-europe_farm",
+    "e_farm_c3": "eastern-europe_house1",
+    "e_farm_c4": "eastern-europe_house1",
+    "e_farm_c5": "soviet_rural_house1",
+    "e_farm_c7": "soviet_rural_house1",
+    "e_farm_c9": "soviet_barn",
     "e_hangar_111": "hangar_01",
     "aerostrip": "clay_road",
     # Trees & bushes (all verified 0-missing-texture in GoH flora.pak)
@@ -339,6 +337,7 @@ SKIP_MAP_ENTITIES = {
     "ditch_tank", "ditch_tank_side", "ditch_tank_turn",
     "ground_clay5", "ground_clay5a", "ground_clay5b",
     "clay_11", "clay_111", "clay_11a", "clay_11angle",
+    "121_f3w1b", "121_f3w2b",
 }
 
 # Regex patterns for purely decorative AS2 ground decals, tracks, footprints, leaves,
@@ -389,8 +388,8 @@ MAP_PROP_FALLBACK_RULES = [
     (re.compile(r"rail|station", re.I), "railroad5"),
     (re.compile(r"water|river|pool|bog|pond", re.I), "waterpool"),
     (re.compile(r"rock|stone|cliff|clay", re.I), "crash_stone1"),
-    (re.compile(r"barn|shed|farm|hangar", re.I), "barn001"),
-    (re.compile(r"house|home|building|cottage|mill|church", re.I), "c_house1_1"),
+    (re.compile(r"barn|shed|farm|hangar", re.I), "eastern-europe_barns1"),
+    (re.compile(r"house|home|building|cottage|mill|church", re.I), "eastern-europe_house1"),
     (re.compile(r"barrel", re.I), "barrel1"),
     (re.compile(r"box|crate|chest|cart|telega|trailer", re.I), "crate_one"),
     (re.compile(r"hay|stack", re.I), "euro_hay_stack1"),

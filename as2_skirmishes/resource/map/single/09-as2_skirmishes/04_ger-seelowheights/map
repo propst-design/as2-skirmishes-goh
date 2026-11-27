@@ -26151,29 +26151,25 @@
 		{Position 669.15 -1573.56 -0.02}
 		{xform zl 172.31}
 	}
-	{Entity "c_house1_1" 0x134f
-	}
-	{Entity "c_house1_2" 0x1351
-	}
-	{Entity "euro_barn_shed" 0x13c2
+	{Entity "eastern-europe_farm" 0x13c2
 		{Position 4476.46 -2528.97 181.98}
 		{xform zl -44.9}
 	}
-	{Entity "barn001" 0x13c3
+	{Entity "e_farm004" 0x13c3
 		{Position 4380.93 -2628.08}
 		{xform zl -44.76}
 	}
-	{Entity "barn001" 0x13c4
+	{Entity "eastern-europe_barns1" 0x13c4
 		{Position 4699.97 -3156.25 182.02}
 		{xform zl 3.93}
 		{ZClipVisibility 0}
 	}
-	{Entity "barn001" 0x13c5
+	{Entity "eastern-europe_barns1" 0x13c5
 		{Position 4956.99 -3030.34 182.02}
 		{xform zl -87.93}
 		{ZClipVisibility 0}
 	}
-	{Entity "euro_barn_shed" 0x13c6
+	{Entity "eastern-europe_farm" 0x13c6
 		{Position 4281.89 -2723.7 181.98}
 		{xform zl -44.9}
 	}
@@ -49928,47 +49924,47 @@
 			{window1 0}
 		}
 	}
-	{Entity "c_house4_1" 0x2bbd
+	{Entity "eastern-europe_house1" 0x2bbd
 		{Extender "window"
 			{window1 0}
 		}
 	}
-	{Entity "c_house4_2" 0x2bbe
+	{Entity "soviet_rural_house1" 0x2bbe
 		{Extender "window"
 			{window1 0}
 			{window2 0}
 		}
 	}
-	{Entity "c_house5_1" 0x2bc0
+	{Entity "soviet_rural_house1" 0x2bc0
 		{Extender "window"
 			{window5 0}
 		}
 	}
-	{Entity "c_house5_2" 0x2bc2
+	{Entity "soviet_barn" 0x2bc2
 		{Extender "window"
 			{window1 0}
 		}
 	}
-	{Entity "barn001" 0x2bc3
+	{Entity "e_farm002" 0x2bc3
 		{Position -308.38 1637.02}
 		{xform zl -17.9}
 		{Constrain none}
 		{ZClipVisibility 0}
 	}
-	{Entity "barn001" 0x2bc4
+	{Entity "e_farm003" 0x2bc4
 		{Position -273.2 1763.83}
 		{xform zl -17.9}
 		{Constrain none}
 		{ZClipVisibility 0}
 	}
-	{Entity "c_house1_3" 0x2bc7
+	{Entity "eastern-europe_house1" 0x2bc7
 	}
-	{Entity "c_house4_1" 0x2bc8
+	{Entity "eastern-europe_house1" 0x2bc8
 		{Extender "window"
 			{window1 0}
 		}
 	}
-	{Entity "barn001" 0x2bce
+	{Entity "e_farm003" 0x2bce
 		{Position -351.53 1520.19}
 		{xform zl -17.9}
 		{Constrain none}
@@ -51071,12 +51067,12 @@
 		{xform zl 49.57 y 6.34 zw -52.03}
 		{Constrain surface}
 	}
-	{Entity "barn001" 0x3139
+	{Entity "eastern-europe_barns1" 0x3139
 		{Position 673.11 1520.37 0.02}
 		{xform zl -92.55}
 		{ZClipVisibility 0}
 	}
-	{Entity "barn001" 0x313a
+	{Entity "eastern-europe_barns1" 0x313a
 		{Position 406.8 1415.54 0.02}
 		{xform zl -0.69}
 		{ZClipVisibility 0}
@@ -51601,12 +51597,12 @@
 		{xform zl -43.18}
 		{DecalOrder 1}
 	}
-	{Entity "barn001" 0x62b4
+	{Entity "e_farm002" 0x62b4
 		{Position 253.67 109.51}
 		{xform zl -147.02}
 		{ZClipVisibility 0}
 	}
-	{Entity "barn001" 0x62b5
+	{Entity "e_farm003" 0x62b5
 		{Position 300.02 -8.24 -0.02}
 		{xform zl -147.02}
 		{ZClipVisibility 0}
@@ -52294,12 +52290,12 @@
 		{Position 107.25 -101.04}
 		{DecalOrder 2}
 	}
-	{Entity "c_house5_2" 0x4e00
+	{Entity "soviet_barn" 0x4e00
 		{Extender "window"
 			{window1 0}
 		}
 	}
-	{Entity "c_house4_2" 0x4e01
+	{Entity "soviet_rural_house1" 0x4e01
 		{Extender "window"
 			{window1 0}
 			{window2 0}

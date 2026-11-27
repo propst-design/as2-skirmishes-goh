@@ -287,7 +287,7 @@
 		{Position -919.09 6285.69}
 		{xform zl 78.19}
 	}
-	{Entity "c_house1_1" 0x2034
+	{Entity "eastern-europe_house1" 0x2034
 		{Position -1226.24 3230.06 3}
 		{xform zl 24}
 	}
@@ -295,115 +295,115 @@
 	}
 	{Entity "crash_stone1" 0x2053
 	}
-	{Entity "c_house1_1" 0x206b
+	{Entity "eastern-europe_house1" 0x206b
 		{Position -454.85 3967.24 -6}
 		{xform zl 73.08}
 	}
-	{Entity "c_house1_1" 0x206c
+	{Entity "eastern-europe_house1" 0x206c
 		{Position -1826 3267.86}
 		{xform zl -64.07}
 	}
-	{Entity "c_house1_1" 0x20ad
+	{Entity "eastern-europe_house1" 0x20ad
 		{Position -2104.45 3429.89}
 		{xform zl 151.34}
 	}
-	{Entity "c_house1_1" 0x20ce
+	{Entity "eastern-europe_house1" 0x20ce
 		{Position -866.73 3883.69}
 		{xform zl -103.7}
 	}
 	{Entity "crash_stone1" 0x20d2
 	}
-	{Entity "c_house1_1" 0x20ea
+	{Entity "eastern-europe_house1" 0x20ea
 		{Position -1020.39 4254.82 -6}
 		{xform zl -46.73}
 	}
 	{Entity "crash_stone1" 0x20ee
 	}
-	{Entity "c_house1_1" 0x2106
+	{Entity "eastern-europe_house1" 0x2106
 		{Position -633.62 4674.55 -6}
 		{xform zl 172.63}
 	}
-	{Entity "c_house1_1" 0x2127
+	{Entity "eastern-europe_house1" 0x2127
 		{Position -1323.28 4677.96}
 		{xform zl -73.34}
 	}
 	{Entity "crash_stone1" 0x212b
 	}
-	{Entity "c_house1_1" 0x2143
+	{Entity "eastern-europe_house1" 0x2143
 		{Position -1804.59 4933.43 -6}
 		{xform zl 109.65}
 	}
-	{Entity "c_house1_1" 0x2164
+	{Entity "eastern-europe_house1" 0x2164
 		{Position -1461.79 5532.88}
 		{xform zl -136.89}
 	}
-	{Entity "c_house1_1" 0x2185
+	{Entity "eastern-europe_house1" 0x2185
 		{Position -1150.91 5632.61}
 		{xform zl 155.51}
 	}
 	{Entity "crash_stone1" 0x2189
 	}
-	{Entity "c_house1_1" 0x21a1
+	{Entity "eastern-europe_house1" 0x21a1
 		{Position -702.09 5476.91 -6}
 		{xform zl 74.66}
 	}
 	{Entity "crash_stone1" 0x403c
 	}
-	{Entity "c_house1_1" 0x4054
+	{Entity "eastern-europe_house1" 0x4054
 		{Position -1389.78 2522.88 -6}
 		{xform zl -43.15}
 	}
 	{Entity "crash_stone1" 0x4058
 	}
-	{Entity "c_house1_1" 0x4070
+	{Entity "eastern-europe_house1" 0x4070
 		{Position -256.29 2575.4 -6}
 		{xform zl 9.49}
 	}
 	{Entity "crash_stone1" 0x4074
 	}
-	{Entity "c_house1_1" 0x408c
+	{Entity "eastern-europe_house1" 0x408c
 		{Position -464.06 2053.83 -6}
 		{xform zl 47.58}
 	}
-	{Entity "c_house1_1" 0x40ad
+	{Entity "eastern-europe_house1" 0x40ad
 		{Position -723.94 2557.03}
 		{xform zl -85.46}
 	}
-	{Entity "c_house1_1" 0x40ce
+	{Entity "eastern-europe_house1" 0x40ce
 		{Position -1843.11 2403.04}
 		{xform zl -85.46}
 	}
 	{Entity "crash_stone1" 0x40d2
 	}
-	{Entity "c_house1_1" 0x40ea
+	{Entity "eastern-europe_house1" 0x40ea
 		{Position -2339.44 2375.21 -6}
 		{xform zl 3.42}
 	}
 	{Entity "crash_stone1" 0x40ee
 	}
-	{Entity "c_house1_1" 0x4106
+	{Entity "eastern-europe_house1" 0x4106
 		{Position -2793.01 2371.6 -6}
 		{xform zl -1.89}
 	}
 	{Entity "crash_stone1" 0x410a
 	}
-	{Entity "c_house1_1" 0x4122
+	{Entity "eastern-europe_house1" 0x4122
 		{Position -2276.13 1443.53 -6}
 		{xform zl 179.15}
 	}
-	{Entity "c_house1_1" 0x4143
+	{Entity "eastern-europe_house1" 0x4143
 		{Position -2846.18 1455.95}
 		{xform zl -179.45}
 	}
 	{Entity "crash_stone1" 0x4147
 	}
-	{Entity "c_house1_1" 0x415f
+	{Entity "eastern-europe_house1" 0x415f
 		{Position -1531.69 2218.73 -6}
 		{xform zl -106.79}
 	}
 	{Entity "crash_stone1" 0x4163
 	}
-	{Entity "c_house1_1" 0x417b
+	{Entity "eastern-europe_house1" 0x417b
 		{Position -875.33 2279.77 -6}
 		{xform zl -137.97}
 	}
