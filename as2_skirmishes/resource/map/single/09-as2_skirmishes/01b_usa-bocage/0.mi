@@ -2065,7 +2065,6 @@
 	{Link 0xe01a {0x9008 "driver"}}
 	{Link 0xe01c {0x9008 "charger"}}
 	{Link 0xe01b {0x9008 "commander"}}
-	{Link 0xe019 {0x9008 "gunner3"}}
 	{Link 0xe009 {0x900b "gunner"}}
 	{Link 0xe008 {0x900b "driver"}}
 	{Link 0xe00b {0x900b "charger"}}
@@ -2095,7 +2094,6 @@
 	{Link 0x805a {0x8052 "driver"}}
 	{Link 0x8056 {0x8052 "commander"}}
 	{Link 0x805c {0x8052 "charger"}}
-	{Link 0x8058 {0x8052 "gunner3"}}
 	{Link 0x8054 {0x8052 "gunner"}}
 	{Link 0xc00d {0xa001 "gunner"}}
 	{Link 0xc018 {0xa001 "driver"}}
@@ -2125,7 +2123,7 @@
 	{Link 0x8082 {0x8081 "driver"}}
 	{Link 0x8085 {0x8081 "commander"}}
 	{Link 0xc02d {0x8088 "gunner"}}
-	{Link 0xc02b {0x8088 "commander"}}
+	{Link 0xc02b {0x8088 "seat1"}}
 	{Link 0x808a {0x8089 "driver"}}
 	{Link 0x808c {0x8089 "commander"}}
 	{Link 0xe038 {0xe004 "gunner"}}
@@ -2137,7 +2135,7 @@
 	{Link 0xe052 {0xe00c "driver"}}
 	{Link 0xe056 {0xe00c "charger"}}
 	{Link 0xe054 {0xe00c "commander"}}
-	{Link 0xe058 {0xe00c "gunner2"}}
+	{Link 0xe058 {0xe00c "gunner3"}}
 	{Link 0xe04e {0xe018 "gunner"}}
 	{Link 0xe048 {0xe018 "driver"}}
 	{Link 0xe04c {0xe018 "charger"}}
@@ -7766,64 +7764,54 @@
 							{type difficulty}
 							{level easy}
 						}
-						{"achievement"
-							{name skirmish_01b_usa_easy}
-							{nation usa}
-						}
+						{"delay"
+							{time 0}
+						}
 					}
 					{"if"
 						{condition
 							{type difficulty}
 							{level normal}
 						}
-						{"achievement"
-							{name skirmish_01b_usa_easy}
-							{nation usa}
-						}
-						{"achievement"
-							{name skirmish_01b_usa_normal}
-							{nation usa}
-						}
+						{"delay"
+							{time 0}
+						}
+						{"delay"
+							{time 0}
+						}
 					}
 					{"if"
 						{condition
 							{type difficulty}
 							{level hard}
 						}
-						{"achievement"
-							{name skirmish_01b_usa_easy}
-							{nation usa}
-						}
-						{"achievement"
-							{name skirmish_01b_usa_normal}
-							{nation usa}
-						}
-						{"achievement"
-							{name skirmish_01b_usa_hard}
-							{nation usa}
-						}
+						{"delay"
+							{time 0}
+						}
+						{"delay"
+							{time 0}
+						}
+						{"delay"
+							{time 0}
+						}
 					}
 					{"if"
 						{condition
 							{type difficulty}
 							{level heroic}
 						}
-						{"achievement"
-							{name skirmish_01b_usa_easy}
-							{nation usa}
-						}
-						{"achievement"
-							{name skirmish_01b_usa_normal}
-							{nation usa}
-						}
-						{"achievement"
-							{name skirmish_01b_usa_hard}
-							{nation usa}
-						}
-						{"achievement"
-							{name skirmish_01b_usa_heroic}
-							{nation usa}
-						}
+						{"delay"
+							{time 0}
+						}
+						{"delay"
+							{time 0}
+						}
+						{"delay"
+							{time 0}
+						}
+						{"delay"
+							{time 0}
+						}
 					}
 					{"delay"
 						{time 1}
@@ -21484,10 +21472,9 @@
 					}
 				}
 				{actions
-					{"achievement"
-						{name skirmish_usa_bonus5}
-						{nation usa}
-					}
+					{"delay"
+						{time 0}
+					}
 				}
 			}
 			{"mission:achievements/achieve_hero"
@@ -21499,10 +21486,9 @@
 					}
 				}
 				{actions
-					{"achievement"
-						{name skirmish_usa_hero5}
-						{nation usa}
-					}
+					{"delay"
+						{time 0}
+					}
 				}
 			}
 			{"start_ammo_tweak"

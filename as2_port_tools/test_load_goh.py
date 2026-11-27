@@ -27,26 +27,63 @@ DEFAULT_MISSIONS = [
 ]
 
 
-def enable_mod_in_options(orig_text: str, mod_id: str = "as2_skirmishes:0") -> str:
-    if re.search(r"\{mods\b", orig_text):
-        return re.sub(r"\{mods[\s\S]*?\}", f'{{mods\r\n\t\t"{mod_id}"\r\n\t}}', orig_text)
-    idx = orig_text.rfind("}")
-    return orig_text[:idx] + f'\t{{mods\r\n\t\t"{mod_id}"\r\n\t}}\r\n}}'
+def enable_mod_in_options(orig_text: str, mod_id: str = "as2_skirmishes:0", windowed: bool = False) -> str:
+    txt = orig_text
+    if windowed:
+        # Exclusive DX11 fullscreen captures black via GDI; switch temporarily to windowed
+        txt = re.sub(r"\{window_mode\s+fullscreen\}", "{window_mode windowed}", txt)
+        txt = re.sub(r"\{mode\s+desktop\}", "{mode custom}", txt)
+    if re.search(r"\{mods\b", txt):
+        return re.sub(r"\{mods[\s\S]*?\}", f'{{mods\r\n\t\t"{mod_id}"\r\n\t}}', txt)
+    idx = txt.rfind("}")
+    return txt[:idx] + f'\t{{mods\r\n\t\t"{mod_id}"\r\n\t}}\r\n}}'
 
 
-def capture_screenshot(out_png: Path) -> bool:
-    """Capture primary desktop screenshot via built-in Windows .NET System.Drawing."""
+def capture_screenshot(out_png: Path, pid: int = 0) -> bool:
+    """Capture windowed DX11 editor viewport via DWM-composited CopyFromScreen on window RECT."""
     out_png.parent.mkdir(parents=True, exist_ok=True)
-    ps = (
-        "Add-Type -AssemblyName System.Windows.Forms; "
-        "Add-Type -AssemblyName System.Drawing; "
-        "$b = [System.Windows.Forms.Screen]::PrimaryScreen.Bounds; "
-        "$bmp = New-Object System.Drawing.Bitmap $b.Width, $b.Height; "
-        "$g = [System.Drawing.Graphics]::FromImage($bmp); "
-        "$g.CopyFromScreen($b.Location, [System.Drawing.Point]::Empty, $b.Size); "
-        f"$bmp.Save('{out_png}', [System.Drawing.Imaging.ImageFormat]::Png); "
-        "$g.Dispose(); $bmp.Dispose()"
-    )
+    ps = f"""
+Add-Type -AssemblyName System.Windows.Forms
+Add-Type -AssemblyName System.Drawing
+Add-Type @"
+using System;
+using System.Runtime.InteropServices;
+public class WinCap {{
+    [StructLayout(LayoutKind.Sequential)] public struct RECT {{ public int Left, Top, Right, Bottom; }}
+    [DllImport("user32.dll")] public static extern bool GetWindowRect(IntPtr hWnd, out RECT r);
+    [DllImport("user32.dll")] public static extern bool SetForegroundWindow(IntPtr hWnd);
+}}
+"@
+$saved = $false
+if ({pid} -gt 0) {{
+    $proc = Get-Process -Id {pid} -ErrorAction SilentlyContinue
+    if ($proc -and $proc.MainWindowHandle -ne [IntPtr]::Zero) {{
+        [WinCap]::SetForegroundWindow($proc.MainWindowHandle) | Out-Null
+        Start-Sleep -Milliseconds 500
+        $rect = New-Object WinCap+RECT
+        if ([WinCap]::GetWindowRect($proc.MainWindowHandle, [ref]$rect)) {{
+            $w = $rect.Right - $rect.Left
+            $h = $rect.Bottom - $rect.Top
+            if ($w -gt 200 -and $h -gt 200) {{
+                $bmp = New-Object System.Drawing.Bitmap $w, $h
+                $g = [System.Drawing.Graphics]::FromImage($bmp)
+                $g.CopyFromScreen($rect.Left, $rect.Top, 0, 0, (New-Object System.Drawing.Size $w, $h))
+                $bmp.Save('{out_png}', [System.Drawing.Imaging.ImageFormat]::Png)
+                $g.Dispose(); $bmp.Dispose()
+                $saved = $true
+            }}
+        }}
+    }}
+}}
+if (-not $saved) {{
+    $b = [System.Windows.Forms.Screen]::PrimaryScreen.Bounds
+    $bmp = New-Object System.Drawing.Bitmap $b.Width, $b.Height
+    $g = [System.Drawing.Graphics]::FromImage($bmp)
+    $g.CopyFromScreen($b.Location, [System.Drawing.Point]::Empty, $b.Size)
+    $bmp.Save('{out_png}', [System.Drawing.Imaging.ImageFormat]::Png)
+    $g.Dispose(); $bmp.Dispose()
+}}
+"""
     r = subprocess.run(["powershell", "-NoProfile", "-Command", ps], capture_output=True)
     return r.returncode == 0 and out_png.exists()
 
@@ -106,7 +143,7 @@ def run_one(map_arg: str, timeout_s: int = 110, shot_dir: Path | None = None) ->
                         if shot_dir is not None:
                             slug = map_arg.split("/")[-2]
                             out_png = shot_dir / f"{slug}.png"
-                            if capture_screenshot(out_png):
+                            if capture_screenshot(out_png, pid=proc.pid):
                                 shot_path = str(out_png)
                     break
             if proc.poll() is not None:
@@ -142,7 +179,7 @@ def main():
     orig_opt = OPT_FILE.read_text(encoding="utf-8")
     all_ok = True
     try:
-        OPT_FILE.write_text(enable_mod_in_options(orig_opt), encoding="utf-8")
+        OPT_FILE.write_text(enable_mod_in_options(orig_opt, windowed=(shot_dir is not None)), encoding="utf-8")
         for m in args.missions:
             print(f"\n=== Testing {m} ===")
             res = run_one(m, timeout_s=args.timeout, shot_dir=shot_dir)

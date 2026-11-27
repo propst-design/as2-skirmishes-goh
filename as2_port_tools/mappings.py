@@ -339,6 +339,38 @@ SKIP_MAP_ENTITIES = {
     "clay_11", "clay_111", "clay_11a", "clay_11angle",
 }
 
+# Regex patterns for purely decorative AS2 ground decals, tracks, footprints, leaves,
+# water lilies, winter rock/snow rims, and stumps that should be OMITTED cleanly
+# (rather than turning into wrong-scale 3D roads, stone piles, or full trees).
+SKIP_MAP_PATTERNS = [
+    re.compile(r"^trace_", re.I),
+    re.compile(r"^track_snow", re.I),
+    re.compile(r"^leaves\d", re.I),
+    re.compile(r"^water_lily", re.I),
+    re.compile(r"^sand_pebble", re.I),
+    re.compile(r"^rocks\d+_w", re.I),
+    re.compile(r"^stouns", re.I),
+    re.compile(r"^stone_4a$", re.I),
+    re.compile(r"^ground_clay", re.I),
+    re.compile(r"^clay_s\d", re.I),
+    re.compile(r"^rough_earth", re.I),
+    re.compile(r"^mound_steep", re.I),
+    re.compile(r"^thawed_soil", re.I),
+    re.compile(r"^snow_rim", re.I),
+    re.compile(r"^hill_snow", re.I),
+    re.compile(r"^aerostrip", re.I),
+    re.compile(r"^stub_", re.I),
+    re.compile(r"^\d{3}$"),
+]
+
+
+def should_skip_map_prop(name: str) -> bool:
+    base = name.split("#")[0]
+    if name in SKIP_MAP_ENTITIES or base in SKIP_MAP_ENTITIES:
+        return True
+    return any(p.search(base) for p in SKIP_MAP_PATTERNS)
+
+
 # Category-based fallback rules ONLY for scenery props in `map` that aren't in MAP_ENTITY_MAP
 # Every fallback target here is verified to exist in GoH!
 MAP_PROP_FALLBACK_RULES = [
@@ -347,22 +379,22 @@ MAP_PROP_FALLBACK_RULES = [
     (re.compile(r"crater", re.I), "crater_medium"),
     (re.compile(r"birch", re.I), "birch_adult_01"),
     (re.compile(r"pine|fir|spruce", re.I), "pine2"),
-    (re.compile(r"tree|oak|ash|apple|poplar|topol|willow", re.I), "ashtree1"),
-    (re.compile(r"bush|shrub|vine", re.I), "bush_euro1"),
+    (re.compile(r"tree|oak|ash|apple|poplar|topol|willow|orchard", re.I), "ashtree1"),
+    (re.compile(r"bush|shrub|vine|^pla\d|plant", re.I), "bush_euro_small1"),
     (re.compile(r"wheat|corn|weat", re.I), "gem2_wheat"),
     (re.compile(r"grass|reed|cane|flower|dried|weed|fern|clover|sunflover", re.I), "finland_grass_short1"),
-    (re.compile(r"road|asf|cobble|street|path|track|trace", re.I), "clay_road"),
+    (re.compile(r"road|asf|cobble|street|path", re.I), "clay_road"),
     (re.compile(r"rail|station", re.I), "railroad5"),
     (re.compile(r"water|river|pool|bog|pond", re.I), "waterpool"),
-    (re.compile(r"rock|stone|cliff|clay|stoun", re.I), "crash_stone1"),
+    (re.compile(r"rock|stone|cliff|clay", re.I), "crash_stone1"),
     (re.compile(r"barn|shed|farm|hangar", re.I), "barn001"),
-    (re.compile(r"house|home|building|cottage|mill|church|wall|corner|door|roof|tower|bridge", re.I), "c_house1_1"),
+    (re.compile(r"house|home|building|cottage|mill|church", re.I), "c_house1_1"),
     (re.compile(r"barrel", re.I), "barrel1"),
     (re.compile(r"box|crate|chest|cart|telega|trailer", re.I), "crate_one"),
     (re.compile(r"hay|stack", re.I), "euro_hay_stack1"),
     (re.compile(r"tent|camp|net", re.I), "tent1"),
     (re.compile(r"bunker|dzot|pillbox", re.I), "forest_bunker_entrance"),
-    (re.compile(r"crash|destroy|ruin|trash|rubble|debris|brick|beam|log|wood|stub|timber", re.I), "crash_wood1"),
+    (re.compile(r"crash|destroy|ruin|trash|rubble|debris|brick|beam|log|wood|timber|post", re.I), "crash_wood1"),
     (re.compile(r"snow|ice", re.I), "clay_winter"),
 ]
 

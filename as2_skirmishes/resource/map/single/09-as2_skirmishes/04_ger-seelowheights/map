@@ -1536,252 +1536,6 @@
 		{Position -4682.15 207.74}
 		{xform zl -6.73}
 	}
-	{Entity "water_river_small" 0x223
-		{Position -4671.85 -4493.85}
-		{xform zl -4.73}
-	}
-	{Entity "water_river_small" 0x225
-		{Position -3919.16 -4707.67}
-		{xform zl -37.57}
-	}
-	{Entity "water_river_small" 0x226
-		{Position -3633.1 -4913.79}
-		{xform zl -35.25}
-	}
-	{Entity "water_river_small" 0x227
-		{Position -3284.22 -5111.94}
-		{xform zl -25.54}
-	}
-	{Entity "water_river_small" 0x228
-		{Position -2930.37 -5207.32}
-		{xform zl -96.58 y 5.71 zw 90}
-		{Constrain surface}
-	}
-	{Entity "water_river_small" 0x229
-		{Position -2583.37 -5164.01}
-		{xform zl 17.7}
-	}
-	{Entity "water_river_small" 0x22a
-		{Position -2252.7 -5015.59}
-		{xform zl 27.82}
-	}
-	{Entity "water_river_small" 0x22b
-		{Position -1984.63 -4805.9}
-		{xform zl -93.09 y 12.46 zw 137.52}
-		{Constrain surface}
-	}
-	{Entity "water_river_small" 0x22c
-		{Position -1700.63 -4512.73}
-		{xform zl -124.85 y 5.81 zw 169.78}
-		{Constrain surface}
-	}
-	{Entity "water_river_small" 0x22d
-		{Position -1459.96 -4226.55}
-		{xform zl 51.33}
-	}
-	{Entity "water_river_small" 0x22e
-		{Position -1241.5 -3927.92}
-		{xform zl 55.88}
-	}
-	{Entity "water_river_small" 0x22f
-		{Position -1053.8 -3620.64}
-		{xform zl 55.88}
-	}
-	{Entity "water_river_small" 0x230
-		{Position -854.95 -3308.89}
-		{xform zl 55.88}
-	}
-	{Entity "water_river_small" 0x231
-		{Position -641.28 -3078.43}
-		{xform zl -96.47 y 8.05 zw 135}
-		{Constrain surface}
-		{DecalOrder 1}
-	}
-	{Entity "water_river_small" 0x232
-		{Position -324.93 -2868.1}
-		{xform zl 25.52}
-	}
-	{Entity "water_river_small" 0x233
-		{Position 16.18 -2706.58}
-		{xform zl -78.83 y 9 zw 102.56}
-		{Constrain surface}
-	}
-	{Entity "water_river_small" 0x234
-		{Position 345.89 -2557.45}
-		{xform zl 23.77}
-	}
-	{Entity "water_river_small" 0x235
-		{Position 677.86 -2411.95}
-		{xform zl 21.32}
-	}
-	{Entity "water_river_small" 0x236
-		{Position 1021.77 -2292.4}
-		{xform zl 11.27}
-	}
-	{Entity "water_river_small" 0x237
-		{Position 1357.19 -2260.31}
-		{xform zl -93.89 y 5.71 zw 90.77}
-		{Constrain surface}
-	}
-	{Entity "water_river_small" 0x238
-		{Position 1702.32 -2350.15}
-		{xform zl -24.56}
-	}
-	{Entity "water_river_small" 0x239
-		{Position 2012.86 -2502.07}
-		{xform zl -24.56}
-	}
-	{Entity "water_river_small" 0x23a
-		{Position 2356.09 -2602.81}
-		{xform zl -83.92 y 13.77 zw 75.1}
-		{Constrain surface}
-	}
-	{Entity "water_river_small" 0x23b
-		{Position 2733.38 -2557.71}
-		{xform zl -76.94 y 10.24 zw 94.56}
-		{Constrain surface}
-	}
-	{Entity "water_river_small" 0x23d
-		{Position 3440.48 -2072.52}
-		{xform zl -83.13 y 5.38 zw 122.01}
-		{Constrain surface}
-	}
-	{Entity "water_river_small" 0x23e
-		{Position 3697.65 -1918.6}
-		{xform zl -92.3 y 3.05 zw 120.44}
-		{Constrain surface}
-	}
-	{Entity "water_river_small" 0x23f
-		{Position 4029.62 -1754.43}
-		{xform zl 20.88}
-	}
-	{Entity "water_river_small" 0x240
-		{Position 4372.19 -1648.8}
-		{xform zl -111.39 y 3.71 zw 117.99}
-		{Constrain surface}
-	}
-	{Entity "water_river_small" 0x241
-		{Position 4704.87 -1631.38}
-		{xform zl 3.88}
-	}
-	{Entity "water_river_small" 0x244
-		{Position -4671.29 -4040.06}
-		{xform zl 176.6}
-	}
-	{Entity "water_river_small" 0x246
-		{Position -3898.31 -4185.45}
-		{xform zl 158.92}
-	}
-	{Entity "water_river_small" 0x248
-		{Position -3339.07 -4554.35}
-		{xform zl 144.38}
-	}
-	{Entity "water_river_small" 0x249
-		{Position -3108.9 -4679.91}
-		{xform zl 150.74}
-	}
-	{Entity "water_river_small" 0x24a
-		{Position -2768.03 -4693.87}
-		{xform zl -166.11}
-		{DecalOrder 1}
-	}
-	{Entity "water_river_small" 0x24b
-		{Position -2448.84 -4534.8}
-		{xform zl -143.17}
-	}
-	{Entity "water_river_small" 0x24c
-		{Position -2165.84 -4291.01}
-		{xform zl -140.97}
-	}
-	{Entity "water_river_small" 0x24d
-		{Position -1911.39 -4033.19}
-		{xform zl -120.21 y 0.68 zw -12.32}
-		{Constrain surface}
-	}
-	{Entity "water_river_small" 0x24e
-		{Position -1667.6 -3735.67}
-		{xform zl -128.28}
-	}
-	{Entity "water_river_small" 0x24f
-		{Position -1487 -3413.56}
-		{xform zl -118.73 y 5.71 zw 0.03}
-		{Constrain surface}
-	}
-	{Entity "water_river_small" 0x250
-		{Position -1308.63 -3086.02}
-		{xform zl -90.44 y 11.9 zw -28.32}
-		{Constrain surface}
-	}
-	{Entity "water_river_small" 0x251
-		{Position -1062.92 -2796.6}
-		{xform zl -79.51 y 12.26 zw -62.61}
-		{Constrain surface}
-	}
-	{Entity "water_river_small" 0x252
-		{Position -778.65 -2571.22}
-		{xform zl -81.05 y 12.08 zw -65.11}
-		{Constrain surface}
-	}
-	{Entity "water_river_small" 0x253
-		{Position -464.61 -2408.68}
-		{xform zl -156.59}
-	}
-	{Entity "water_river_small" 0x254
-		{Position -128.96 -2238.05}
-		{xform zl -156.59}
-	}
-	{Entity "water_river_small" 0x255
-		{Position 227.77 -2072.03}
-		{xform zl -156.59}
-	}
-	{Entity "water_river_small" 0x259
-		{Position 1603.54 -1845.91}
-		{xform zl -106.36 y 5.72 zw -94}
-		{Constrain surface}
-	}
-	{Entity "water_river_small" 0x25a
-		{Position 1923.95 -1992.87}
-		{xform zl -117.02 y 5.71 zw -90}
-		{Constrain surface}
-	}
-	{Entity "water_river_small" 0x25b
-		{Position 2278.32 -2106.61}
-		{xform zl -101.52 y 1.19 zw -90}
-		{Constrain surface}
-	}
-	{Entity "water_river_small" 0x25c
-		{Position 2542.64 -2113.3}
-		{xform zl -49.52 y 8.07 zw -107.08}
-		{Constrain surface}
-	}
-	{Entity "water_river_small" 0x25e
-		{Position 3294.04 -1589.1}
-		{xform zl -142.91}
-	}
-	{Entity "water_river_small" 0x25f
-		{Position 3627.02 -1386.07}
-		{xform zl -105.71 y 7.46 zw -49.79}
-		{Constrain surface}
-	}
-	{Entity "water_river_small" 0x260
-		{Position 4012.58 -1259.81}
-		{xform zl -79.78 y 5.71 zw -90}
-		{Constrain surface}
-	}
-	{Entity "water_river_small" 0x261
-		{Position 4401.22 -1205.77}
-		{xform zl -84.17 y 5.71 zw -90}
-		{Constrain surface}
-	}
-	{Entity "water_river_small" 0x262
-		{Position 4719.09 -1191.7}
-		{xform zl -91.12 y 4.33 zw -90}
-		{Constrain surface}
-	}
-	{Entity "water_river_small" 0x263
-		{Position 5072.1 -1215.88}
-		{xform zl 172.27}
-	}
 	{Entity "water_river" 0x264
 		{Position 4862.14 -1523.37}
 		{xform zl 90.34}
@@ -14810,10 +14564,6 @@
 		{Position -2409.09 -4500.64}
 		{xform zl 55 scale 0.867}
 	}
-	{Entity "water_river_small" 0x256
-		{Position 586.86 -1927.35}
-		{xform zl -160.45}
-	}
 	{Entity "crash_stone2" 0x46f7
 		{Position 704.86 -1952.6}
 		{xform zl 122.28 y 10.03 zw -68.44}
@@ -14990,10 +14740,6 @@
 		{xform zl -46.04 y 6.02 zw -85.56}
 		{Constrain surface}
 	}
-	{Entity "water_river_small" 0x257
-		{Position 926.96 -1813.68}
-		{xform zl -165.88}
-	}
 	{Entity "finland_grass_tall2" 0x710
 		{Position 556.45 -1858.57}
 		{xform zl 115.78 y 2.36 zw -77.64}
@@ -15166,10 +14912,6 @@
 		{Constrain surface}
 		{DecalOrder 3}
 	}
-	{Entity "water_river_small" 0x258
-		{Position 1267.12 -1768.94}
-		{xform zl -177.85}
-	}
 	{Entity "finland_grass_tall2" 0x733
 		{Position 1318.18 -1704.38}
 		{xform zl 20.07}
@@ -15309,10 +15051,6 @@
 	{Entity "water_river" 0x601d
 		{Position -3874.55 -4344.33}
 		{xform zl 66.55}
-	}
-	{Entity "water_river_small" 0x247
-		{Position -3608.97 -4364.95}
-		{xform zl 144.38}
 	}
 	{Entity "crash_stone2" 0x4754
 		{Position -3734.37 -4301.46}
@@ -19679,18 +19417,6 @@
 	{Entity "finland_grass_tall2" 0x609c
 		{Position -3791.36 -4842.57}
 		{xform zl 160.22}
-	}
-	{Entity "clay_road" 0x45e0
-		{Position -1346.96 -3880.86}
-		{xform zl 55.56}
-		{DecalOrder 20}
-		{Color 0xffc5c5c5}
-	}
-	{Entity "clay_road" 0x45e1
-		{Position -1562.57 -3758.94}
-		{xform zl 58}
-		{DecalOrder 20}
-		{Color 0xffc5c5c5}
 	}
 	{Entity "crash_stone1" 0x46a
 		{Position -4407.31 -3904.69}

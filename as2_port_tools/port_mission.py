@@ -20,6 +20,7 @@ from mappings import (
     MI_ENTITY_MAP,
     SKIP_MAP_ENTITIES,
     resolve_map_prop,
+    should_skip_map_prop,
 )
 
 DEFAULT_AS2_ROOT = r"F:\SteamLibrary\steamapps\common\Men of War Assault Squad 2"
@@ -241,18 +242,21 @@ MUSIC_MAP = {
 
 
 def strip_achievement_actions(mi_text: str) -> tuple[str, int]:
-    """Remove AS2 {"achievement" ...} trigger actions that cause GoH enum Assertion failed warnings."""
+    """Replace AS2 {"achievement" ...} actions with harmless no-op {"delay" {time 0}}."""
     lines = mi_text.splitlines(keepends=True)
     out = []
     i = 0
     removed = 0
     while i < len(lines):
-        if re.match(r'^\t+\{"achievement"\b', lines[i]):
+        m = re.match(r'^(\s*)\{"achievement"\s*$', lines[i])
+        if m:
+            indent = m.group(1)
             depth = lines[i].count("{") - lines[i].count("}")
             i += 1
             while i < len(lines) and depth > 0:
                 depth += lines[i].count("{") - lines[i].count("}")
                 i += 1
+            out.append(f'{indent}{{"delay"\n{indent}\t{{time 0}}\n{indent}}}\n')
             removed += 1
             continue
         out.append(lines[i])
@@ -267,10 +271,12 @@ VEHICLE_SEAT_FIXES = {
     ("panzer5g", "gunner2"): ["gunner3", "commander", "charger"],
     ("tiger1e", "gunner2"): ["gunner3", "commander", "charger"],
     ("tiger2h", "gunner2"): ["gunner3", "commander", "charger"],
-    ("is2_44", "gunner2"): ["gunner3", "commander", "charger"],
-    ("stuh42", "gunner2"): ["gunner3", "commander", "charger"],
+    ("is2_44", "gunner2"): ["commander", "charger"],
+    ("stuh42", "gunner2"): ["commander", "charger"],
     ("m4a3_75_late", "gunner2"): ["gunner3", "commander", "charger"],
-    ("m18_hellcat", "gunner2"): ["commander", "gunner3", "charger"],
+    ("m4a3_76w", "gunner2"): ["gunner3", "commander", "charger"],
+    ("m18_hellcat", "gunner2"): ["commander", "charger"],
+    ("m5_halftrack", "commander"): ["seat1", "seat2"],
     ("hetzer", "gunner3"): ["commander", "charger"],
     ("stug3g", "gunner3"): ["commander", "charger"],
     ("t3476_41", "charger"): ["gunner3", "commander"],
@@ -303,8 +309,13 @@ def fix_mi_crew_links(mi_text: str) -> tuple[str, int, int]:
             tid = m.group(2).lower()
             seat = m.group(4)
             vtype = id_to_type.get(tid, "")
-            # Drop broken AS2 building-window links (e.g. "121_f2w6", "120_f1w1")
-            if re.match(r"^\d+_f\d+w\d+", seat):
+            # Drop broken AS2 building/fence/roof links (e.g. "121_f2w6", "roof_el_4", "120_f2balcony1", "add121_f1c1")
+            if (
+                re.match(r"^(?:add)?\d+_f\d+", seat)
+                or "roof" in seat.lower()
+                or "balcony" in seat.lower()
+                or (vtype == "" and re.match(r"^\d+$", seat))
+            ):
                 dropped += 1
                 continue
             key = (vtype, seat)
@@ -373,8 +384,8 @@ def sanitize_map_entity_blocks(map_text: str, goh_entities: set) -> tuple[str, i
             block_str = "".join(block)
             is_railcar = "{Chassis" in block_str and "{MID" in block_str
 
-            # Omit wrong-scale AS2 rock/cliff/trench/clay decals (terrain is already in map.net)
-            if old in SKIP_MAP_ENTITIES or old.split("#")[0] in SKIP_MAP_ENTITIES:
+            # Omit wrong-scale AS2 rock/cliff/trench/clay/track/leaf/stump decals
+            if should_skip_map_prop(old):
                 remapped += 1
                 continue
 

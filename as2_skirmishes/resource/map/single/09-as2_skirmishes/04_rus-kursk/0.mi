@@ -5913,7 +5913,6 @@
 	{Link 0x8251 {0xc01a "driver"}}
 	{Link 0xc02e {0xc01a "charger"}}
 	{Link 0xc02d {0xc01a "commander"}}
-	{Link 0xc031 {0xc01a "gunner3"}}
 	{Link 0xc01d {0xc01b "gunner"}}
 	{Link 0x8255 {0xc01b "driver"}}
 	{Link 0xc02c {0xc01b "charger"}}
@@ -20690,64 +20689,54 @@
 							{type difficulty}
 							{level easy}
 						}
-						{"achievement"
-							{name skirmish_04_rus_easy}
-							{nation rus}
-						}
+						{"delay"
+							{time 0}
+						}
 					}
 					{"if"
 						{condition
 							{type difficulty}
 							{level normal}
 						}
-						{"achievement"
-							{name skirmish_04_rus_easy}
-							{nation rus}
-						}
-						{"achievement"
-							{name skirmish_04_rus_normal}
-							{nation rus}
-						}
+						{"delay"
+							{time 0}
+						}
+						{"delay"
+							{time 0}
+						}
 					}
 					{"if"
 						{condition
 							{type difficulty}
 							{level hard}
 						}
-						{"achievement"
-							{name skirmish_04_rus_easy}
-							{nation rus}
-						}
-						{"achievement"
-							{name skirmish_04_rus_normal}
-							{nation rus}
-						}
-						{"achievement"
-							{name skirmish_04_rus_hard}
-							{nation rus}
-						}
+						{"delay"
+							{time 0}
+						}
+						{"delay"
+							{time 0}
+						}
+						{"delay"
+							{time 0}
+						}
 					}
 					{"if"
 						{condition
 							{type difficulty}
 							{level heroic}
 						}
-						{"achievement"
-							{name skirmish_04_rus_easy}
-							{nation rus}
-						}
-						{"achievement"
-							{name skirmish_04_rus_normal}
-							{nation rus}
-						}
-						{"achievement"
-							{name skirmish_04_rus_hard}
-							{nation rus}
-						}
-						{"achievement"
-							{name skirmish_04_rus_heroic}
-							{nation rus}
-						}
+						{"delay"
+							{time 0}
+						}
+						{"delay"
+							{time 0}
+						}
+						{"delay"
+							{time 0}
+						}
+						{"delay"
+							{time 0}
+						}
 					}
 					{"delay"
 						{time 5}
@@ -30543,10 +30532,9 @@
 					}
 				}
 				{actions
-					{"achievement"
-						{name skirmish_rus_bonus2}
-						{nation rus}
-					}
+					{"delay"
+						{time 0}
+					}
 				}
 			}
 			{"mission:achievements/achieve_hero"
@@ -30558,10 +30546,9 @@
 					}
 				}
 				{actions
-					{"achievement"
-						{name skirmish_rus_hero2}
-						{nation rus}
-					}
+					{"delay"
+						{time 0}
+					}
 				}
 			}
 		}

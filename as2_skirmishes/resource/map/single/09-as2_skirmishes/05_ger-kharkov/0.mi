@@ -16366,64 +16366,54 @@
 							{type difficulty}
 							{level easy}
 						}
-						{"achievement"
-							{name skirmish_05_ger_easy}
-							{nation ger}
-						}
+						{"delay"
+							{time 0}
+						}
 					}
 					{"if"
 						{condition
 							{type difficulty}
 							{level normal}
 						}
-						{"achievement"
-							{name skirmish_05_ger_easy}
-							{nation ger}
-						}
-						{"achievement"
-							{name skirmish_05_ger_normal}
-							{nation ger}
-						}
+						{"delay"
+							{time 0}
+						}
+						{"delay"
+							{time 0}
+						}
 					}
 					{"if"
 						{condition
 							{type difficulty}
 							{level hard}
 						}
-						{"achievement"
-							{name skirmish_05_ger_easy}
-							{nation ger}
-						}
-						{"achievement"
-							{name skirmish_05_ger_normal}
-							{nation ger}
-						}
-						{"achievement"
-							{name skirmish_05_ger_hard}
-							{nation ger}
-						}
+						{"delay"
+							{time 0}
+						}
+						{"delay"
+							{time 0}
+						}
+						{"delay"
+							{time 0}
+						}
 					}
 					{"if"
 						{condition
 							{type difficulty}
 							{level heroic}
 						}
-						{"achievement"
-							{name skirmish_05_ger_easy}
-							{nation ger}
-						}
-						{"achievement"
-							{name skirmish_05_ger_normal}
-							{nation ger}
-						}
-						{"achievement"
-							{name skirmish_05_ger_hard}
-							{nation ger}
-						}
-						{"achievement"
-							{name skirmish_05_ger_heroic}
-							{nation ger}
-						}
+						{"delay"
+							{time 0}
+						}
+						{"delay"
+							{time 0}
+						}
+						{"delay"
+							{time 0}
+						}
+						{"delay"
+							{time 0}
+						}
 					}
 					{"delay"
 						{time 5}
@@ -21308,10 +21298,9 @@
 					}
 				}
 				{actions
-					{"achievement"
-						{name skirmish_ger_bonus3}
-						{nation ger}
-					}
+					{"delay"
+						{time 0}
+					}
 				}
 			}
 			{"mission:achievements/achieve_hero"
@@ -21323,10 +21312,9 @@
 					}
 				}
 				{actions
-					{"achievement"
-						{name skirmish_ger_hero3}
-						{nation ger}
-					}
+					{"delay"
+						{time 0}
+					}
 				}
 			}
 		}
