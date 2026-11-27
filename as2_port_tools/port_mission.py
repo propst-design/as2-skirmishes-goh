@@ -496,7 +496,7 @@ def port_single(
     mod_dir: Path,
     campaign_id: str,
     mission_id: str,
-    include_net_grs: bool = False,
+    include_net_grs: bool = True,
 ) -> bool:
     print(f"\n=== Porting {mission_id} ({as2_prefix}) ===")
     mission_dir = mod_dir / "resource" / "map" / "single" / campaign_id / mission_id
