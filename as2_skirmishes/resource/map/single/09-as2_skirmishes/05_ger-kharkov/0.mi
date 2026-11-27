@@ -2,187 +2,156 @@
 	{Entity "sandbag_cannon_standard" 0xc002
 		{Position 952.36 2471.02}
 		{xform zl -135.24}
-		{TexMod "win"}
 		{Impregnability full}
 	}
 	{Entity "sandbag_cannon_standard" 0xc003
 		{Position 1047.36 2472.88 3.6}
 		{xform zl -47.88}
-		{TexMod "win"}
 		{Impregnability full}
 	}
 	{Entity "sandbag_cannon_standard" 0xa000
 		{Position 951.75 2534.34}
 		{xform zl 132.66}
-		{TexMod "win"}
 		{Impregnability full}
 	}
 	{Entity "sandbag_cannon_standard" 0xa001
 		{Position 1047.32 2536.56 3}
 		{xform zl 45.64}
-		{TexMod "win"}
 		{Impregnability full}
 	}
 	{Entity "sandbag_cannon_standard" 0xc00c
 		{Position 52.25 29.08}
 		{xform zl 42.58}
-		{TexMod "win"}
 		{Impregnability full}
 	}
 	{Entity "sandbag_cannon_standard" 0xc00d
 		{Position -42.7 32.44}
 		{xform zl 129.94}
-		{TexMod "win"}
 		{Impregnability full}
 	}
 	{Entity "sandbag_cannon_standard" 0xc010
 		{Position 50.37 -36.89}
 		{xform zl -49.52}
-		{TexMod "win"}
 		{Impregnability full}
 	}
 	{Entity "sandbag_cannon_standard" 0xc011
 		{Position -45.17 -33.85}
 		{xform zl -136.54}
-		{TexMod "win"}
 		{Impregnability full}
 	}
 	{Entity "sandbag_cannon_standard" 0xc024
 		{Position 952.55 469.84}
 		{xform zl -132.53}
-		{TexMod "win"}
 		{Impregnability full}
 	}
 	{Entity "sandbag_cannon_standard" 0xc025
 		{Position 1047.33 472.36}
 		{xform zl -45.17}
-		{TexMod "win"}
 		{Impregnability full}
 	}
 	{Entity "sandbag_cannon_standard" 0xc026
 		{Position 948.79 535.72}
 		{xform zl 135.37}
-		{TexMod "win"}
 		{Impregnability full}
 	}
 	{Entity "sandbag_cannon_standard" 0xc027
 		{Position 1044.13 538.61}
 		{xform zl 48.35}
-		{TexMod "win"}
 		{Impregnability full}
 	}
 	{Entity "sandbag_cannon_standard" 0x8101
 		{Position -1048.25 2472.28}
 		{xform zl -138.02}
-		{TexMod "win"}
 		{Impregnability full}
 	}
 	{Entity "sandbag_cannon_standard" 0x8102
 		{Position -953.27 2469.53}
 		{xform zl -50.66}
-		{TexMod "win"}
 		{Impregnability full}
 	}
 	{Entity "sandbag_cannon_standard" 0x8103
 		{Position -1047.38 2538.26}
 		{xform zl 129.88}
-		{TexMod "win"}
 		{Impregnability full}
 	}
 	{Entity "sandbag_cannon_standard" 0x8104
 		{Position -951.81 2535.83}
 		{xform zl 42.86}
-		{TexMod "win"}
 		{Impregnability full}
 	}
 	{Entity "sandbag_cannon_standard" 0xe00e
 		{Position -951.33 471.51}
 		{xform zl -48.67}
-		{TexMod "win"}
 		{Impregnability full}
 	}
 	{Entity "sandbag_cannon_standard" 0xe011
 		{Position -950.48 537.83}
 		{xform zl 44.85}
-		{TexMod "win"}
 		{Impregnability full}
 	}
 	{Entity "sandbag_cannon_standard" 0xe012
 		{Position -1046.34 470.95}
 		{xform zl -136.03}
-		{TexMod "win"}
 		{Impregnability full}
 	}
 	{Entity "sandbag_cannon_standard" 0xe013
 		{Position -1046.06 536.93 3}
 		{xform zl 131.87}
-		{TexMod "win"}
 		{Impregnability full}
 	}
 	{Entity "sandbag_cannon_standard" 0x8131
 		{Position 2044.38 1536.48}
 		{xform zl 49.54}
-		{TexMod "win"}
 		{Impregnability full}
 	}
 	{Entity "sandbag_cannon_standard" 0x8133
 		{Position 2050.51 1470.77}
 		{xform zl -42.56}
-		{TexMod "win"}
 		{Impregnability full}
 	}
 	{Entity "sandbag_cannon_standard" 0xc009
 		{Position 45.16 1534.73}
 		{xform zl 47.55}
-		{TexMod "win"}
 		{Impregnability full}
 	}
 	{Entity "sandbag_cannon_standard" 0xc012
 		{Position -49.61 1529.88}
 		{xform zl 134.91}
-		{TexMod "win"}
 		{Impregnability full}
 	}
 	{Entity "sandbag_cannon_standard" 0xc013
 		{Position 48.99 1468.86}
 		{xform zl -44.55}
-		{TexMod "win"}
 		{Impregnability full}
 	}
 	{Entity "sandbag_cannon_standard" 0xc018
 		{Position -46.36 1463.64}
 		{xform zl -131.57}
-		{TexMod "win"}
 		{Impregnability full}
 	}
 	{Entity "sandbag_cannon_standard" 0xc02c
 		{Position -1951.36 1468.89}
 		{xform zl -46.87}
-		{TexMod "win"}
 		{Impregnability full}
 	}
 	{Entity "sandbag_cannon_standard" 0xc02f
 		{Position -2048.11 1531.32}
 		{xform zl 133.67}
-		{TexMod "win"}
 		{Impregnability full}
 	}
 	{Entity "sandbag_cannon_standard" 0xc031
 		{Position -1952.61 1535.2}
 		{xform zl 46.65}
-		{TexMod "win"}
 		{Impregnability full}
 	}
 	{Entity "sandbag_cannon_standard" 0xc03e
 		{Position -51.25 2972.18}
 		{xform zl -139.05}
-		{TexMod "win"}
 		{Impregnability full}
 	}
 	{Entity "sandbag_cannon_standard" 0xc040
 		{Position -47.49 3038.07}
 		{xform zl 128.85}
-		{TexMod "win"}
 		{Impregnability full}
 	}
 	{Human "narrator/assistant" 0x829e
@@ -198,134 +167,112 @@
 	}
 	{Entity "flag_skirmish_4" 0x829d
 		{Position -1000 2500}
-		{TexMod "rus"}
 		{Player 3}
 		{MID 1}
 	}
 	{Entity "flag_skirmish" 0x82a2
 		{Position -1000 2500}
-		{TexMod "ger"}
 		{Player 0}
 		{MID 2}
 	}
 	{Entity "flag_skirmish_4" 0x829a
 		{Position -1000 500}
-		{TexMod "rus"}
 		{Player 3}
 		{MID 3}
 	}
 	{Entity "flag_skirmish" 0x82ab
 		{Position -1000 500}
-		{TexMod "ger"}
 		{Player 0}
 		{MID 4}
 	}
 	{Entity "flag_skirmish_4" 0x82ac
 		{Position 0 0}
-		{TexMod "rus"}
 		{Player 3}
 		{MID 5}
 	}
 	{Entity "flag_skirmish" 0x82ad
 		{Position 0 0}
-		{TexMod "ger"}
 		{Player 0}
 		{MID 6}
 	}
 	{Entity "flag_skirmish_4" 0x82ae
 		{Position 1000 500}
-		{TexMod "rus"}
 		{Player 3}
 		{MID 7}
 	}
 	{Entity "flag_skirmish" 0x82af
 		{Position 1000 500}
-		{TexMod "ger"}
 		{Player 0}
 		{MID 8}
 	}
 	{Entity "flag_skirmish_4" 0x82b0
 		{Position -2000 1500}
-		{TexMod "rus"}
 		{Player 3}
 		{MID 9}
 	}
 	{Entity "flag_skirmish" 0x82b1
 		{Position -2000 1500}
-		{TexMod "ger"}
 		{Player 0}
 		{MID 10}
 	}
 	{Entity "flag_skirmish_4" 0x82b2
 		{Position 0 1500}
-		{TexMod "rus"}
 		{Player 3}
 		{MID 11}
 	}
 	{Entity "flag_skirmish" 0x82b3
 		{Position 0 1500}
-		{TexMod "ger"}
 		{Player 0}
 		{MID 12}
 	}
 	{Entity "flag_skirmish_4" 0xf000
 		{Position 2000 1500}
-		{TexMod "rus"}
 		{Player 3}
 		{MID 13}
 	}
 	{Entity "flag_skirmish" 0xf001
 		{Position 2000 1500}
-		{TexMod "ger"}
 		{Player 0}
 		{MID 14}
 	}
 	{Entity "flag_skirmish_4" 0xf004
 		{Position 0 3000}
-		{TexMod "rus"}
 		{Player 3}
 		{MID 17}
 	}
 	{Entity "flag_skirmish" 0xf005
 		{Position 0 3000}
-		{TexMod "ger"}
 		{Player 0}
 		{MID 18}
 	}
 	{Entity "flag_skirmish_4" 0xf006
 		{Position 1000 2500}
-		{TexMod "rus"}
 		{Player 3}
 		{MID 19}
 	}
 	{Entity "flag_skirmish" 0xf007
 		{Position 1000 2500}
-		{TexMod "ger"}
 		{Player 0}
 		{MID 20}
 	}
 	{Entity "sandbag_cannon_standard" 0xc03a
 		{Position 48.02 3033.92}
 		{xform zl 41.83}
-		{TexMod "win"}
 		{Impregnability full}
 	}
 	{Entity "sandbag_cannon_standard" 0xc03c
 		{Position 43.67 2967.73}
 		{xform zl -51.69}
-		{TexMod "win"}
 		{Impregnability full}
 	}
 	{Entity "sandbag_cannon_standard" 0x8132
 		{Position 1951.11 1530.2}
 		{xform zl 136.9}
-		{TexMod "win"}
 		{Impregnability full}
 	}
 	{Entity "sandbag_cannon_standard" 0x8134
 		{Position 1955.43 1463.68}
 		{xform zl -129.58}
-		{TexMod "win"}
 		{Impregnability full}
 	}
 	{Human "mp/rus/late/tankman" 0xd017
@@ -623,7 +570,6 @@
 	{Entity "sandbag_cannon_standard" 0xc02a
 		{Position -2046.31 1465.36}
 		{xform zl -134.23}
-		{TexMod "win"}
 		{Impregnability full}
 	}
 	{Human "mp/rus/late/cav_smg_drum" 0xd006
@@ -647,7 +593,6 @@
 	{Entity "t3476_43" 0xd00f
 		{Position 912.53 -1641.78}
 		{xform y 0.22 zw 88.78}
-		{TexMod "1"}
 		{Volume "ram"
 			{able {visible 0}{bullet 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}}
 		}
@@ -668,7 +613,6 @@
 	{Entity "ba10" 0xd016
 		{Position 743.16 -1657.06 0}
 		{xform y 0.49 zw 88.78}
-		{TexMod "1"}
 		{Volume "ram"
 			{able {visible 0}{bullet 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}}
 		}
@@ -707,8 +651,6 @@
 	{Entity "arrow_enemy" 0x80fe
 		{Position 48.46 6333.13}
 		{xform zl -1.79}
-		{Player 3}
-		{MID 54}
 	}
 	{Entity "bt7a" 0x8106
 		{Position 1003.27 -1658.03 3.05}
@@ -1110,13 +1052,6 @@
 	{Entity "37mm_pak36" 0xa006
 		{Position 80.6 6054.56}
 		{xform zl 106.75 y 5.31 zw 162.22}
-		{TexMod "1"}
-		{Placer
-			{State "driver1" {Disable}}
-			{State "driver2" {Disable}}
-			{State "seat1" {Disable}}
-			{State "seat2" {Disable}}
-		}
 		{Extender "cannon"
 			{animation
 				{switch close}
@@ -1129,7 +1064,6 @@
 	{Entity "sdkfz222a" 0xa007
 		{Position -86.02 6079.41 9.82}
 		{xform zl 76.96 y 5.85 zw -169.94}
-		{TexMod "1"}
 		{Volume "ram"
 			{able {visible 0}{bullet 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}}
 		}
@@ -1143,14 +1077,12 @@
 	{Entity "kubelwagen_mg" 0xa009
 		{Position -6.41 6069.35}
 		{xform zl 77.32 y 7.66 zw -169.34}
-		{TexMod "1"}
 		{Player 2}
 		{MID 65}
 	}
 	{Entity "panzer2l" 0xa00d
 		{Position -181.63 6087.69 3.63}
 		{xform zl 78.95 y 1.89 zw -173.85}
-		{TexMod "1"}
 		{Volume "ram"
 			{able {visible 0}{bullet 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}}
 		}
@@ -2906,13 +2838,6 @@
 	{Entity "45mm_m37" 0xd008
 		{Position -805.46 2755.77 9.87}
 		{xform zl 50.2 y 2.79 zw 58.44}
-		{TexMod "1"}
-		{Placer
-			{State "driver1" {Disable}}
-			{State "driver2" {Disable}}
-			{State "seat1" {Disable}}
-			{State "seat2" {Disable}}
-		}
 		{Extender "cannon"
 			{animation
 				{switch close}
@@ -2943,13 +2868,6 @@
 	{Entity "45mm_m37" 0xd00e
 		{Position 1021.39 2630.55}
 		{xform zl -171.16 y 8.03 zw -109.57}
-		{TexMod "1"}
-		{Placer
-			{State "driver1" {Disable}}
-			{State "driver2" {Disable}}
-			{State "seat1" {Disable}}
-			{State "seat2" {Disable}}
-		}
 		{Extender "cannon"
 			{animation
 				{switch close}
@@ -2980,13 +2898,6 @@
 	{Entity "45mm_m37" 0xd015
 		{Position -2477.19 1571.11 3.28}
 		{xform zl 50.2 y 2.79 zw 36.14}
-		{TexMod "1"}
-		{Placer
-			{State "driver1" {Disable}}
-			{State "driver2" {Disable}}
-			{State "seat1" {Disable}}
-			{State "seat2" {Disable}}
-		}
 		{Extender "cannon"
 			{animation
 				{switch close}
@@ -3017,13 +2928,6 @@
 	{Entity "45mm_m37" 0xd01f
 		{Position 2190.97 1648.01}
 		{xform zl 174.09 y 9.25 zw -129.03}
-		{TexMod "1"}
-		{Placer
-			{State "driver1" {Disable}}
-			{State "driver2" {Disable}}
-			{State "seat1" {Disable}}
-			{State "seat2" {Disable}}
-		}
 		{Extender "cannon"
 			{animation
 				{switch close}
@@ -3054,13 +2958,6 @@
 	{Entity "45mm_m37" 0xd029
 		{Position -898.99 798.73 2.59}
 		{xform zl 174.09 y 9.25 zw -67.68}
-		{TexMod "1"}
-		{Placer
-			{State "driver1" {Disable}}
-			{State "driver2" {Disable}}
-			{State "seat1" {Disable}}
-			{State "seat2" {Disable}}
-		}
 		{Extender "cannon"
 			{animation
 				{switch close}
@@ -3091,13 +2988,6 @@
 	{Entity "45mm_m37" 0xd02e
 		{Position 1033.17 911.13 7.66}
 		{xform zl 178.22 y 5.7 zw -87.13}
-		{TexMod "1"}
-		{Placer
-			{State "driver1" {Disable}}
-			{State "driver2" {Disable}}
-			{State "seat1" {Disable}}
-			{State "seat2" {Disable}}
-		}
 		{Extender "cannon"
 			{animation
 				{switch close}
@@ -3383,55 +3273,46 @@
 	}
 	{Entity "flag_skirmish_5" 0x8167
 		{Position 0 3000}
-		{TexMod "rus"}
 		{Player 3}
 		{MID 175}
 	}
 	{Entity "flag_skirmish_5" 0x8165
 		{Position -1000 2500}
-		{TexMod "rus"}
 		{Player 3}
 		{MID 73}
 	}
 	{Entity "flag_skirmish_5" 0x8166
 		{Position -2000 1500}
-		{TexMod "rus"}
 		{Player 3}
 		{MID 81}
 	}
 	{Entity "flag_skirmish_5" 0x8168
 		{Position 1000 2500}
-		{TexMod "rus"}
 		{Player 3}
 		{MID 179}
 	}
 	{Entity "flag_skirmish_5" 0x8169
 		{Position 2000 1500}
-		{TexMod "rus"}
 		{Player 3}
 		{MID 182}
 	}
 	{Entity "flag_skirmish_5" 0x816b
 		{Position 1000 500}
-		{TexMod "rus"}
 		{Player 3}
 		{MID 183}
 	}
 	{Entity "flag_skirmish_5" 0x816c
 		{Position -1000 500}
-		{TexMod "rus"}
 		{Player 3}
 		{MID 187}
 	}
 	{Entity "flag_skirmish_5" 0x816e
 		{Position 0 0}
-		{TexMod "rus"}
 		{Player 3}
 		{MID 197}
 	}
 	{Entity "flag_skirmish_5" 0x816f
 		{Position 0 1500}
-		{TexMod "rus"}
 		{Player 3}
 		{MID 198}
 	}

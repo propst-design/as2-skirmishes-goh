@@ -206,9 +206,6 @@
 	{Entity "sdkfz251d_1" 0x80da
 		{Position -623.73 -6647.49}
 		{xform zl -37.35 y 1.66 zw 125.25}
-		{Placer
-			{State "commander" {Broken}}
-		}
 		{Extender "enumerator"
 			{number 392}
 			{digit_folder "ger"}
@@ -609,61 +606,47 @@
 	}
 	{Entity "flag_skirmish_2" 0x829d
 		{Position -1200 1200}
-		{TexMod "ger"}
 		{Player 3}
 		{MID 3}
 	}
 	{Entity "flag_skirmish" 0x82a2
 		{Position -1200 1200}
-		{TexMod "rus"}
 		{Player 0}
 		{MID 5}
 	}
 	{Entity "flag_skirmish_1" 0x82b2
 		{Position 0 -4499.05}
-		{TexMod "ger"}
 		{Player 3}
 		{MID 49}
 	}
 	{Entity "flag_skirmish" 0x82b3
 		{Position 0 -4499.06}
-		{TexMod "rus"}
 		{Player 0}
 		{MID 59}
 	}
 	{Entity "flag_skirmish_2" 0xf004
 		{Position 0 -557.44}
-		{TexMod "ger"}
 		{Player 3}
 		{MID 77}
 	}
 	{Entity "flag_skirmish" 0xf005
 		{Position 0 -557.45}
-		{TexMod "rus"}
 		{Player 0}
 		{MID 78}
 	}
 	{Entity "flag_skirmish_2" 0xf006
 		{Position 1200 1200}
-		{TexMod "ger"}
 		{Player 3}
 		{MID 79}
 	}
 	{Entity "flag_skirmish" 0xf007
 		{Position 1200 1200}
-		{TexMod "rus"}
 		{Player 0}
 		{MID 83}
 	}
 	{Entity "37mm_61k" 0x82d8
 		{Position 567.31 6137.84}
 		{xform zl -90.55}
-		{Placer
-			{State "driver1" {Disable}}
-			{State "driver2" {Disable}}
-			{State "seat1" {Disable}}
-			{State "seat2" {Disable}}
-		}
 		{Extender "cannon"
 			{animation
 				{switch close}
@@ -677,12 +660,6 @@
 		{xform zl -90.48}
 		{Volume "ram"
 			{able {visible 0}{bullet 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}}
-		}
-		{Placer
-			{State "seat1" {Broken}}
-			{State "seat2" {Broken}}
-			{State "seat3" {Broken}}
-			{State "seat4" {Broken}}
 		}
 		{Extender "enumerator"
 			{number 944}
@@ -711,12 +688,6 @@
 	{Entity "57mm_zis2_late" 0x82dd
 		{Position 652.37 6011.12}
 		{xform zl 180 y 1.56 zw 89.39}
-		{Placer
-			{State "driver1" {Disable}}
-			{State "driver2" {Disable}}
-			{State "seat1" {Disable}}
-			{State "seat2" {Disable}}
-		}
 		{Extender "cannon"
 			{animation
 				{switch close}
@@ -729,10 +700,6 @@
 	{Entity "82mm_bm37" 0xc004
 		{Position 479.2 6007.53}
 		{xform zl -94.01}
-		{Placer
-			{State "driver1" {Disable}}
-			{State "driver2" {Disable}}
-		}
 		{Extender "cannon"
 			{animation
 				{switch close}
@@ -793,9 +760,6 @@
 	{Entity "arrow_enemy" 0x8306
 		{Position 719.7 6364.7}
 		{xform zl -105.8}
-		{Impregnability full}
-		{Player 3}
-		{MID 247}
 	}
 	{Human "mp/rus/late/tankman" 0xe046
 		{Position -193.72 5965.23}
@@ -1279,12 +1243,6 @@
 	{Entity "57mm_zis2_late" 0xd007
 		{Position 418.09 3145.35}
 		{xform zl 180 y 1.56 zw 118.65}
-		{Placer
-			{State "driver1" {Disable}}
-			{State "driver2" {Disable}}
-			{State "seat1" {Disable}}
-			{State "seat2" {Disable}}
-		}
 		{Extender "cannon"
 			{animation
 				{switch close}
@@ -1305,12 +1263,6 @@
 	{Entity "152mm_ml20" 0xf801
 		{Position -200 3600}
 		{xform zl 106.08 y 3.85 zw 108.9}
-		{Placer
-			{State "driver1" {Disable}}
-			{State "driver2" {Disable}}
-			{State "seat1" {Disable}}
-			{State "seat2" {Disable}}
-		}
 		{Extender "cannon"
 			{animation
 				{switch close}
@@ -1331,12 +1283,6 @@
 	{Entity "76mm_zis3" 0xd00a
 		{Position 146.26 -834.6}
 		{xform zl -104.75 y 0.99 zw 17.6}
-		{Placer
-			{State "driver1" {Disable}}
-			{State "driver2" {Disable}}
-			{State "seat1" {Disable}}
-			{State "seat2" {Disable}}
-		}
 		{Extender "cannon"
 			{animation
 				{switch close}
@@ -1443,12 +1389,6 @@
 	{Entity "57mm_zis2_late" 0x9404
 		{Position -449.16 3125.53}
 		{xform zl 158.31 y 3.97 zw 81.07}
-		{Placer
-			{State "driver1" {Disable}}
-			{State "driver2" {Disable}}
-			{State "seat1" {Disable}}
-			{State "seat2" {Disable}}
-		}
 		{Extender "cannon"
 			{animation
 				{switch close}
@@ -1541,12 +1481,6 @@
 	{Entity "152mm_ml20" 0x9417
 		{Position 200 3600}
 		{xform zl -115.97 y 5.42 zw 71.07}
-		{Placer
-			{State "driver1" {Disable}}
-			{State "driver2" {Disable}}
-			{State "seat1" {Disable}}
-			{State "seat2" {Disable}}
-		}
 		{Extender "cannon"
 			{animation
 				{switch close}
@@ -1619,12 +1553,6 @@
 	{Entity "76mm_zis3" 0xc81d
 		{Position -1359.73 742.91}
 		{xform zl 48.72 y 2.56 zw -172.33}
-		{Placer
-			{State "driver1" {Disable}}
-			{State "driver2" {Disable}}
-			{State "seat1" {Disable}}
-			{State "seat2" {Disable}}
-		}
 		{Extender "cannon"
 			{animation
 				{switch close}
@@ -1661,12 +1589,6 @@
 	{Entity "76mm_zis3" 0xc824
 		{Position -1689.73 1381.65}
 		{xform zl 65.74 y 1.37 zw 111.7}
-		{Placer
-			{State "driver1" {Disable}}
-			{State "driver2" {Disable}}
-			{State "seat1" {Disable}}
-			{State "seat2" {Disable}}
-		}
 		{Extender "cannon"
 			{animation
 				{switch close}
@@ -1703,12 +1625,6 @@
 	{Entity "76mm_zis3" 0xc82b
 		{Position 1320.97 777.3}
 		{xform zl -83.69 y 6.21 zw 24.92}
-		{Placer
-			{State "driver1" {Disable}}
-			{State "driver2" {Disable}}
-			{State "seat1" {Disable}}
-			{State "seat2" {Disable}}
-		}
 		{Extender "cannon"
 			{animation
 				{switch close}
@@ -1745,12 +1661,6 @@
 	{Entity "76mm_zis3" 0xc832
 		{Position 1687.99 1390.98}
 		{xform zl -143.42 y 1.42 zw 143.97}
-		{Placer
-			{State "driver1" {Disable}}
-			{State "driver2" {Disable}}
-			{State "seat1" {Disable}}
-			{State "seat2" {Disable}}
-		}
 		{Extender "cannon"
 			{animation
 				{switch close}
@@ -1842,14 +1752,12 @@
 	{Entity "flag_skirmish" 0x8298
 		{Position 0 3500.03}
 		{xform zl 0.55}
-		{TexMod "rus"}
 		{Player 0}
 		{MID 86}
 	}
 	{Entity "flag_skirmish_3" 0x8296
 		{Position 0 3500.03}
 		{xform zl 0.55}
-		{TexMod "ger"}
 		{Player 3}
 		{MID 84}
 	}
@@ -2761,10 +2669,6 @@
 	{Entity "panzer5g" 0xc01b
 		{Position -221.67 -6637.63 24.98}
 		{xform zl -137.38 y 11.61 zw -132.03}
-		{TexMod
-			{"/entity/-vehicle/tank_medium/pz5g/pz5g" "2"}
-			{"/entity/-vehicle/tank_medium/pz5g/pz5g shields" "2"}
-		}
 		{Extender "enumerator"
 			{number 217}
 			{digit_folder "ger"}
@@ -2977,12 +2881,6 @@
 	{Entity "76mm_zis3" 0xa00a
 		{Position -155.29 -836.41}
 		{xform zl 179.99 y 0.14 zw 92.85}
-		{Placer
-			{State "driver1" {Disable}}
-			{State "driver2" {Disable}}
-			{State "seat1" {Disable}}
-			{State "seat2" {Disable}}
-		}
 		{Extender "cannon"
 			{animation
 				{switch close}
@@ -3065,14 +2963,12 @@
 	{Entity "flag_skirmish_1" 0x8127
 		{Position -2500 -4000}
 		{xform zl -5.07}
-		{TexMod "ger"}
 		{Player 3}
 		{MID 183}
 	}
 	{Entity "flag_skirmish" 0x8128
 		{Position -2500 -4000}
 		{xform zl -5.07}
-		{TexMod "rus"}
 		{Player 0}
 		{MID 192}
 	}
@@ -3136,13 +3032,11 @@
 	}
 	{Entity "flag_skirmish_1" 0x813e
 		{Position 2500 -4000}
-		{TexMod "ger"}
 		{Player 3}
 		{MID 228}
 	}
 	{Entity "flag_skirmish" 0x813f
 		{Position 2500 -4000}
-		{TexMod "rus"}
 		{Player 0}
 		{MID 230}
 	}
@@ -3373,9 +3267,6 @@
 		{Volume "ram"
 			{able {visible 0}{bullet 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}}
 		}
-		{Placer
-			{State "gunner2" {Broken}}
-		}
 		{Extender "enumerator"
 			{number 284}
 			{digit_folder "ger"}
@@ -3400,9 +3291,6 @@
 	{Entity "tiger1e" 0xc007
 		{Position 0.48 -6644.42 26.3}
 		{xform zl 32.02 y 12.25 zw 58.57}
-		{TexMod
-			{"/entity/-vehicle/tank_heavy/pz6e/pz6auste" "2"}
-		}
 		{Extender "enumerator"
 			{number 469}
 			{digit_folder "ger"}
@@ -3541,13 +3429,6 @@
 		{Volume "ram"
 			{able {visible 0}{bullet 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}}
 		}
-		{Placer
-			{State "seat5" {Broken}}
-			{State "seat6" {Broken}}
-			{State "seat7" {Broken}}
-			{State "seat8" {Broken}}
-			{State "seat9" {Broken}}
-		}
 		{Extender "enumerator"
 			{number 389}
 		}
@@ -3619,10 +3500,6 @@
 	{Entity "120mm_sgrw42" 0x81a0
 		{Position 157.14 -6603.51}
 		{xform zl 90}
-		{Placer
-			{State "driver1" {Disable}}
-			{State "driver2" {Disable}}
-		}
 		{Extender "cannon"
 			{animation
 				{switch close}
@@ -3650,12 +3527,6 @@
 	{Entity "75mm_pak40" 0x819c
 		{Position -145.66 -4197.32 24.77}
 		{xform zl -67.88 y 2.19 zw 157.88}
-		{Placer
-			{State "driver1" {Disable}}
-			{State "driver2" {Disable}}
-			{State "seat1" {Disable}}
-			{State "seat2" {Disable}}
-		}
 		{Extender "cannon"
 			{animation
 				{switch close}
@@ -3700,12 +3571,6 @@
 	{Entity "75mm_pak40" 0xc042
 		{Position 149.16 -4193.33}
 		{xform zl -149.83 y 1.81 zw -120.16}
-		{Placer
-			{State "driver1" {Disable}}
-			{State "driver2" {Disable}}
-			{State "seat1" {Disable}}
-			{State "seat2" {Disable}}
-		}
 		{Extender "cannon"
 			{animation
 				{switch close}
@@ -3735,12 +3600,6 @@
 		{Position -2592.59 -3826.17}
 		{xform zl 147.21 y 3.42 zw -23.95}
 		{SpawnedInFog}
-		{Placer
-			{State "driver1" {Disable}}
-			{State "driver2" {Disable}}
-			{State "seat1" {Disable}}
-			{State "seat2" {Disable}}
-		}
 		{Extender "cannon"
 			{animation
 				{switch close}
@@ -3769,12 +3628,6 @@
 	{Entity "75mm_pak40" 0xc058
 		{Position 2619.57 -3834.51}
 		{xform zl 51.71 y 2.19 zw 7.01}
-		{Placer
-			{State "driver1" {Disable}}
-			{State "driver2" {Disable}}
-			{State "seat1" {Disable}}
-			{State "seat2" {Disable}}
-		}
 		{Extender "cannon"
 			{animation
 				{switch close}
@@ -4916,7 +4769,6 @@
 	{Entity "bf110_e2" 0x81fe
 		{Position 464.79 -6766.61}
 		{xform zl 90}
-		{TexMod "1"}
 		{Extender "enumerator"
 			{number 323}
 		}
@@ -4958,10 +4810,6 @@
 	{Entity "120mm_sgrw42" 0x8201
 		{Position 226.74 -6602.59}
 		{xform zl 90}
-		{Placer
-			{State "driver1" {Disable}}
-			{State "driver2" {Disable}}
-		}
 		{Extender "cannon"
 			{animation
 				{switch close}
@@ -5557,10 +5405,6 @@
 		{Position -2400.91 -4186.37}
 		{xform zl 115}
 		{SpawnedInFog}
-		{Placer
-			{State "driver1" {Disable}}
-			{State "driver2" {Disable}}
-		}
 		{Extender "cannon"
 			{animation
 				{switch close}
@@ -5588,10 +5432,6 @@
 	{Entity "120mm_sgrw42" 0xc06f
 		{Position 2365.31 -4236.01}
 		{xform zl 65}
-		{Placer
-			{State "driver1" {Disable}}
-			{State "driver2" {Disable}}
-		}
 		{Extender "cannon"
 			{animation
 				{switch close}
@@ -5619,10 +5459,6 @@
 	{Entity "120mm_sgrw42" 0xa03b
 		{Position 161.13 -4501.16}
 		{xform zl 90}
-		{Placer
-			{State "driver1" {Disable}}
-			{State "driver2" {Disable}}
-		}
 		{Extender "cannon"
 			{animation
 				{switch close}
@@ -5650,10 +5486,6 @@
 	{Entity "120mm_sgrw42" 0xa048
 		{Position -154.84 -4514.61}
 		{xform zl 90}
-		{Placer
-			{State "driver1" {Disable}}
-			{State "driver2" {Disable}}
-		}
 		{Extender "cannon"
 			{animation
 				{switch close}

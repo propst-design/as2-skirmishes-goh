@@ -173,8 +173,11 @@ def strip_speaker_extenders(text: str) -> tuple[str, int]:
 
 
 def strip_clip_water(map_text: str) -> str:
-    """Remove AS2-only {water ...} lines inside map {Clips}."""
-    return re.sub(r"^\t+\{water\s+[^}]+\}\r?\n", "", map_text, flags=re.M)
+    """Remove AS2-only {water ...} lines inside map {Clips} and legacy building {Link ...} lines."""
+    txt = re.sub(r"^\t+\{water\s+[^}]+\}\r?\n", "", map_text, flags=re.M)
+    # Strip top-level {Link ...} in `map` (AS2 modular building bone links that break when props are remapped)
+    txt = re.sub(r"^\t\{Link\s+[^\n]+\}\r?\n", "", txt, flags=re.M)
+    return txt
 
 
 def remap_reinforcement_icons(mi_text: str, goh_icons: set) -> tuple[str, int]:
@@ -244,47 +247,151 @@ def remap_music(mi_text: str, goh_music: set) -> tuple[str, int]:
     return new_text, count
 
 
-def remap_map_entities(text: str, goh_entities: set) -> tuple[str, int, int]:
+def sanitize_map_entity_blocks(map_text: str, goh_entities: set) -> tuple[str, int, int]:
+    """Remap AS2 entities in `map` and strip incompatible AS2 sub-blocks on remapped/static props.
+
+    When an AS2 prop is remapped to a different GoH entity (or when an AS2 railcar
+    like `cistern` is a static prop in GoH), AS2-specific sub-blocks like {Placer},
+    {Volumes}, {TexMod}, {Chassis}, {Player}, {MID} cause `unexpected token` crashes
+    because the GoH .def doesn't declare those bones/extenders.
+    """
+    lines = map_text.splitlines(keepends=True)
+    out = []
+    i = 0
     remapped = 0
     fallbacks = set()
+    strip_subblocks = ("Placer", "Volumes", "TexMod", "Chassis", "Player", "MID")
+    sub_pat = re.compile(r"^\t\t\{(?:" + "|".join(strip_subblocks) + r")\b")
 
-    def repl(m):
-        nonlocal remapped
-        old = m.group(1)
-        if old in goh_entities:
-            return m.group(0)
-        new = resolve_map_prop(old, goh_entities)
-        remapped += 1
-        if old not in MAP_ENTITY_MAP:
-            fallbacks.add((old, new))
-        return f'{{Entity "{new}"'
+    while i < len(lines):
+        m = re.match(r'^(\t\{Entity\s+")([^"]+)(".*)', lines[i])
+        if m:
+            old = m.group(2)
+            # Collect entire {Entity ...} block
+            block = [lines[i]]
+            depth = lines[i].count("{") - lines[i].count("}")
+            i += 1
+            while i < len(lines) and depth > 0:
+                block.append(lines[i])
+                depth += lines[i].count("{") - lines[i].count("}")
+                i += 1
 
-    new_text = re.sub(r'\{Entity\s+"([^"]+)"', repl, text)
-    return new_text, remapped, len(fallbacks)
+            block_str = "".join(block)
+            is_railcar = "{Chassis" in block_str and "{MID" in block_str
+
+            if old == "cistern" and is_railcar:
+                new = "wagon_tanker"
+                was_remapped = True
+            elif old in goh_entities:
+                new = old
+                was_remapped = False
+            else:
+                new = resolve_map_prop(old, goh_entities)
+                was_remapped = True
+                if old not in MAP_ENTITY_MAP:
+                    fallbacks.add((old, new))
+
+            if was_remapped:
+                remapped += 1
+                block[0] = f"{m.group(1)}{new}{m.group(3)}\n"
+
+            # Strip incompatible sub-blocks if entity was remapped OR if it has {Placer}/{Volumes}
+            # that may reference AS2 bone/state names not present in GoH's updated .def
+            cleaned = [block[0]]
+            j = 1
+            while j < len(block):
+                if (was_remapped and sub_pat.match(block[j])) or re.match(r"^\t\t\{(?:Placer|Volumes)\b", block[j]):
+                    # Keep Player/MID/Chassis ONLY on GoH railcars (wagon_tanker, wagon_plato, wagon1)
+                    if new in ("wagon_tanker", "wagon_plato", "wagon1") and re.match(r"^\t\t\{(?:Player|MID|Chassis)\b", block[j]):
+                        cleaned.append(block[j])
+                        j += 1
+                        continue
+                    sdepth = block[j].count("{") - block[j].count("}")
+                    j += 1
+                    while j < len(block) and sdepth > 0:
+                        sdepth += block[j].count("{") - block[j].count("}")
+                        j += 1
+                    continue
+                cleaned.append(block[j])
+                j += 1
+            out.extend(cleaned)
+            continue
+
+        out.append(lines[i])
+        i += 1
+
+    return "".join(out), remapped, len(fallbacks)
 
 
 def remap_mi_entities(text: str, goh_entities: set) -> tuple[str, int]:
-    count = 0
+    """Remap {Entity ...} in 0.mi and strip non-actor sub-blocks on service helpers."""
     combined = {**MAP_ENTITY_MAP, **MI_ENTITY_MAP}
+    non_actor_helpers = {"arrow_enemy", "arrow_friendly", "flag_skirmish", "flag_skirmish_1",
+                         "flag_skirmish_2", "flag_skirmish_3", "flag_skirmish_4", "flag_skirmish_5"}
+    lines = text.splitlines(keepends=True)
+    out = []
+    i = 0
+    count = 0
 
-    def repl(m):
-        nonlocal count
-        old = m.group(1)
-        if old in combined:
-            count += 1
-            return f'{{Entity "{combined[old]}"'
-        if old not in goh_entities:
-            # Handle any skirmish_flag_* variant dynamically
-            if old.startswith("skirmish_flag"):
+    while i < len(lines):
+        m = re.match(r'^(\t\{Entity\s+")([^"]+)(".*)', lines[i])
+        if m:
+            old = m.group(2)
+            block = [lines[i]]
+            depth = lines[i].count("{") - lines[i].count("}")
+            i += 1
+            while i < len(lines) and depth > 0:
+                block.append(lines[i])
+                depth += lines[i].count("{") - lines[i].count("}")
+                i += 1
+
+            was_remapped = False
+            if old in combined:
+                new = combined[old]
+                was_remapped = True
+            elif old not in goh_entities:
+                if old.startswith("skirmish_flag"):
+                    new = "flag_skirmish"
+                else:
+                    new = resolve_map_prop(old, goh_entities)
+                was_remapped = True
+            else:
+                new = old
+
+            if was_remapped:
                 count += 1
-                return '{Entity "flag_skirmish"'
-            new = resolve_map_prop(old, goh_entities)
-            count += 1
-            return f'{{Entity "{new}"'
-        return m.group(0)
+                block[0] = f"{m.group(1)}{new}{m.group(3)}\n"
 
-    new_text = re.sub(r'\{Entity\s+"([^"]+)"', repl, text)
-    return new_text, count
+            # Strip actor-only properties from non-actor helpers (arrow_enemy / arrow_friendly)
+            # and strip AS2 TexMod/Placer/Volumes from remapped entities
+            cleaned = [block[0]]
+            j = 1
+            while j < len(block):
+                strip_here = False
+                if new in ("arrow_enemy", "arrow_friendly") and re.match(
+                    r"^\t\t\{(?:Player|MID|Impregnability|TexMod|Placer|Volumes)\b", block[j]
+                ):
+                    strip_here = True
+                elif was_remapped and re.match(r"^\t\t\{(?:TexMod|Placer|Volumes)\b", block[j]):
+                    strip_here = True
+
+                if strip_here:
+                    sdepth = block[j].count("{") - block[j].count("}")
+                    j += 1
+                    while j < len(block) and sdepth > 0:
+                        sdepth += block[j].count("{") - block[j].count("}")
+                        j += 1
+                    continue
+                cleaned.append(block[j])
+                j += 1
+
+            out.extend(cleaned)
+            continue
+
+        out.append(lines[i])
+        i += 1
+
+    return "".join(out), count
 
 
 def remap_text_humans(text: str, mapping: dict) -> tuple[str, int]:
@@ -527,7 +634,7 @@ def port_single(
     # 3. Map file
     map_txt = z.read(as2_prefix + "map").decode("utf-8", errors="replace")
     map_txt = strip_clip_water(map_txt)
-    map_txt, map_ent_n, fb_n = remap_map_entities(map_txt, goh_idx["entities"])
+    map_txt, map_ent_n, fb_n = sanitize_map_entity_blocks(map_txt, goh_idx["entities"])
     map_txt, _ = remap_environments(map_txt, goh_idx["envs"])
     (mission_dir / "map").write_text(map_txt, encoding="utf-8")
 

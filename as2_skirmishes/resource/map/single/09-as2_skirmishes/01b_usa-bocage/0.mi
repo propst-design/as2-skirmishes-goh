@@ -63,12 +63,8 @@
 	{Entity "panzer4g" 0xd00f
 		{Position -419.45 -5877.59}
 		{xform zl 88.75}
-		{TexMod "2"}
 		{Volume "ram"
 			{able {visible 0}{bullet 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}}
-		}
-		{Placer
-			{State "gunner2" {Broken}}
 		}
 		{Extender "enumerator"
 			{number 986}
@@ -87,7 +83,6 @@
 	{Entity "panzer3n" 0x9804
 		{Position -542.36 -5873.05}
 		{xform zl 88.58}
-		{TexMod "2"}
 		{SpawnedInFog}
 		{Extender "enumerator"
 			{number 174}
@@ -107,8 +102,6 @@
 	{Entity "arrow_enemy" 0x80fe
 		{Position 3755.48 6807.87}
 		{xform zl -1.79}
-		{Player 3}
-		{MID 54}
 	}
 	{Human "mp/ger/late/tankman_vet" 0x8277
 		{Position -954.86 -6373.37}
@@ -236,12 +229,6 @@
 	{Entity "57mm_m1" 0xa006
 		{Position 374.43 6671.29}
 		{xform zl 180 y 0.79 zw 89.05}
-		{Placer
-			{State "driver1" {Disable}}
-			{State "driver2" {Disable}}
-			{State "seat1" {Disable}}
-			{State "seat2" {Disable}}
-		}
 		{Extender "cannon"
 			{animation
 				{switch close}
@@ -256,10 +243,6 @@
 		{xform zl -94.67}
 		{Volume "ram"
 			{able {visible 0}{bullet 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}}
-		}
-		{Placer
-			{State "seat1" {Broken}}
-			{State "seat2" {Broken}}
 		}
 		{Extender "enumerator"
 			{number 915}
@@ -313,13 +296,11 @@
 	}
 	{Entity "flag_skirmish_5" 0x80a4
 		{Position -29.11 4259.45}
-		{TexMod "ger"}
 		{Player 3}
 		{MID 1}
 	}
 	{Entity "flag_skirmish" 0x80a5
 		{Position -29.16 4259.51}
-		{TexMod "usa"}
 		{Player 0}
 		{MID 2}
 	}
@@ -409,7 +390,6 @@
 	{Entity "panzer4h" 0xf008
 		{Position -208.72 -5886.39}
 		{xform zl 88.5}
-		{TexMod "2"}
 		{Volume "ram"
 			{able {visible 0}{bullet 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}}
 		}
@@ -423,9 +403,6 @@
 	{Entity "marder3m" 0xa000
 		{Position -312.08 -5879.35}
 		{xform zl 90}
-		{TexMod
-			{"/entity/-vehicle/tank_light/marder_3h/marder 3h" "2"}
-		}
 		{Extender "enumerator"
 			{number 904}
 			{digit_folder "ger2"}
@@ -469,9 +446,6 @@
 	{Entity "panzer2l" 0x9000
 		{Position -646.15 -5876.48}
 		{xform zl 90}
-		{TexMod
-			{"/entity/-vehicle/tank_light/pz2l/pz2" "2"}
-		}
 		{SpawnedInFog}
 		{Volume "ram"
 			{able {visible 0}{bullet 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}}
@@ -500,10 +474,6 @@
 	{Entity "panzer5g" 0x9004
 		{Position 142.88 -5879.77}
 		{xform zl 90.93}
-		{TexMod
-			{"/entity/-vehicle/tank_medium/pz5g/pz5g" "2"}
-			{"/entity/-vehicle/tank_medium/pz5g/pz5g shields" "2"}
-		}
 		{Extender "enumerator"
 			{number 939}
 			{digit_folder "ger"}
@@ -569,9 +539,6 @@
 	{Entity "tiger1e" 0xc002
 		{Position 272.61 -5882.7}
 		{xform zl 90.72}
-		{TexMod
-			{"/entity/-vehicle/tank_heavy/pz6e/pz6auste" "2"}
-		}
 		{Extender "enumerator"
 			{number 780}
 			{digit_folder "ger"}
@@ -582,7 +549,6 @@
 	{Entity "tiger2h" 0xc005
 		{Position 414.96 -5878.39}
 		{xform zl 89.92}
-		{TexMod "2"}
 		{Extender "enumerator"
 			{number 194}
 			{digit_folder "ger"}
@@ -965,12 +931,6 @@
 	{Entity "40mm_m1" 0x805d
 		{Position -182.51 4191.49}
 		{xform zl 62.96 y 1.27 zw -153.45}
-		{Placer
-			{State "driver1" {Disable}}
-			{State "driver2" {Disable}}
-			{State "seat1" {Disable}}
-			{State "seat2" {Disable}}
-		}
 		{Extender "cannon"
 			{disable}
 			{animation
@@ -1027,10 +987,6 @@
 		{xform zl -150}
 		{Volume "ram"
 			{able {visible 0}{bullet 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}}
-		}
-		{Placer
-			{State "seat1" {Broken}}
-			{State "seat2" {Broken}}
 		}
 		{Extender "enumerator"
 			{number 275}
@@ -1148,12 +1104,6 @@
 	{Entity "57mm_m1" 0xa01e
 		{Position 90.85 4116.83}
 		{xform zl 180 y 0.79 zw 90.03}
-		{Placer
-			{State "driver1" {Disable}}
-			{State "driver2" {Disable}}
-			{State "seat1" {Disable}}
-			{State "seat2" {Disable}}
-		}
 		{Extender "cannon"
 			{animation
 				{switch close}
@@ -1217,14 +1167,7 @@
 	{Entity "37mm_flak37" 0xc00f
 		{Position 2946.24 -4519.15}
 		{xform zl -120.87 y 2.58 zw -149.34}
-		{TexMod "2"}
 		{SpawnedInFog}
-		{Placer
-			{State "driver1" {Disable}}
-			{State "driver2" {Disable}}
-			{State "seat1" {Disable}}
-			{State "seat2" {Disable}}
-		}
 		{Extender "cannon"
 			{disable}
 			{animation
@@ -1237,13 +1180,6 @@
 	{Entity "37mm_flak37" 0xc016
 		{Position -3057.22 -4473.71}
 		{xform zl 88.25}
-		{TexMod "2"}
-		{Placer
-			{State "driver1" {Disable}}
-			{State "driver2" {Disable}}
-			{State "seat1" {Disable}}
-			{State "seat2" {Disable}}
-		}
 		{Extender "cannon"
 			{disable}
 			{animation
@@ -1256,13 +1192,6 @@
 	{Entity "37mm_flak37" 0x807a
 		{Position -335.96 -4394.73}
 		{xform zl 50.2 y 2.86 zw 40.96}
-		{TexMod "2"}
-		{Placer
-			{State "driver1" {Disable}}
-			{State "driver2" {Disable}}
-			{State "seat1" {Disable}}
-			{State "seat2" {Disable}}
-		}
 		{Extender "cannon"
 			{disable}
 			{animation
@@ -1408,10 +1337,6 @@
 	{Entity "50cal_quad_m45" 0x8800
 		{Position 313.6 6679.05}
 		{xform zl -89.33}
-		{Placer
-			{State "driver" {Disable}}
-			{State "seat1" {Disable}}
-		}
 		{Extender "cannon"
 			{animation
 				{switch close}
@@ -1453,12 +1378,6 @@
 	{Entity "m5_halftrack" 0x8088
 		{Position 565.27 6664.16}
 		{xform zl 1.8 y 0.96 zw -91.8}
-		{Placer
-			{State "driver1" {Disable}}
-			{State "driver2" {Disable}}
-			{State "seat1" {Disable}}
-			{State "seat2" {Disable}}
-		}
 		{Extender "cannon"
 			{animation
 				{switch close}
@@ -1820,12 +1739,6 @@
 	{Entity "40mm_m1" 0x8087
 		{Position 458.19 6828.29}
 		{xform zl -14.12 y 0.15 zw -75.88}
-		{Placer
-			{State "driver1" {Disable}}
-			{State "driver2" {Disable}}
-			{State "seat1" {Disable}}
-			{State "seat2" {Disable}}
-		}
 		{Extender "cannon"
 			{animation
 				{switch close}
@@ -1836,15 +1749,11 @@
 		{Player 2}
 		{MID 40}
 	}
-	{Entity "m24" 0x808b
+	{Entity "m24_chaffee" 0x808b
 		{Position 1184.48 5032.33 -9.53}
 		{xform zl -178.32 y 2.02 zw 38.79}
 		{Volume "ram"
 			{able {visible 0}{bullet 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}}
-		}
-		{Placer
-			{State "seat1" {Broken}}
-			{State "seat2" {Broken}}
 		}
 		{Extender "enumerator"
 			{number 840}
@@ -2067,10 +1976,6 @@
 		{xform zl 176.45 y 1.34 zw 93.48}
 		{Volume "ram"
 			{able {visible 0}{bullet 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}}
-		}
-		{Placer
-			{State "seat1" {Broken}}
-			{State "seat2" {Broken}}
 		}
 		{Extender "enumerator"
 			{number 460}

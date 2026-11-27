@@ -35,297 +35,238 @@
 	{Entity "euro_log_trench_dirt_intersection2" 0x14d
 		{Position 378.77 -729 184.01}
 		{xform zl 59.35}
-		{TexMod "9"}
 	}
 	{Entity "euro_log_trench_dirt_exit" 0x14e
 		{Position 313.4 -690.84 186}
 		{xform zl 60.2}
-		{TexMod "9"}
 	}
 	{Entity "euro_log_trench_dirt_straight2" 0x14f
 		{Position 439.84 -624.82 185.5}
 		{xform zl 59.47}
-		{TexMod "9"}
 	}
 	{Entity "euro_log_trench_dirt_straight2" 0x150
 		{Position 316.27 -832.51 183}
 		{xform zl 59.43}
-		{TexMod "9"}
 	}
 	{Entity "euro_log_trench_dirt_exit" 0x152
 		{Position 484.04 -548.81 187}
 		{xform zl -28.52}
-		{TexMod "9"}
 	}
 	{Entity "euro_log_trench_dirt_intersection2" 0x153
 		{Position -383.03 -693.86 188}
 		{xform zl -61.33}
-		{TexMod "9"}
 	}
 	{Entity "euro_log_trench_dirt_exit" 0x154
 		{Position -316.81 -657.21 189}
 		{xform zl -62.99}
-		{TexMod "9"}
 	}
 	{Entity "euro_log_trench_dirt_straight2" 0x155
 		{Position -324.72 -799.61 187}
 		{xform zl -61.32}
-		{TexMod "9"}
 	}
 	{Entity "euro_log_trench_dirt_straight2" 0x156
 		{Position -440.01 -587.21 189}
 		{xform zl -61.35}
-		{TexMod "9"}
 	}
 	{Entity "euro_log_trench_dirt_exit" 0x157
 		{Position -483.15 -511.64 185.34}
 		{xform zl 30.15}
-		{TexMod "9"}
 	}
 	{Entity "euro_log_trench_dirt_intersection2" 0x404c
 		{Position 3.72 -926.42 184.31}
 		{xform zl -0.95}
-		{TexMod "9"}
 	}
 	{Entity "euro_log_trench_dirt_exit" 0x404e
 		{Position 4.65 -850.73 186.51}
 		{xform zl -1.15}
-		{TexMod "9"}
 	}
 	{Entity "euro_log_trench_dirt_straight2" 0x404f
 		{Position 124.46 -928.13 183.14}
 		{xform zl -1}
-		{TexMod "9"}
 	}
 	{Entity "euro_log_trench_dirt_straight2" 0x4050
 		{Position -117.16 -923.13 185}
 		{xform zl -1}
-		{TexMod "9"}
 	}
 	{Entity "euro_log_trench_dirt_intersection2" 0x200f
 		{Position 1760.7 1199.09 215}
 		{xform zl 90.12}
-		{TexMod "9"}
 	}
 	{Entity "euro_log_trench_dirt_exit" 0x2010
 		{Position 1685.01 1198.47 215}
 		{xform zl 94.4}
-		{TexMod "9"}
 	}
 	{Entity "euro_log_trench_dirt_straight2" 0x2011
 		{Position 1759.94 1319.85 213.05}
 		{xform zl 90.69}
-		{TexMod "9"}
 	}
 	{Entity "euro_log_trench_dirt_exit" 0x2014
 		{Position 1759.06 1407.78 203.56}
 		{xform zl 4.08}
-		{TexMod "9"}
 	}
 	{Entity "euro_log_trench_dirt_intersection2" 0x2015
 		{Position 1526 806.03 225.65}
 		{xform zl 27.3}
-		{TexMod "9"}
 	}
 	{Entity "euro_log_trench_dirt_exit" 0x2016
 		{Position 1491.18 873.22 228.93}
 		{xform zl 28.41}
-		{TexMod "9"}
 	}
 	{Entity "euro_log_trench_dirt_straight2" 0x2017
 		{Position 1633.31 861.44 217.72}
 		{xform zl 27.86}
-		{TexMod "9"}
 	}
 	{Entity "euro_log_trench_dirt_straight2" 0x2018
 		{Position 1417.85 751.97 240.26}
 		{xform zl 27.43}
-		{TexMod "9"}
 	}
 	{Entity "euro_log_trench_dirt_exit" 0x2019
 		{Position 1342.53 712.19 244.02}
 		{xform zl 121.72}
-		{TexMod "9"}
 	}
 	{Entity "euro_log_trench_dirt_intersection2" 0x201b
 		{Position -1570.31 793.28 188}
 		{xform zl -33.02}
-		{TexMod "9"}
 	}
 	{Entity "euro_log_trench_dirt_exit" 0x201c
 		{Position -1529.38 856.95 190}
 		{xform zl -34.37}
-		{TexMod "9"}
 	}
 	{Entity "euro_log_trench_dirt_straight2" 0x201d
 		{Position -1468.83 727.8 191}
 		{xform zl -32.81}
-		{TexMod "9"}
 	}
 	{Entity "euro_log_trench_dirt_straight2" 0x201e
 		{Position -1671.05 860.14 186}
 		{xform zl -32.93}
-		{TexMod "9"}
 	}
 	{Entity "euro_log_trench_dirt_exit" 0x2020
 		{Position -1394.77 680.4 193}
 		{xform zl -121.76}
-		{TexMod "9"}
 	}
 	{Entity "euro_log_trench_dirt_intersection2" 0x2021
 		{Position -1775.21 1196.21 180}
 		{xform zl -92.5}
-		{TexMod "9"}
 	}
 	{Entity "euro_log_trench_dirt_exit" 0x2022
 		{Position -1699.58 1193.28 183}
 		{xform zl -91.6}
-		{TexMod "9"}
 	}
 	{Entity "euro_log_trench_dirt_straight2" 0x2023
 		{Position -1780.07 1075.54 180.95}
 		{xform zl -92.5}
-		{TexMod "9"}
 	}
 	{Entity "euro_log_trench_dirt_straight2" 0x2024
 		{Position -1768.75 1316.96 179}
 		{xform zl -92.5}
-		{TexMod "9"}
 	}
 	{Entity "euro_log_trench_dirt_exit" 0x2025
 		{Position -1767.08 1406.03 177.58}
 		{xform zl 0.14}
-		{TexMod "9"}
 	}
 	{Entity "euro_log_trench_dirt_turn4" 0x159
 		{Position -243.1 -923.15 184.41}
 		{xform zl -0.09}
-		{TexMod "9"}
 	}
 	{Entity "euro_log_trench_dirt_turn4" 0x2027
 		{Position 260.1 -920.19 182}
 		{xform zl 58.03}
-		{TexMod "9"}
 	}
 	{Entity "euro_log_trench_dirt_straight2" 0x2012
 		{Position 1759.89 1078.17 214}
 		{xform zl 90.45}
-		{TexMod "9"}
 	}
 	{Entity "euro_log_trench_dirt_turn4" 0x6000
 		{Position 1758.67 941.79 211.29}
 		{xform zl 88.38}
-		{TexMod "9"}
 	}
 	{Entity "euro_log_trench_dirt_turn4" 0x600a
 		{Position -1775.98 928.66 182}
 		{xform zl -33.64}
-		{TexMod "9"}
 	}
 	{Entity "euro_log_trench_dirt_intersection2" 0x151
 		{Position -586.45 3102.66 198}
 		{xform zl -32.43}
-		{TexMod "9"}
 	}
 	{Entity "euro_log_trench_dirt_exit" 0x158
 		{Position -549.03 3164.24 195.62}
 		{xform zl -31.94}
-		{TexMod "9"}
 	}
 	{Entity "euro_log_trench_dirt_straight2" 0x15a
 		{Position -472.72 3035.39 202.51}
 		{xform zl -32.09}
-		{TexMod "9"}
 	}
 	{Entity "euro_log_trench_dirt_straight2" 0x15b
 		{Position -696 3172.2 193.29}
 		{xform zl -31.31}
-		{TexMod "9"}
 	}
 	{Entity "euro_log_trench_dirt_exit" 0x15c
 		{Position -400.92 2990.75 200.36}
 		{xform zl -122.45}
-		{TexMod "9"}
 	}
 	{Entity "euro_log_trench_dirt_intersection2" 0x15d
 		{Position -808.71 3503.73 188}
 		{xform zl -90.62}
-		{TexMod "9"}
 	}
 	{Entity "euro_log_trench_dirt_exit" 0x15e
 		{Position -733.02 3503.2 189}
 		{xform zl -90.07}
-		{TexMod "9"}
 	}
 	{Entity "euro_log_trench_dirt_straight2" 0x15f
 		{Position -809.74 3382.97 188}
 		{xform zl -90.83}
-		{TexMod "9"}
 	}
 	{Entity "euro_log_trench_dirt_straight2" 0x160
 		{Position -806.08 3624.61 187.34}
 		{xform zl -90.69}
-		{TexMod "9"}
 	}
 	{Entity "euro_log_trench_dirt_exit" 0x161
 		{Position -806.23 3713.73 187}
 		{xform zl -2}
-		{TexMod "9"}
 	}
 	{Entity "euro_log_trench_dirt_intersection2" 0x163
 		{Position 801.7 3489.23 190}
 		{xform zl 90.22}
-		{TexMod "9"}
 	}
 	{Entity "euro_log_trench_dirt_exit" 0x164
 		{Position 726.01 3488.6 190}
 		{xform zl 90.57}
-		{TexMod "9"}
 	}
 	{Entity "euro_log_trench_dirt_straight2" 0x165
 		{Position 800.94 3609.99 190}
 		{xform zl 90.17}
-		{TexMod "9"}
 	}
 	{Entity "euro_log_trench_dirt_exit" 0x166
 		{Position 800.06 3697.91 183.64}
 		{xform zl 0.14}
-		{TexMod "9"}
 	}
 	{Entity "euro_log_trench_dirt_intersection2" 0x167
 		{Position 574.38 3102.07 191}
 		{xform zl 27.12}
-		{TexMod "9"}
 	}
 	{Entity "euro_log_trench_dirt_exit" 0x168
 		{Position 539.56 3165.38 191}
 		{xform zl 27.25}
-		{TexMod "9"}
 	}
 	{Entity "euro_log_trench_dirt_straight2" 0x169
 		{Position 675.99 3154.6 191}
 		{xform zl 27.3}
-		{TexMod "9"}
 	}
 	{Entity "euro_log_trench_dirt_straight2" 0x16a
 		{Position 463.13 3045.05 191}
 		{xform zl 27.17}
-		{TexMod "9"}
 	}
 	{Entity "euro_log_trench_dirt_exit" 0x16b
 		{Position 387.43 3005.27 184.28}
 		{xform zl 120.94}
-		{TexMod "9"}
 	}
 	{Entity "euro_log_trench_dirt_straight2" 0x16c
 		{Position 800.89 3368.31 190}
 		{xform zl 90.18}
-		{TexMod "9"}
 	}
 	{Entity "euro_log_trench_dirt_turn4" 0x16d
 		{Position 800 3232.87 190}
 		{xform zl 88.26}
-		{TexMod "9"}
 	}
 	{Entity "crate_one" 0x6006
 		{Position -107.18 3563.14}
@@ -354,51 +295,41 @@
 	{Entity "euro_log_trench_dirt_turn3" 0x170
 		{Position 174.97 3332.87 211.24}
 		{xform zl -179.38}
-		{TexMod "9"}
 	}
 	{Entity "euro_log_trench_dirt_straight2" 0x171
 		{Position 62.73 3331.62 214.11}
-		{TexMod "9"}
 	}
 	{Entity "euro_log_trench_dirt_straight2" 0x172
 		{Position -46.53 3332.3 214}
 		{xform zl 0.1}
-		{TexMod "9"}
 	}
 	{Entity "euro_log_trench_dirt_turn3" 0x17e
 		{Position -170.1 3330.16 209.91}
 		{xform zl 90.87}
-		{TexMod "9"}
 	}
 	{Entity "euro_log_trench_dirt_emplacement2_at" 0x17f
 		{Position 567.64 3947.75 172.71}
 		{xform zl 1.63}
-		{TexMod "4"}
 	}
 	{Entity "euro_log_trench_dirt_emplacement2" 0x180
 		{Position 567.67 3946.66 175}
 		{xform zl 2.9}
-		{TexMod "4"}
 	}
 	{Entity "euro_log_trench_dirt_emplacement2_at" 0x181
 		{Position 486.9 4166.47 175.34}
 		{xform zl 39.56}
-		{TexMod "4"}
 	}
 	{Entity "euro_log_trench_dirt_emplacement2" 0x182
 		{Position 487.64 4165.66 179.67}
 		{xform zl 39.04}
-		{TexMod "4"}
 	}
 	{Entity "euro_log_trench_dirt_emplacement2_at" 0x185
 		{Position -459.62 4161.28 175.01}
 		{xform zl 139.73}
-		{TexMod "4"}
 	}
 	{Entity "euro_log_trench_dirt_emplacement2" 0x186
 		{Position -458.87 4160.47 175.05}
 		{xform zl 138.48}
-		{TexMod "4"}
 	}
 	{Entity "tent2" 0x187
 		{Position 570.37 4246.3}
@@ -419,107 +350,67 @@
 	{Entity "clay_road_03" 0x177
 		{Position -50.98 2674.17}
 		{xform zl -0.13}
-		{TexMod
-			{"/entity/landscape/stamp/road/road_sand5w1" "1"}
-		}
 	}
 	{Entity "clay_road_03" 0x178
 		{Position 50.98 2719.85}
 		{xform zl -0.14}
-		{TexMod
-			{"/entity/landscape/stamp/road/road_sand5w1" "1"}
-		}
 	}
 	{Entity "clay_road_02" 0x179
 		{Position -93.98 3093.21}
 		{xform zl 179.94}
-		{TexMod "1"}
 	}
 	{Entity "clay_road_02" 0x17a
 		{Position 75 3070.08}
 		{xform zl -59.84}
-		{TexMod "1"}
 	}
 	{Entity "clay_road_02" 0x18d
 		{Position 387.04 3338.84}
 		{xform zl 119.05}
-		{TexMod "1"}
 	}
 	{Entity "clay_road_02" 0x18e
 		{Position -363.16 3305.31}
-		{TexMod "1"}
 	}
 	{Entity "clay_road_03" 0x18f
 		{Position -399.06 3680.29}
 		{xform zl 0.14}
-		{TexMod
-			{"/entity/landscape/stamp/road/road_sand5w1" "1"}
-		}
 	}
 	{Entity "clay_road_03" 0x190
 		{Position 417.78 3726.97}
 		{xform zl -0.04}
-		{TexMod
-			{"/entity/landscape/stamp/road/road_sand5w1" "1"}
-		}
 	}
 	{Entity "clay_road_03" 0x192
 		{Position 53.27 4599.21}
 		{xform zl -179.96}
-		{TexMod
-			{"/entity/landscape/stamp/road/road_sand5w1" "1"}
-		}
 	}
 	{Entity "clay_road_03" 0x193
 		{Position -57.44 4596.19}
 		{xform zl -179.57}
-		{TexMod
-			{"/entity/landscape/stamp/road/road_sand5w1" "1"}
-		}
 	}
 	{Entity "clay_road_03" 0x197
 		{Position 54.5 4994.16}
 		{xform zl -179.93}
-		{TexMod
-			{"/entity/landscape/stamp/road/road_sand5w1" "1"}
-		}
 		{DecalOrder 1}
 	}
 	{Entity "clay_road_03" 0x198
 		{Position -56.21 4991.15}
 		{xform zl -179.91}
-		{TexMod
-			{"/entity/landscape/stamp/road/road_sand5w1" "1"}
-		}
 	}
 	{Entity "clay_road_03" 0x199
 		{Position 55.41 5382.66}
 		{xform zl -179.96}
-		{TexMod
-			{"/entity/landscape/stamp/road/road_sand5w1" "1"}
-		}
 	}
 	{Entity "clay_road_03" 0x19a
 		{Position -55.3 5379.65}
 		{xform zl -179.9}
-		{TexMod
-			{"/entity/landscape/stamp/road/road_sand5w1" "1"}
-		}
 		{DecalOrder 1}
 	}
 	{Entity "clay_road_03" 0x19b
 		{Position 53.64 5771.23}
 		{xform zl 179.81}
-		{TexMod
-			{"/entity/landscape/stamp/road/road_sand5w1" "1"}
-		}
 	}
 	{Entity "clay_road_03" 0x19c
 		{Position -57.07 5768.22}
 		{xform zl -179.96}
-		{TexMod
-			{"/entity/landscape/stamp/road/road_sand5w1" "1"}
-		}
 		{DecalOrder 1}
 	}
 	{Entity "crate_one" 0x19d
@@ -539,224 +430,157 @@
 	{Entity "clay_road_02" 0x4011
 		{Position -74.49 4267.3}
 		{xform zl 120.63}
-		{TexMod "1"}
 	}
 	{Entity "clay_road_02" 0x4012
 		{Position 99.15 4251.16}
 		{xform zl 0.65}
-		{TexMod "1"}
 	}
 	{Entity "clay_road_02" 0x4013
 		{Position 379.06 4041.06}
 		{xform zl -179.54}
-		{TexMod "1"}
 	}
 	{Entity "clay_road_02" 0x4014
 		{Position -370.84 4001.52}
 		{xform zl -60.08}
-		{TexMod "1"}
 	}
 	{Entity "clay_road_02" 0x202a
 		{Position -91.82 2288.06}
 		{xform zl 119.84}
-		{TexMod "1"}
 		{DecalOrder 2}
 	}
 	{Entity "clay_road_02" 0x202b
 		{Position 84.73 2318.14}
-		{TexMod "1"}
 		{DecalOrder 2}
 	}
 	{Entity "clay_road_03" 0x202c
 		{Position -385.64 2071.95}
 		{xform zl -60.69}
-		{TexMod
-			{"/entity/landscape/stamp/road/road_sand5w1" "1"}
-		}
 	}
 	{Entity "clay_road_03" 0x202d
 		{Position -710.53 1889.52}
 		{xform zl -60.56}
-		{TexMod
-			{"/entity/landscape/stamp/road/road_sand5w1" "1"}
-		}
 		{DecalOrder 1}
 	}
 	{Entity "clay_road_03" 0x202e
 		{Position 349.08 2111.94}
 		{xform zl -124.99}
-		{TexMod
-			{"/entity/landscape/stamp/road/road_sand5w1" "1"}
-		}
 	}
 	{Entity "clay_road_02" 0x2030
 		{Position 972.61 1653.65}
 		{xform zl 179.67}
-		{TexMod "1"}
 	}
 	{Entity "clay_road_02" 0x2031
 		{Position -1006.4 1683.89}
 		{xform zl -60}
-		{TexMod "1"}
 	}
 	{Entity "clay_road_03" 0x2032
 		{Position -1031.31 1343.01}
-		{TexMod
-			{"/entity/landscape/stamp/road/road_sand5w1" "1"}
-		}
 	}
 	{Entity "clay_road_03_turn" 0x5000
 		{Position -993.47 917.03}
 		{xform zl -0.52}
-		{TexMod
-			{"/entity/landscape/stamp/road/road_sand5w1a" "1"}
-		}
 	}
 	{Entity "clay_road_03_turn" 0x5001
 		{Position -679.19 655.82}
 		{xform zl 179.31}
-		{TexMod
-			{"/entity/landscape/stamp/road/road_sand5w1a" "1"}
-		}
 	}
 	{Entity "clay_road_03_turn" 0x5003
 		{Position 588.23 -15.71}
 		{xform zl 122.19}
-		{TexMod
-			{"/entity/landscape/stamp/road/road_sand5w1a" "1"}
-		}
 	}
 	{Entity "clay_road_03" 0x5004
 		{Position 1015.43 1270.84}
 		{xform zl -0.57}
-		{TexMod
-			{"/entity/landscape/stamp/road/road_sand5w1" "1"}
-		}
 		{DecalOrder 1}
 	}
 	{Entity "clay_road_03_turn" 0x5005
 		{Position 979.65 904.42}
 		{xform zl 119.71}
-		{TexMod
-			{"/entity/landscape/stamp/road/road_sand5w1a" "1"}
-		}
 		{DecalOrder 1}
 	}
 	{Entity "clay_road_03_turn" 0x5006
 		{Position 647.21 617.83}
 		{xform zl -60.13}
-		{TexMod
-			{"/entity/landscape/stamp/road/road_sand5w1a" "1"}
-		}
 	}
 	{Entity "clay_road_03_turn" 0x3000
 		{Position -605.52 -30.47}
 		{xform zl -0.43}
-		{TexMod
-			{"/entity/landscape/stamp/road/road_sand5w1a" "1"}
-		}
 		{DecalOrder 10}
 	}
 	{Entity "clay_road_03" 0x400c
 		{Position -300.14 -248.33}
 		{xform zl 56.79}
-		{TexMod
-			{"/entity/landscape/stamp/road/road_sand5w1" "1"}
-		}
 		{DecalOrder 10}
 	}
 	{Entity "clay_road_03" 0x4010
 		{Position 280.48 -248.98}
 		{xform zl 121.21}
-		{TexMod
-			{"/entity/landscape/stamp/road/road_sand5w1" "1"}
-		}
 		{DecalOrder 10}
 	}
 	{Entity "clay_road_02" 0x4016
 		{Position 4.78 -385.68}
 		{xform zl 59.81}
-		{TexMod "1"}
 		{DecalOrder 10}
 	}
 	{Entity "clay_road_03" 0x4017
 		{Position 615.89 259.56}
 		{xform zl 0.76}
-		{TexMod
-			{"/entity/landscape/stamp/road/road_sand5w1" "1"}
-		}
 	}
 	{Entity "clay_road_03" 0x4018
 		{Position -641.73 266.17}
 		{xform zl -0.16}
-		{TexMod
-			{"/entity/landscape/stamp/road/road_sand5w1" "1"}
-		}
 	}
 	{Entity "euro_log_trench_dirt_straight2" 0x191
 		{Position 791.46 4019.89 190}
 		{xform zl -89.75}
-		{TexMod "9"}
 	}
 	{Entity "euro_log_trench_dirt_exit" 0x195
 		{Position 792.1 3931.96 187.17}
 		{xform zl -179.49}
-		{TexMod "9"}
 	}
 	{Entity "euro_log_trench_dirt_straight2" 0x4019
 		{Position 791.37 4154.28 190}
 		{xform zl -89.76}
-		{TexMod "9"}
 	}
 	{Entity "euro_log_trench_dirt_turn4" 0x201a
 		{Position 778.65 4295.42 190}
 		{xform zl 149.92}
-		{TexMod "9"}
 	}
 	{Entity "euro_log_trench_dirt_straight2" 0x201f
 		{Position 659.01 4360.35 190}
 		{xform zl -25.34}
-		{TexMod "9"}
 	}
 	{Entity "euro_log_trench_dirt_exit" 0x2026
 		{Position 579.49 4397.35 190}
 		{xform zl 70.69}
-		{TexMod "9"}
 	}
 	{Entity "euro_log_trench_dirt_straight2" 0x2028
 		{Position -812.58 4000.24 187}
 		{xform zl -89.29}
-		{TexMod "9"}
 	}
 	{Entity "euro_log_trench_dirt_exit" 0x2029
 		{Position -811.95 3912.31 181.68}
 		{xform zl -179.54}
-		{TexMod "9"}
 	}
 	{Entity "euro_log_trench_dirt_straight2" 0x2033
 		{Position -812.67 4134.65 187}
 		{xform zl -89.65}
-		{TexMod "9"}
 	}
 	{Entity "euro_log_trench_dirt_turn4" 0x162
 		{Position -800 3234.71 189}
 		{xform zl -31.95}
-		{TexMod "9"}
 	}
 	{Entity "euro_log_trench_dirt_turn4" 0x6001
 		{Position -812.61 4266.52 187.69}
 		{xform zl -90.17}
-		{TexMod "9"}
 	}
 	{Entity "euro_log_trench_dirt_straight2" 0x6007
 		{Position -699.95 4341.54 190}
 		{xform zl -152.96}
-		{TexMod "9"}
 	}
 	{Entity "euro_log_trench_dirt_exit" 0x6008
 		{Position -620.33 4381.91 188.69}
 		{xform zl -66.33}
-		{TexMod "9"}
 	}
 	{Entity "tent2" 0x1012
 		{Position 679.14 3947.29}
@@ -765,32 +589,23 @@
 	{Entity "clay_road_crossroad" 0x17c
 		{Position -310.27 4056.61}
 		{xform zl 27.9}
-		{TexMod "1"}
 	}
 	{Entity "clay_road_crossroad" 0x401a
 		{Position 456.73 4126.72}
 		{xform zl 81.47}
-		{TexMod "1"}
 	}
 	{Entity "clay_road_crossroad" 0x401b
 		{Position 411.05 3835.12}
 		{xform zl -64.98}
-		{TexMod "1"}
 	}
 	{Entity "clay_road_03" 0x401c
 		{Position 53.37 6188.25}
 		{xform zl -179.85}
-		{TexMod
-			{"/entity/landscape/stamp/road/road_sand5w1" "1"}
-		}
 		{DecalOrder 1}
 	}
 	{Entity "clay_road_03" 0x401d
 		{Position -57.34 6185.24}
 		{xform zl -179.69}
-		{TexMod
-			{"/entity/landscape/stamp/road/road_sand5w1" "1"}
-		}
 		{DecalOrder 1}
 	}
 	{Entity "sandbag_curved" 0x1ab
@@ -804,307 +619,231 @@
 	{Entity "euro_log_trench_dirt_intersection2" 0x1fd
 		{Position 390.15 -4349.82 31}
 		{xform zl 119.55}
-		{TexMod "9"}
 	}
 	{Entity "euro_log_trench_dirt_exit" 0x1fe
 		{Position 324.54 -4387.54 29}
 		{xform zl 117.26}
-		{TexMod "9"}
 	}
 	{Entity "euro_log_trench_dirt_straight2" 0x1ff
 		{Position 330.13 -4245.03 33}
 		{xform zl 119.88}
-		{TexMod "9"}
 	}
 	{Entity "euro_log_trench_dirt_straight2" 0x200
 		{Position 448.86 -4455.53 29.9}
 		{xform zl 119.81}
-		{TexMod "9"}
 	}
 	{Entity "euro_log_trench_dirt_exit" 0x201
 		{Position 491.89 -4530.56 29}
 		{xform zl -149.33}
-		{TexMod "9"}
 	}
 	{Entity "euro_log_trench_dirt_straight2" 0x202
 		{Position 120.59 -4124.9 35}
 		{xform zl -179.78}
-		{TexMod "9"}
 	}
 	{Entity "euro_log_trench_dirt_turn4" 0x203
 		{Position 246.51 -4122.83 37}
 		{xform zl -179.24}
-		{TexMod "9"}
 	}
 	{Entity "euro_log_trench_dirt_intersection2" 0x204
 		{Position -372.12 -4327.06 25}
 		{xform zl -119.47}
-		{TexMod "9"}
 	}
 	{Entity "euro_log_trench_dirt_exit" 0x205
 		{Position -306.14 -4364.16 26}
 		{xform zl -119.52}
-		{TexMod "9"}
 	}
 	{Entity "euro_log_trench_dirt_straight2" 0x206
 		{Position -311.31 -4222.55 23}
 		{xform zl -119.91}
-		{TexMod "9"}
 	}
 	{Entity "euro_log_trench_dirt_intersection2" 0x207
 		{Position -0.32 -4123.57 31.55}
 		{xform zl 179.94}
-		{TexMod "9"}
 	}
 	{Entity "euro_log_trench_dirt_exit" 0x208
 		{Position -0.02 -4199.27 29}
 		{xform zl -177.72}
-		{TexMod "9"}
 	}
 	{Entity "euro_log_trench_dirt_straight2" 0x209
 		{Position -121.08 -4123.83 27}
 		{xform zl 179.84}
-		{TexMod "9"}
 	}
 	{Entity "euro_log_trench_dirt_turn4" 0x20a
 		{Position -256.57 -4133.97 23}
 		{xform zl -121.92}
-		{TexMod "9"}
 	}
 	{Entity "euro_log_trench_dirt_straight2" 0x20b
 		{Position -431.49 -4432.22 24.95}
 		{xform zl -119.56}
-		{TexMod "9"}
 	}
 	{Entity "euro_log_trench_dirt_exit" 0x20c
 		{Position -474.06 -4507.79 17.59}
 		{xform zl 152.62}
-		{TexMod "9"}
 	}
 	{Entity "euro_log_trench_dirt_intersection2" 0x20d
 		{Position -2771.78 -3979.54 31}
 		{xform zl -120.47}
-		{TexMod "9"}
 	}
 	{Entity "euro_log_trench_dirt_exit" 0x20e
 		{Position -2706.23 -4017.39 28.14}
 		{xform zl -119.61}
-		{TexMod "9"}
 	}
 	{Entity "euro_log_trench_dirt_straight2" 0x20f
 		{Position -2832.35 -4084.03 27.55}
 		{xform zl -120.29}
-		{TexMod "9"}
 	}
 	{Entity "euro_log_trench_dirt_straight2" 0x210
 		{Position -2709.8 -3875.73 31.03}
 		{xform zl -120.12}
-		{TexMod "9"}
 	}
 	{Entity "euro_log_trench_dirt_exit" 0x211
 		{Position -2876.41 -4161.2 25}
 		{xform zl 156.67}
-		{TexMod "9"}
 	}
 	{Entity "euro_log_trench_dirt_intersection2" 0x212
 		{Position -2379.07 -3755.67 13.59}
 		{xform zl 179.74}
-		{TexMod "9"}
 	}
 	{Entity "euro_log_trench_dirt_exit" 0x213
 		{Position -2378.4 -3831.35 17.91}
 		{xform zl 177.22}
-		{TexMod "9"}
 	}
 	{Entity "euro_log_trench_dirt_straight2" 0x214
 		{Position -2499.84 -3756.57 18.02}
 		{xform zl -179.92}
-		{TexMod "9"}
 	}
 	{Entity "euro_log_trench_dirt_straight2" 0x215
 		{Position -2258.15 -3756.37 11}
 		{xform zl -179.92}
-		{TexMod "9"}
 	}
 	{Entity "euro_log_trench_dirt_exit" 0x216
 		{Position -2169.41 -3755.95 11}
 		{xform zl -92.05}
-		{TexMod "9"}
 	}
 	{Entity "euro_log_trench_dirt_turn4" 0x217
 		{Position -2646.35 -3767.65 26.68}
 		{xform zl -120.87}
-		{TexMod "9"}
 	}
 	{Entity "euro_log_trench_dirt_intersection2" 0x218
 		{Position 2793.04 -3987.16 22.74}
 		{xform zl 116.31}
-		{TexMod "9"}
 	}
 	{Entity "euro_log_trench_dirt_exit" 0x219
 		{Position 2725.6 -4021.49 25.49}
 		{xform zl 113.33}
-		{TexMod "9"}
 	}
 	{Entity "euro_log_trench_dirt_straight2" 0x21a
 		{Position 2738.42 -3879.45 25}
 		{xform zl 116.64}
-		{TexMod "9"}
 	}
 	{Entity "euro_log_trench_dirt_straight2" 0x21b
 		{Position 2846.31 -4095.71 20}
 		{xform zl 116.7}
-		{TexMod "9"}
 	}
 	{Entity "euro_log_trench_dirt_exit" 0x21c
 		{Position 2886.72 -4174.31 12.51}
 		{xform zl -152.62}
-		{TexMod "9"}
 	}
 	{Entity "euro_log_trench_dirt_turn4" 0x21d
 		{Position 2658.99 -3753.51 28}
 		{xform zl 177.87}
-		{TexMod "9"}
 	}
 	{Entity "euro_log_trench_dirt_intersection2" 0x21e
 		{Position 2401.71 -3749.59 30}
 		{xform zl 179.75}
-		{TexMod "9"}
 	}
 	{Entity "euro_log_trench_dirt_exit" 0x21f
 		{Position 2401.78 -3825.28 30}
 		{xform zl 179.84}
-		{TexMod "9"}
 	}
 	{Entity "euro_log_trench_dirt_straight2" 0x220
 		{Position 2280.95 -3749.46 26.05}
 		{xform zl 179.75}
-		{TexMod "9"}
 	}
 	{Entity "euro_log_trench_dirt_exit" 0x221
 		{Position 2193.02 -3749.7 18.16}
 		{xform zl 90.01}
-		{TexMod "9"}
 	}
 	{Entity "euro_log_trench_dirt_straight2" 0x222
 		{Position 2522.62 -3751.29 30}
 		{xform zl 179.78}
-		{TexMod "9"}
 	}
 	{Entity "clay_road_02" 0x401f
 		{Position -872.31 1217.45}
 		{xform zl 35.31}
-		{TexMod "1"}
 		{DecalOrder 1}
 	}
 	{Entity "clay_road_02" 0x4020
 		{Position -918.17 1163.38}
 		{xform zl -88.76}
-		{TexMod "1"}
 	}
 	{Entity "clay_road_02" 0x4024
 		{Position 871.27 1172.16}
 		{xform zl -146.19}
-		{TexMod "1"}
 		{DecalOrder 1}
 	}
 	{Entity "clay_road_02" 0x4028
 		{Position 918.32 1225.2}
 		{xform zl 90.54}
-		{TexMod "1"}
 		{DecalOrder 1}
 	}
 	{Entity "clay_road_03" 0x402a
 		{Position -484.33 1206.22}
 		{xform zl 89.46}
-		{TexMod
-			{"/entity/landscape/stamp/road/road_sand5w1" "1"}
-		}
 		{DecalOrder 1}
 	}
 	{Entity "clay_road_03" 0x4046
 		{Position -69.42 1204.59}
 		{xform zl 90.26}
-		{TexMod
-			{"/entity/landscape/stamp/road/road_sand5w1" "1"}
-		}
 	}
 	{Entity "clay_road_03" 0x4048
 		{Position 322.53 1199.22}
 		{xform zl 90.1}
-		{TexMod
-			{"/entity/landscape/stamp/road/road_sand5w1" "1"}
-		}
 	}
 	{Entity "clay_road_03" 0x4049
 		{Position 663.9 1192.3}
 		{xform zl 90.48}
-		{TexMod
-			{"/entity/landscape/stamp/road/road_sand5w1" "1"}
-		}
 	}
 	{Entity "clay_road_02" 0x404a
 		{Position 16.08 1034.48}
 		{xform zl -56.25}
-		{TexMod "1"}
 	}
 	{Entity "clay_road_02" 0x404b
 		{Position -36.84 1081.66}
 		{xform zl 179.83}
-		{TexMod "1"}
 	}
 	{Entity "clay_road_03" 0x4051
 		{Position 0 620.05}
 		{xform zl 0.14}
-		{TexMod
-			{"/entity/landscape/stamp/road/road_sand5w1" "1"}
-		}
 	}
 	{Entity "clay_road_03" 0x4052
 		{Position -2.52 222.68}
 		{xform zl -0.03}
-		{TexMod
-			{"/entity/landscape/stamp/road/road_sand5w1" "1"}
-		}
 	}
 	{Entity "clay_road_03" 0x4053
 		{Position -4.94 -138.75}
-		{TexMod
-			{"/entity/landscape/stamp/road/road_sand5w1" "1"}
-		}
 		{DecalOrder 10}
 	}
 	{Entity "clay_road_03" 0x6009
 		{Position 0 2284.61}
-		{TexMod
-			{"/entity/landscape/stamp/road/road_sand5w1" "1"}
-		}
 	}
 	{Entity "clay_road_03" 0x600c
 		{Position 0 1896.98}
 		{xform zl -0.26}
-		{TexMod
-			{"/entity/landscape/stamp/road/road_sand5w1" "1"}
-		}
 		{DecalOrder 10}
 	}
 	{Entity "clay_road_03" 0x600d
 		{Position 0 1542.51}
 		{xform zl -0.22}
-		{TexMod
-			{"/entity/landscape/stamp/road/road_sand5w1" "1"}
-		}
 		{DecalOrder 10}
 	}
 	{Entity "clay_road_02" 0x600e
 		{Position -17.95 1348.09}
 		{xform zl 125.68}
-		{TexMod "1"}
 	}
 	{Entity "clay_road_02" 0x600f
 		{Position 36.57 1302.76}
 		{xform zl 1.81}
-		{TexMod "1"}
 	}
 	{Entity "sandbag_curved" 0x4085
 		{Position -59.87 3400.13}
@@ -1112,17 +851,14 @@
 	}
 	{Entity "euro_log_trench_dirt_turn3" 0x17b
 		{Position 174.6 3447.33 214}
-		{TexMod "9"}
 	}
 	{Entity "euro_log_trench_dirt_turn3" 0x408a
 		{Position -170.95 3446.02 212}
 		{xform zl -90.3}
-		{TexMod "9"}
 	}
 	{Entity "euro_log_trench_dirt_exit" 0x600b
 		{Position -287.52 3518.54 205.2}
 		{xform zl -1.71}
-		{TexMod "9"}
 	}
 	{Entity "sandbag_curved" 0x6028
 		{Position -130.57 3515.35}
@@ -1143,24 +879,18 @@
 	{Entity "euro_log_trench_dirt_turn3" 0x602c
 		{Position 303.6 3447.39 207.69}
 		{xform zl 179.42}
-		{TexMod "9"}
 	}
 	{Entity "euro_log_trench_dirt_turn3" 0x602d
 		{Position -287.16 3446.39 205.24}
 		{xform zl 89.78}
-		{TexMod "9"}
 	}
 	{Entity "euro_log_trench_dirt_exit" 0x602e
 		{Position 304.3 3529.59 201.06}
 		{xform zl 3.66}
-		{TexMod "9"}
 	}
 	{Entity "clay_road_03" 0x202f
 		{Position 654.56 1898.6}
 		{xform zl -124.93}
-		{TexMod
-			{"/entity/landscape/stamp/road/road_sand5w1" "1"}
-		}
 		{DecalOrder 10}
 	}
 	{Entity "tent2" 0x18b
@@ -1170,12 +900,10 @@
 	{Entity "euro_log_trench_dirt_emplacement2_at" 0x183
 		{Position -547 3946.07 175.19}
 		{xform zl 179.84}
-		{TexMod "4"}
 	}
 	{Entity "euro_log_trench_dirt_emplacement2" 0x184
 		{Position -546.9 3947.16 184.94}
 		{xform zl 179.49}
-		{TexMod "4"}
 	}
 	{Entity "tent1" 0x18c
 		{Position -546.93 3943.19 187.04}
@@ -1184,7 +912,6 @@
 	{Entity "clay_road_crossroad" 0x17d
 		{Position -524.82 3944.17}
 		{xform zl -138.34}
-		{TexMod "1"}
 	}
 	{Entity "pine1" 0x1
 		{Position -1186.8 -196.01}
@@ -2606,170 +2333,141 @@
 		{Position -1127.96 -5967.8}
 		{xform zl -146.68}
 		{Constrain surface}
-		{TexMod "1"}
 	}
 	{Entity "clay_road_02" 0x2000
 		{Position -838.19 -6303.95}
 		{xform zl 134.58 y 5.51 zw -102.22}
 		{Constrain surface}
-		{TexMod "1"}
 	}
 	{Entity "clay_road_02" 0x2001
 		{Position -482.06 -6387.46}
 		{xform zl -7.5 y 4.35 zw -148.46}
 		{Constrain surface}
-		{TexMod "1"}
 	}
 	{Entity "clay_road_02" 0x2002
 		{Position -256.58 -6741.11}
 		{xform zl 24.55}
-		{TexMod "1"}
 	}
 	{Entity "clay_road_02" 0x2003
 		{Position -1097.07 -4497.39}
 		{xform zl 168.93}
-		{TexMod "1"}
 	}
 	{Entity "clay_road_02" 0x2004
 		{Position -2118.37 -5569.52}
 		{xform zl 130.84 y 5.71 zw -90}
 		{Constrain surface}
-		{TexMod "1"}
 	}
 	{Entity "clay_road_02" 0x2005
 		{Position -1753.82 -5599.54}
 		{xform zl -57.47 y 2.86 zw -90}
 		{Constrain surface}
-		{TexMod "1"}
 	}
 	{Entity "clay_road_02" 0x2006
 		{Position -1478.61 -5916.03}
 		{xform zl 33.04}
 		{Constrain surface}
-		{TexMod "1"}
 	}
 	{Entity "clay_road_02" 0x2007
 		{Position -1825.95 -3157.83}
 		{xform zl -172}
-		{TexMod "1"}
 		{DecalOrder 1}
 	}
 	{Entity "clay_road_02" 0x2008
 		{Position -1707.79 -3585.62}
 		{xform zl 7.17}
-		{TexMod "1"}
 		{DecalOrder 1}
 	}
 	{Entity "clay_road_02" 0x2009
 		{Position -1421.59 -3813.41}
 		{xform zl 178.75}
-		{TexMod "1"}
 	}
 	{Entity "clay_road_02" 0x200a
 		{Position -1369.03 -4229.52}
 		{xform zl -0.77}
-		{TexMod "1"}
 	}
 	{Entity "clay_road_02" 0x200b
 		{Position -2610.35 -2356.68}
 		{xform zl -40.13 y 12.61 zw -79.24}
 		{Constrain surface}
-		{TexMod "1"}
 	}
 	{Entity "clay_road_02" 0x200c
 		{Position -2971.33 -2521.45}
 		{xform zl 64.31}
-		{TexMod "1"}
 	}
 	{Entity "clay_road_02" 0x200d
 		{Position -2238.16 -2542.84}
 		{xform zl 33.62 y 2.99 zw 150.26}
 		{Constrain surface}
-		{TexMod "1"}
 	}
 	{Entity "clay_road_02" 0x200e
 		{Position -2139.44 -2948.37}
 		{xform zl 163.21 y 6.11 zw -158.98}
 		{Constrain surface}
-		{TexMod "1"}
 	}
 	{Entity "clay_road_02" 0x2013
 		{Position -3763.27 -1262.27}
 		{xform zl -172.36}
 		{Constrain surface}
-		{TexMod "1"}
 	}
 	{Entity "clay_road_02" 0x2034
 		{Position -3647.83 -1690.79}
 		{xform zl 6.81}
 		{Constrain surface}
-		{TexMod "1"}
 	}
 	{Entity "clay_road_02" 0x2035
 		{Position -3363.07 -1920.4}
 		{xform zl -8.93 y 12.13 zw -172.88}
 		{Constrain surface}
-		{TexMod "1"}
 	}
 	{Entity "clay_road_02" 0x2036
 		{Position -3313.16 -2336.83}
 		{xform zl -114.57 y 1.44 zw 113.44}
 		{Constrain surface}
-		{TexMod "1"}
 	}
 	{Entity "clay_road_02" 0x2037
 		{Position -4874.7 -1344.74}
 		{xform zl -98.07}
-		{TexMod "1"}
 	}
 	{Entity "clay_road_02" 0x2038
 		{Position -4430.93 -1349.6}
 		{xform zl 77.21 y 5.72 zw 3.95}
 		{Constrain surface}
-		{TexMod "1"}
 	}
 	{Entity "clay_road_02" 0x2039
 		{Position -4132.82 -1137.62}
 		{xform zl -107.32}
-		{TexMod "1"}
 	}
 	{Entity "clay_road_02" 0x203a
 		{Position -5147.15 -1582.41}
 		{xform zl 79.02}
-		{TexMod "1"}
 	}
 	{Entity "clay_road_02" 0x203b
 		{Position -1177.38 -4891.24}
 		{xform zl 17 y 1.89 zw 90}
 		{Constrain surface}
-		{TexMod "1"}
 		{DecalOrder 1}
 	}
 	{Entity "clay_road_02" 0x203c
 		{Position -1567.74 -5015.66}
 		{xform zl 14.73 y 1.75 zw 31.1}
 		{Constrain surface}
-		{TexMod "1"}
 	}
 	{Entity "clay_road_02" 0x203d
 		{Position -2308.87 -4892.65}
 		{xform zl 133.73 y 3.05 zw 153.12}
 		{Constrain surface}
-		{TexMod "1"}
 		{DecalOrder 1}
 	}
 	{Entity "clay_road_02" 0x203e
 		{Position -1918.3 -4768.88}
 		{xform zl 45.75 y 2.16 zw 180}
 		{Constrain surface}
-		{TexMod "1"}
 		{DecalOrder 1}
 	}
 	{Entity "clay_road_02" 0x203f
 		{Position -2389.84 -5286.37}
 		{xform zl 78.84 y 1.02 zw -90}
 		{Constrain surface}
-		{TexMod "1"}
 		{DecalOrder 1}
 	}
 	{Entity "euro_hay_stack1" 0x43
@@ -20982,327 +20680,195 @@
 	{Entity "clay_road" 0x3001
 		{Position 594.73 -4642.11}
 		{xform zl 38.49}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 	}
 	{Entity "clay_road" 0x3002
 		{Position 798.9 -4834.87}
 		{xform zl -139.49}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 	}
 	{Entity "clay_road" 0x3003
 		{Position 968.73 -5052.55}
 		{xform zl -158.27}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 	}
 	{Entity "clay_road" 0x3004
 		{Position 1061.2 -5319.4}
 		{xform zl -175.45}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 	}
 	{Entity "clay_road" 0x3005
 		{Position 1087.54 -5660.03}
 		{xform zl -2.06}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 	}
 	{Entity "clay_road" 0x3006
 		{Position 1119.63 -5922.39}
 		{xform zl -178.06}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 	}
 	{Entity "clay_road" 0x3007
 		{Position 1196 -6178.94}
 		{xform zl 26.22}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 	}
 	{Entity "clay_road" 0x3008
 		{Position 1365.72 -6386.04}
 		{xform zl 43.06}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 	}
 	{Entity "clay_road" 0x7000
 		{Position -166.5 -4421.92}
 		{xform zl 65.33}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 	}
 	{Entity "clay_road" 0x7001
 		{Position 92.5 -4494.51}
 		{xform zl -112.88}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 	}
 	{Entity "clay_road" 0x7002
 		{Position 346.12 -4602.82}
 		{xform zl 59.69}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 	}
 	{Entity "clay_road" 0x7003
 		{Position 597.14 -4707.47}
 		{xform zl -119.12}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 	}
 	{Entity "clay_road" 0x7004
 		{Position 183.45 -4454.79}
 		{xform zl -69.14}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 	}
 	{Entity "clay_road" 0x7005
 		{Position 10.51 -4652.06}
 		{xform zl -27.31}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 		{DecalOrder 2}
 	}
 	{Entity "clay_road" 0x7006
 		{Position -29.11 -4923.11}
 		{xform zl -2.21}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 		{DecalOrder 2}
 	}
 	{Entity "clay_road" 0x7007
 		{Position -39.52 -4601.69}
 		{xform zl -2.21}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 		{DecalOrder 2}
 	}
 	{Entity "clay_road" 0x7008
 		{Position -29.29 -4370.06}
 		{xform zl -13.3}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 		{DecalOrder 2}
 	}
 	{Entity "clay_road" 0x7009
 		{Position 33.26 -5192.16}
 		{xform zl -167.58}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 		{DecalOrder 2}
 	}
 	{Entity "clay_road" 0x700a
 		{Position 121.5 -5448.24}
 		{xform zl 17.98}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 		{DecalOrder 2}
 	}
 	{Entity "clay_road" 0x700b
 		{Position 242.74 -5693.11}
 		{xform zl -161.57}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 		{DecalOrder 2}
 	}
 	{Entity "clay_road" 0x700c
 		{Position 310.91 -5952.19}
 		{xform zl 178.4}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 		{DecalOrder 2}
 	}
 	{Entity "clay_road" 0x700d
 		{Position 323.87 -6223.34}
 		{xform zl 0.99}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 		{DecalOrder 2}
 	}
 	{Entity "clay_road" 0x700e
 		{Position 397.47 -6478.47}
 		{xform zl -164.72}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 		{DecalOrder 2}
 	}
 	{Entity "clay_road" 0x700f
 		{Position 523.4 -6707}
 		{xform zl 33.46}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 		{DecalOrder 2}
 	}
 	{Entity "clay_road" 0x7010
 		{Position -600.43 -4576.49}
 		{xform zl 108}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 		{DecalOrder 2}
 	}
 	{Entity "clay_road" 0x7011
 		{Position -850.97 -4681.14}
 		{xform zl -69.38}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 		{DecalOrder 2}
 	}
 	{Entity "clay_road" 0x7012
 		{Position -1055.58 -4848.38}
 		{xform zl 129.69}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 	}
 	{Entity "clay_road" 0x7013
 		{Position -2587.23 -4135.53}
 		{xform zl -147.77}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 	}
 	{Entity "clay_road" 0x7014
 		{Position -2418.54 -4344.96}
 		{xform zl 37.15}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 		{DecalOrder 1}
 	}
 	{Entity "clay_road" 0x7015
 		{Position -2236 -4544.73}
 		{xform zl -149.27}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 	}
 	{Entity "clay_road" 0x7016
 		{Position -2089.12 -4700.81}
 		{xform zl 43.75}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 	}
 	{Entity "clay_road" 0x7017
 		{Position -2393.58 -3987.38}
 		{xform zl 168.33}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 	}
 	{Entity "clay_road" 0x7018
 		{Position -2403.66 -4252.19}
 		{xform zl -1.13}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 		{DecalOrder 1}
 	}
 	{Entity "clay_road" 0x7019
 		{Position -2049.46 -3847.83}
 		{xform zl -138.2}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 	}
 	{Entity "clay_road" 0x701a
 		{Position -1934.26 -4072.89}
 		{xform zl -177.16}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 	}
 	{Entity "clay_road" 0x701b
 		{Position -1955.62 -4339.78}
 		{xform zl 156.81}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 	}
 	{Entity "clay_road" 0x701c
 		{Position -2034.77 -4601.66}
 		{xform zl -14.69}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 	}
 	{Entity "clay_road" 0x701d
 		{Position -2897.37 -4309.56}
 		{xform zl -11.28}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 	}
 	{Entity "clay_road" 0x701e
 		{Position -2826.53 -4554.01}
 		{xform zl 32.33}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 	}
 	{Entity "clay_road" 0x701f
 		{Position -2632.52 -4748.15}
 		{xform zl -140.29}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 	}
 	{Entity "clay_road" 0x7020
 		{Position -2483.72 -4974.24}
 		{xform zl 106.07 y 5.71 zw 90}
 		{Constrain surface}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 	}
 	{Entity "clay_road" 0x7021
 		{Position -2449.31 -4844.56}
 		{xform zl -38.21 y 5.78 zw 104.86}
 		{Constrain surface}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 	}
 	{Entity "clay_road" 0x7022
 		{Position -2403.25 -4511.8}
 		{xform zl 170.28}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 	}
 	{Entity "clay_road" 0x7023
 		{Position -2400.85 -4742.55}
 		{xform zl 1.45}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 	}
 	{Entity "finland_grass_tall2" 0x7029
 		{Position -2153.72 -4570.56}
@@ -22431,7 +21997,6 @@
 	{Entity "ashtree1" 0x1170
 		{Position -3206.71 -2118.93}
 		{xform zl -32.75 scale 1.067}
-		{TexMod "spring1"}
 	}
 	{Entity "ashtree1" 0x1171
 		{Position -2801.4 -2315.19}
@@ -29810,199 +29375,118 @@
 	{Entity "clay_road" 0x171c
 		{Position 2352.59 -3978.43}
 		{xform zl 151.09}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 		{DecalOrder 1}
 	}
 	{Entity "clay_road" 0x171d
 		{Position 2578.32 -4077.7}
 		{xform zl 100.92}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 	}
 	{Entity "clay_road" 0x171e
 		{Position 2331.88 -4121.65}
 		{xform zl -88.94}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 		{DecalOrder 1}
 	}
 	{Entity "clay_road" 0x171f
 		{Position 2107.57 -4222.1}
 		{xform zl -52.69}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 	}
 	{Entity "clay_road" 0x1720
 		{Position 1950.39 -4430.55}
 		{xform zl 142}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 	}
 	{Entity "clay_road" 0x1721
 		{Position 1760.5 -4605.1}
 		{xform zl -69.23 y 5.71 zw -179.99}
 		{Constrain surface}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 	}
 	{Entity "clay_road" 0x1722
 		{Position 1508.53 -4727.83}
 		{xform zl -65.88}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 	}
 	{Entity "clay_road" 0x1723
 		{Position 1303.1 -4906.03}
 		{xform zl -43.57}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 	}
 	{Entity "clay_road" 0x1724
 		{Position 1182.14 -5148.18}
 		{xform zl 151.83}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 	}
 	{Entity "clay_road" 0x1725
 		{Position 1107.9 -5396.61}
 		{xform zl -16.84}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 	}
 	{Entity "clay_road" 0x1726
 		{Position 1185.54 -4877.22}
 		{xform zl 79.86}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 	}
 	{Entity "clay_road" 0x1727
 		{Position 915.74 -4838.45}
 		{xform zl 69.96}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 	}
 	{Entity "clay_road" 0x1728
 		{Position 2498.27 -3993.86}
 		{xform zl 42.81}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 		{DecalOrder 1}
 	}
 	{Entity "clay_road" 0x1729
 		{Position 2040.27 -3793.84}
 		{xform zl 112.26 y 3 zw 172.66}
 		{Constrain surface}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 	}
 	{Entity "clay_road" 0x172a
 		{Position 1851.87 -3967.12}
 		{xform zl -176.62 y 3.35 zw 146.09}
 		{Constrain surface}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 	}
 	{Entity "clay_road" 0x172b
 		{Position 1752.43 -4219.74}
 		{xform zl 151.1}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 	}
 	{Entity "clay_road" 0x172c
 		{Position 1649.55 -4438.23}
 		{xform zl 154.05 y 2.79 zw 173.15}
 		{Constrain surface}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 	}
 	{Entity "clay_road" 0x172d
 		{Position 1558.14 -4601.85}
 		{xform zl 149.02}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 	}
 	{Entity "clay_road" 0x172e
 		{Position 2925.47 -4312.32}
 		{xform zl -174.97}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 	}
 	{Entity "clay_road" 0x172f
 		{Position 2869.61 -4552.74}
 		{xform zl 138.63}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 	}
 	{Entity "clay_road" 0x1730
 		{Position 2659.29 -4683.48}
 		{xform zl 92.56}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 	}
 	{Entity "clay_road" 0x1731
 		{Position 2401.88 -4664.56}
 		{xform zl 68.42}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 	}
 	{Entity "clay_road" 0x1732
 		{Position 2150.92 -4581.74}
 		{xform zl -110.82}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 	}
 	{Entity "clay_road" 0x1733
 		{Position 1913.23 -4576.69}
 		{xform zl -84.26}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 	}
 	{Entity "clay_road" 0x1734
 		{Position 2072.06 -4450.04}
 		{xform zl 19.38}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 	}
 	{Entity "clay_road" 0x1735
 		{Position 2584.77 -4175.09}
 		{xform zl -126.64}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 		{DecalOrder 1}
 	}
 	{Entity "clay_road" 0x1736
 		{Position 2816 -4318.96}
 		{xform zl 56.39}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 		{DecalOrder 1}
 	}
 	{Entity "tent1" 0x1737
@@ -30024,68 +29508,50 @@
 	{Entity "clay_road_02" 0x1745
 		{Position 2758.59 -4672.62}
 		{xform zl 168.93}
-		{TexMod "1"}
 		{DecalOrder 1}
 	}
 	{Entity "clay_road_02" 0x1746
 		{Position 2725.48 -5106.02}
 		{xform zl -105.54 y 0.43 zw 90}
 		{Constrain surface}
-		{TexMod "1"}
 	}
 	{Entity "clay_road_02" 0x1747
 		{Position 2947.95 -5409.18}
 		{xform zl 165.9}
 		{Constrain surface}
-		{TexMod "1"}
 	}
 	{Entity "clay_road_02" 0x1748
 		{Position 2839.74 -5791.98}
 		{xform zl -75.18 y 0.6 zw 180}
 		{Constrain surface}
-		{TexMod "1"}
 	}
 	{Entity "clay_road_02" 0x1749
 		{Position 2423.22 -6382.47}
 		{xform zl -5.1}
 		{Constrain surface}
-		{TexMod "1"}
 	}
 	{Entity "clay_road_02" 0x174a
 		{Position 2470.24 -5987.46}
 		{xform zl 113.79 y 2.73 zw 180}
 		{Constrain surface}
-		{TexMod "1"}
 	}
 	{Entity "clay_road" 0x174b
 		{Position 2008.57 -4182.16}
 		{xform zl -152.5 y 3.49 zw 146.47}
 		{Constrain surface}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 	}
 	{Entity "clay_road" 0x174c
 		{Position 2042.07 -3908.47}
 		{xform zl -22.21}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 	}
 	{Entity "clay_road" 0x174d
 		{Position 1867.81 -4174.32}
 		{xform zl -70}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 	}
 	{Entity "clay_road" 0x174e
 		{Position 2151.11 -4115.94}
 		{xform zl 86.69}
 		{Constrain surface}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 	}
 	{Entity "barrel1" 0x174f
 		{Position 2175.21 -4334.23}
@@ -30139,77 +29605,63 @@
 	{Entity "tent1" 0x205e
 		{Position 2186.52 -4265.34}
 		{xform zl 58.21}
-		{TexMod "1"}
 	}
 	{Entity "tent1" 0x6043
 		{Position 2139.71 -4347.51}
 		{xform zl 58.59}
-		{TexMod "1"}
 	}
 	{Entity "tent1" 0x6045
 		{Position 2285.21 -4320.91}
 		{xform zl 62.18}
-		{TexMod "1"}
 	}
 	{Entity "tent1" 0x6046
 		{Position 2236.99 -4404.78}
 		{xform zl 62.18}
-		{TexMod "1"}
 	}
 	{Entity "tent1" 0x6047
 		{Position 2486.01 -4433.61}
 		{xform zl 62.18}
-		{TexMod "1"}
 	}
 	{Entity "tent1" 0x6048
 		{Position 2442.99 -4518.39}
 		{xform zl 62.18}
-		{TexMod "1"}
 	}
 	{Entity "tent1" 0x6049
 		{Position 2757.25 -4419.54}
 		{xform zl 147.12}
-		{TexMod "1"}
 	}
 	{Entity "tent1" 0x604a
 		{Position 2833.06 -4466.83}
 		{xform zl 147.12}
-		{TexMod "1"}
 	}
 	{Entity "clay_road_02" 0x604b
 		{Position 2623.01 -4511.1}
 		{xform zl -10.78}
-		{TexMod "1"}
 	}
 	{Entity "clay_road" 0x604c
 		{Position 2578.06 -4293.06}
 		{xform zl -126.72}
-		{TexMod "small"}
 		{DecalOrder 1}
 		{Color 0xffc8c8c8}
 	}
 	{Entity "clay_road" 0x604d
 		{Position 2165.31 -4320.89}
 		{xform zl 5.43}
-		{TexMod "small"}
 		{DecalOrder 2}
 		{Color 0xffc8c8c8}
 	}
 	{Entity "clay_road" 0x604e
 		{Position 2383.75 -4166.49}
 		{xform zl -67.72}
-		{TexMod "small"}
 		{Color 0xffc8c8c8}
 	}
 	{Entity "tent1" 0x604f
 		{Position 2190.17 -4483.7}
 		{xform zl 58.59}
-		{TexMod "1"}
 	}
 	{Entity "tent1" 0x6050
 		{Position 2095.58 -4421.86}
 		{xform zl 58.59}
-		{TexMod "1"}
 	}
 	{Entity "granite_rock" 0x1806
 		{Position 2071.1 -4666.92}
@@ -36648,7 +36100,6 @@
 	}
 	{Entity "euro_hay_stack1" 0x7072
 		{Position -916.5 -4603.98 2.91}
-		{TexMod "bgray"}
 	}
 	{Entity "crash_stone1" 0x7073
 		{Position -858.14 -4240.5}
@@ -37909,12 +37360,10 @@
 	{Entity "clay_road_02" 0x2289
 		{Position -1580.02 -3407.46}
 		{xform zl -72.93}
-		{TexMod "1"}
 	}
 	{Entity "clay_road_02" 0x228a
 		{Position -1584.15 -3333.45}
 		{xform zl 41.92}
-		{TexMod "1"}
 	}
 	{Entity "ashtree1" 0x228b
 		{Position -476.41 -3950.46}
@@ -39537,49 +38986,18 @@
 		{xform zl -33.57}
 	}
 	{Entity "c_house1_1" 0x1a9c
-		{TexMod
-			{"/texture/common/wall/wall_ru_141_2" "2"}
-			{"/texture/common/wall/interior_wall1" "sov2"}
-			{"/texture/common/decor/cut001_2" "2"}
-		}
 	}
 	{Entity "crash_wood1" 0x1a9d
-		{TexMod
-			{"/texture/common/wall/wall_ru_141_2" "2"}
-			{"/texture/common/wall/interior_wall1" "sov2"}
-			{"/texture/common/decor/cut001_2" "2"}
-		}
 	}
 	{Entity "crash_wood1" 0x1a9f
-		{TexMod
-			{"/texture/common/wall/wall_ru_141_2" "2"}
-			{"/texture/common/wall/interior_wall1" "sov2"}
-			{"/texture/common/decor/cut001_2" "2"}
-		}
 	}
 	{Entity "crash_wood1" 0x1aa0
-		{TexMod
-			{"/texture/common/wall/wall_ru_141_2" "2"}
-			{"/texture/common/wall/interior_wall1" "sov2"}
-			{"/texture/common/decor/cut001_2" "2"}
-		}
 	}
 	{Entity "crash_wood1" 0x1aa1
-		{TexMod
-			{"/texture/common/wall/wall_ru_141_2" "2"}
-			{"/texture/common/wall/interior_wall1" "sov2"}
-			{"/texture/common/decor/cut001_2" "2"}
-		}
 	}
 	{Entity "crash_wood1" 0x1ab3
 		{Position 4052.22 -1492.27 25.91}
 		{xform zl -4.81}
-		{Placer
-			{State "2" {Unlinked}}
-			{State "roof1" {Unlinked}}
-			{State "roof2" {Unlinked}}
-			{State "roof6" {Unlinked}}
-		}
 	}
 	{Entity "fence-wood_3" 0x230d
 		{Position 4209.44 -1396.93}
@@ -39867,37 +39285,22 @@
 	{Entity "clay_road" 0x609b
 		{Position 3685.22 -1372.48}
 		{xform zl 151.83}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 	}
 	{Entity "clay_road" 0x609c
 		{Position 3731.52 -1193.84}
 		{xform zl 170.88}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 	}
 	{Entity "clay_road" 0x609d
 		{Position 3977.62 -1355.34}
 		{xform zl -134.89}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 	}
 	{Entity "clay_road" 0x609e
 		{Position 3825.36 -1191.34}
 		{xform zl 33.2}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 	}
 	{Entity "clay_road" 0x609f
 		{Position 3842.75 -1343.88}
 		{xform zl -95.59}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 	}
 	{Entity "ashtree1" 0x60a0
 		{Position 3392.21 -1318.24}
@@ -39991,7 +39394,6 @@
 	{Entity "ashtree1" 0x60b9
 		{Position 4687.22 -1162.07}
 		{xform zl -24.85 scale 1.314}
-		{TexMod "spring1"}
 	}
 	{Entity "ashtree1" 0x60ba
 		{Position 4189.86 -1370.56}
@@ -40977,96 +40379,57 @@
 	{Entity "clay_road" 0x1b
 		{Position 1562.49 78.16}
 		{xform zl -138.17}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 	}
 	{Entity "clay_road" 0x1c
 		{Position 1757.09 -119.48}
 		{xform zl 41.19}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 	}
 	{Entity "clay_road" 0x1d
 		{Position 1957.34 -304.54}
 		{xform zl -143.01}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 	}
 	{Entity "clay_road" 0x21
 		{Position 2109.96 -523.32}
 		{xform zl -159.74}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 	}
 	{Entity "clay_road" 0x22
 		{Position 2220.16 -769.51}
 		{xform zl 21.35 y 5.71}
 		{Constrain surface}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 	}
 	{Entity "clay_road" 0x23
 		{Position 2395.69 -977.08}
 		{xform zl 81.76 y 5.13 zw -34.65}
 		{Constrain surface}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 	}
 	{Entity "clay_road" 0x24
 		{Position 2631.14 -1095.19}
 		{xform zl 113.94 y 8.05 zw -45}
 		{Constrain surface}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 	}
 	{Entity "clay_road" 0x25
 		{Position 2903.38 -1123.43 30.61}
 		{xform zl 88.97}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 	}
 	{Entity "clay_road" 0x26
 		{Position 3158.75 -1060.18}
 		{xform zl -75.47}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 	}
 	{Entity "clay_road" 0x27
 		{Position 3423.52 -1017.54}
 		{xform zl -97.79}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 	}
 	{Entity "clay_road" 0x28
 		{Position 2895.36 -1238.1}
 		{xform zl -148.71}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 	}
 	{Entity "clay_road" 0x29
 		{Position 3032.28 -1454.19}
 		{xform zl 25.09}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 	}
 	{Entity "clay_road" 0x2a
 		{Position 3013.48 -1227.01}
 		{xform zl -21.35}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 	}
 	{Entity "railroad5" 0x45d3
 		{Position -5074.41 1044.31 26.33}
@@ -41687,139 +41050,82 @@
 		{Position 2279.42 -1023.54}
 		{xform zl -145.24 y 7.67 zw -42.04}
 		{Constrain surface}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 	}
 	{Entity "clay_road" 0x1ed
 		{Position 2204.86 -1279.8}
 		{xform zl 143.67}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 	}
 	{Entity "clay_road" 0x1f3
 		{Position 2047.43 -1496.75}
 		{xform zl -43.12}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 	}
 	{Entity "clay_road" 0x1f4
 		{Position 1907.26 -1734.55}
 		{xform zl 142.45 y 0.51 zw 1.21}
 		{Constrain surface}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 	}
 	{Entity "clay_road" 0x1479
 		{Position 1758.63 -1954.37}
 		{xform zl 134.96 y 0.94 zw -174.5}
 		{Constrain surface}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 	}
 	{Entity "clay_road" 0x147a
 		{Position 1668.46 -2212.78}
 		{xform zl 75.79 y 4.72 zw -90}
 		{Constrain surface}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 	}
 	{Entity "clay_road" 0x147b
 		{Position 1640.13 -2490.57}
 		{xform zl -14.63 y 5.71 zw 180}
 		{Constrain surface}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 	}
 	{Entity "clay_road" 0x147c
 		{Position 1544.03 -2741.23}
 		{xform zl 140.89}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 	}
 	{Entity "clay_road" 0x19dc
 		{Position 1377.74 -2960.53}
 		{xform zl -41.46}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 	}
 	{Entity "clay_road" 0x19e0
 		{Position 1276.07 -3210.5}
 		{xform zl -14.54}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 	}
 	{Entity "clay_road" 0x19e1
 		{Position 1253.41 -3488.16}
 		{xform zl 167.99}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 	}
 	{Entity "clay_road" 0x19e2
 		{Position 1176.64 -3753.9}
 		{xform zl -26.96}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 	}
 	{Entity "clay_road" 0x19e3
 		{Position 1079.17 -4004.9}
 		{xform zl 148.94}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 	}
 	{Entity "clay_road" 0x19e4
 		{Position 924.83 -4228.2}
 		{xform zl 130.56}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 	}
 	{Entity "clay_road" 0x19e5
 		{Position 761.61 -4439.81}
 		{xform zl -33.76}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 	}
 	{Entity "clay_road" 0x19e6
 		{Position 579.29 -4608.58}
 		{xform zl 105.53}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 	}
 	{Entity "clay_road" 0x19e7
 		{Position 948.34 -4347.95}
 		{xform zl -10.89}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 	}
 	{Entity "clay_road" 0x19e8
 		{Position 1009.32 -4609.97}
 		{xform zl 26.23}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 	}
 	{Entity "clay_road" 0x19e9
 		{Position 1196.17 -4800.54}
 		{xform zl 54.73}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 	}
 	{Entity "finland_grass_tall2" 0x45fc
 		{Position 1714.26 -2397.75}
@@ -42307,85 +41613,71 @@
 		{Position 381.5 -2201.96}
 		{xform zl -1.54 y 3.45 zw 177.5}
 		{Constrain surface}
-		{TexMod "aut"}
 	}
 	{Entity "finland_grass_tall2" 0x466b
 		{Position 347.68 -2170.58}
 		{xform zl 38.35 y 7.62 zw 138.33}
 		{Constrain surface}
-		{TexMod "aut"}
 	}
 	{Entity "finland_grass_tall2" 0x466c
 		{Position 322.13 -2192.28}
 		{xform zl 36.31 y 3.17 zw 140.28}
 		{Constrain surface}
-		{TexMod "aut"}
 	}
 	{Entity "finland_grass_tall2" 0x466d
 		{Position 296.09 -2219.65}
 		{xform zl 112.62 y 1.7 zw 104.19}
 		{Constrain surface}
-		{TexMod "aut"}
 	}
 	{Entity "finland_grass_tall2" 0x466e
 		{Position 230.05 -2288.74}
 		{xform zl -51.55 y 4.72 zw -90}
 		{Constrain surface}
-		{TexMod "aut"}
 	}
 	{Entity "finland_grass_tall2" 0x466f
 		{Position 201.31 -2333.14}
 		{xform zl -53.17 y 9.83 zw -90}
 		{Constrain surface}
-		{TexMod "aut"}
 	}
 	{Entity "finland_grass_tall2" 0x4670
 		{Position 148.85 -2312.83}
 		{xform zl -9.07 y 6.65 zw -132.08}
 		{Constrain surface}
-		{TexMod "aut"}
 	}
 	{Entity "finland_grass_tall2" 0x4671
 		{Position 146.15 -2369.2}
 		{xform zl -86.14 y 12.43 zw -91.75}
 		{Constrain surface}
-		{TexMod "aut"}
 	}
 	{Entity "finland_grass_tall2" 0x4672
 		{Position 79.93 -2366.98}
 		{xform zl -63.99 y 9.28 zw -114.13}
 		{Constrain surface}
-		{TexMod "aut"}
 	}
 	{Entity "finland_grass_tall2" 0x4673
 		{Position 48.77 -2326.29}
 		{xform zl -47.56 y 8.4 zw -127.22}
 		{Constrain surface}
-		{TexMod "aut"}
 	}
 	{Entity "finland_grass_tall2" 0x4674
 		{Position 3.09 -2353.52}
 		{xform zl -60.07 y 12.48 zw -116.87}
 		{Constrain surface}
-		{TexMod "aut"}
 	}
 	{Entity "finland_grass_tall2" 0x4675
 		{Position -42.67 -2332.02}
 		{xform zl -60.36 y 11.03 zw -116.2}
 		{Constrain surface}
-		{TexMod "aut"}
 	}
 	{Entity "finland_grass_tall2" 0x4676
 		{Position 267.21 -2252.09}
 		{xform zl -40.21 y 4.87 zw -136.24}
 		{Constrain surface}
-		{TexMod "aut"}
 	}
 	{Entity "finland_grass_tall2" 0x4677
 		{Position 431.04 -2216.53}
 		{xform zl 24.22 y 3.36 zw 161.22}
 		{Constrain surface}
-		{TexMod "aut"}
 	}
 	{Entity "bush_euro_small1" 0x4678
 		{Position 12.37 -2342.56}
@@ -42789,42 +42081,34 @@
 	{Entity "crater_medium" 0x19fa
 		{Position 1535.05 -801.68 121.74}
 		{xform zl 89.26}
-		{TexMod "ground3"}
 	}
 	{Entity "crater_medium" 0x19fb
 		{Position 1333.29 -1077.49 113.74}
 		{xform zl -2.77}
-		{TexMod "ground3"}
 	}
 	{Entity "crater_medium" 0x19fc
 		{Position 1065.83 -1033.53 133.33}
 		{xform zl -176.92}
-		{TexMod "ground3"}
 	}
 	{Entity "crater_medium" 0x19fd
 		{Position 961.13 -420.58 185.96}
 		{xform zl -176.1}
-		{TexMod "ground3"}
 	}
 	{Entity "crater_medium" 0x1a85
 		{Position 1582.95 -1133.46 103}
 		{xform zl 48.68}
-		{TexMod "ground3"}
 	}
 	{Entity "crater_medium" 0x1a86
 		{Position 1836.44 -1321.25 87.63}
 		{xform zl 20.89}
-		{TexMod "ground3"}
 	}
 	{Entity "crater_medium" 0x1a87
 		{Position 1235.78 -1335.25 103.04}
 		{xform zl 38.28}
-		{TexMod "ground3"}
 	}
 	{Entity "crater_medium" 0x1a88
 		{Position 1187.44 -1597.41 59.99}
 		{xform zl -45.11}
-		{TexMod "ground3"}
 	}
 	{Entity "railroad5a1_broken" 0x1a89
 		{Position 1142.98 -1595.16 60.88}
@@ -42845,82 +42129,66 @@
 	{Entity "pine1" 0x60e2
 		{Position 1030.26 -708.09}
 		{xform zl 168.69 y 20.4 zw 160.48}
-		{TexMod "burned"}
 	}
 	{Entity "pine1" 0x60e3
 		{Position 1178.41 -581.18}
 		{xform zl -171.19 y 8.76 zw 70.09}
-		{TexMod "burned"}
 	}
 	{Entity "pine1" 0x60e4
 		{Position 1062.63 -574.12}
 		{xform zl 168.69 y 20.4 zw 122.87 scale 1.227}
-		{TexMod "bare"}
 	}
 	{Entity "pine1" 0x60e5
 		{Position 1152.42 -851.77}
 		{xform zl 168.69 y 20.4 zw -93.22 scale 0.763}
-		{TexMod "burned"}
 	}
 	{Entity "pine1" 0x60e6
 		{Position 1494.11 -1185.66}
 		{xform zl -86.83 y 4.49 zw 94.21 scale 0.85}
-		{TexMod "burned"}
 	}
 	{Entity "pine1" 0x60e7
 		{Position 1243.51 -1207.02}
 		{xform zl -65.37}
-		{TexMod "bare"}
 	}
 	{Entity "pine1" 0x60e8
 		{Position 1709.39 -1420.28}
 		{xform zl 18.94}
-		{TexMod "burned"}
 	}
 	{Entity "pine1" 0x60e9
 		{Position 1915.48 -1291.27}
 		{xform zl -105.04 y 21.41 zw 39.67}
-		{TexMod "burned"}
 	}
 	{Entity "pine1" 0x60ea
 		{Position 1721.11 -1032.51}
 		{xform zl -62.77 scale 1.207}
-		{TexMod "burned"}
 	}
 	{Entity "pine1" 0x60eb
 		{Position 1452.88 -711.81}
 		{xform zl -109.43 scale 0.827}
-		{TexMod "burned"}
 	}
 	{Entity "pine1" 0x60ec
 		{Position 1396.94 -774.58}
 		{xform zl -23.26 scale 1.123}
-		{TexMod "burned"}
 	}
 	{Entity "pine1" 0x60ed
 		{Position 1448.48 -952.99}
 		{xform zl 140.96 y 9.3 zw -146.81 scale 0.997}
-		{TexMod "burned"}
 	}
 	{Entity "pine1" 0x60ee
 		{Position 963.75 -1051.35}
 		{xform zl 173.82}
-		{TexMod "burned"}
 	}
 	{Entity "pine1" 0x60ef
 		{Position 1123.99 -1378.56}
 		{xform zl 176.79 y 8.02 zw -174.6}
-		{TexMod "burned"}
 	}
 	{Entity "pine1" 0x60f0
 		{Position 1379.48 -1372.14}
 		{xform zl -33.38 scale 0.757}
-		{TexMod "burned"}
 	}
 	{Entity "pine1" 0x60f1
 		{Position 1513.91 -1418.65}
 		{xform zl -166.42 scale 1.19}
-		{TexMod "bare"}
 	}
 	{Entity "pine1" 0x60f2
 		{Position 998.87 -1228.17}
@@ -42933,12 +42201,10 @@
 	{Entity "pine1" 0x60f4
 		{Position 1289.58 -474.74}
 		{xform zl -36.08 scale 1.034}
-		{TexMod "bare"}
 	}
 	{Entity "pine1" 0x60f5
 		{Position 1450.9 -518.16}
 		{xform zl 25.66 scale 1.034}
-		{TexMod "burned"}
 	}
 	{Entity "pine1" 0x60f6
 		{Position 1792.11 -580.9}
@@ -42951,7 +42217,6 @@
 	{Entity "pine1" 0x60f8
 		{Position 1609.45 -1321.75}
 		{xform zl 45.59 scale 0.901}
-		{TexMod "bare"}
 	}
 	{Entity "pine1" 0x60f9
 		{Position 858.63 -694.23}
@@ -42960,17 +42225,14 @@
 	{Entity "pine1" 0x60fa
 		{Position 961.69 -59.38}
 		{xform zl 25.38 scale 1.034}
-		{TexMod "burned"}
 	}
 	{Entity "pine1" 0x60fb
 		{Position 1255.94 142.56}
 		{xform zl -97.44 scale 1.287}
-		{TexMod "burned"}
 	}
 	{Entity "pine1" 0x60fc
 		{Position 1143.25 -126.43}
 		{xform zl 49.08 scale 1.034}
-		{TexMod "bare"}
 	}
 	{Entity "fence-wood_3" 0x60fd
 		{Position 1611.86 -846.44 115.44}
@@ -43713,7 +42975,6 @@
 	{Entity "ashtree1" 0x1af6
 		{Position 2846 -2013.19}
 		{xform zl -60.01 scale 0.81}
-		{TexMod "3"}
 	}
 	{Entity "finland_grass_tall2" 0x1b00
 		{Position -1747.81 -1070.58}
@@ -43935,19 +43196,16 @@
 		{Position -3677.4 -116.85}
 		{xform zl -35.22 y 5.2 zw -154.16}
 		{Constrain surface}
-		{TexMod "1"}
 	}
 	{Entity "clay_road_03" 0x1b37
 		{Position -3782.47 -1137.01}
 		{xform zl -5.26}
-		{TexMod "pebble"}
 		{DecalOrder 1}
 		{Color 0xffd5afa0}
 	}
 	{Entity "clay_road_03" 0x1b38
 		{Position -3682.31 -822.94}
 		{xform zl 169.75}
-		{TexMod "pebble"}
 		{DecalOrder 1}
 		{Color 0xffd5afa0}
 	}
@@ -43955,7 +43213,6 @@
 		{Position -3745.86 -450.41}
 		{xform zl 71.27 y 2.36 zw -90}
 		{Constrain surface}
-		{TexMod "pebble"}
 		{DecalOrder 1}
 		{Color 0xffd5afa0}
 	}
@@ -43963,55 +43220,47 @@
 		{Position -3917.52 159.74}
 		{xform zl 83.95 y 3.77 zw -90}
 		{Constrain surface}
-		{TexMod "1"}
 	}
 	{Entity "clay_road_03" 0x1b3b
 		{Position -3973.99 544.85}
 		{xform zl -18.74 y 0.31}
 		{Constrain surface}
-		{TexMod "pebble"}
 		{DecalOrder 1}
 		{Color 0xffd5afa0}
 	}
 	{Entity "clay_road_03" 0x1b3c
 		{Position -3814.25 840.08}
 		{xform zl 160.8}
-		{TexMod "pebble"}
 		{DecalOrder 1}
 		{Color 0xffd5afa0}
 	}
 	{Entity "clay_road_03" 0x1b3d
 		{Position -3863.82 1201.02}
 		{xform zl -18.68}
-		{TexMod "pebble"}
 		{DecalOrder 1}
 		{Color 0xffd5afa0}
 	}
 	{Entity "clay_road_03" 0x1b3e
 		{Position -3717.83 1466.43}
 		{xform zl 160.8}
-		{TexMod "pebble"}
 		{DecalOrder 1}
 		{Color 0xffd5afa0}
 	}
 	{Entity "clay_road_03" 0x1b3f
 		{Position -3767.4 1827.37}
 		{xform zl -18.68}
-		{TexMod "pebble"}
 		{DecalOrder 1}
 		{Color 0xffd5afa0}
 	}
 	{Entity "clay_road_03" 0x1b40
 		{Position -3617.03 2095.49}
 		{xform zl 160.8}
-		{TexMod "pebble"}
 		{DecalOrder 1}
 		{Color 0xffd5afa0}
 	}
 	{Entity "clay_road_03" 0x1b41
 		{Position -3666.6 2456.43}
 		{xform zl -18.68}
-		{TexMod "pebble"}
 		{DecalOrder 1}
 		{Color 0xffd5afa0}
 	}
@@ -44019,72 +43268,61 @@
 		{Position -3607.64 2793.57}
 		{xform zl 172.6 y 1.78}
 		{Constrain surface}
-		{TexMod "1"}
 	}
 	{Entity "clay_road_02" 0x1b43
 		{Position -3867.51 3010.41}
 		{xform zl 3.94}
 		{Constrain surface}
-		{TexMod "1"}
 	}
 	{Entity "clay_road_02" 0x1b44
 		{Position -3964.39 3445.46}
 		{xform zl 7.06 y 5.83 zw 179.99}
 		{Constrain surface}
-		{TexMod "1"}
 		{DecalOrder 1}
 	}
 	{Entity "clay_road_02" 0x1b45
 		{Position -4267.24 3596.56}
 		{xform zl -17.74 y 11.04 zw 33.73}
 		{Constrain surface}
-		{TexMod "1"}
 		{DecalOrder 1}
 	}
 	{Entity "clay_road_02" 0x1b46
 		{Position -4453.34 3952.24}
 		{xform zl -87.32 y 1.94 zw -73.14}
 		{Constrain surface}
-		{TexMod "1"}
 	}
 	{Entity "clay_road_02" 0x1b47
 		{Position -4807.12 4019.23}
 		{xform zl 41.29 y 4.47 zw -146.15}
 		{Constrain surface}
-		{TexMod "1"}
 	}
 	{Entity "clay_road_02" 0x1b48
 		{Position -5103.54 3847.42}
 		{xform zl 19.07 y 2.43 zw 49.54}
 		{Constrain surface}
-		{TexMod "1"}
 	}
 	{Entity "clay_road_03" 0x1b49
 		{Position -3538.34 2835.28}
 		{xform zl 53.48 y 11.21 zw -89.99}
 		{Constrain surface}
-		{TexMod "pebble"}
 		{DecalOrder 1}
 		{Color 0xffd5afa0}
 	}
 	{Entity "clay_road_03" 0x1b4a
 		{Position -3302.77 3115.27}
 		{xform zl -56.62}
-		{TexMod "pebble"}
 		{DecalOrder 1}
 		{Color 0xffd5afa0}
 	}
 	{Entity "clay_road_03" 0x1b4b
 		{Position -2993.65 3311}
 		{xform zl -73.28}
-		{TexMod "pebble"}
 		{DecalOrder 1}
 		{Color 0xffd5afa0}
 	}
 	{Entity "clay_road_03" 0x1b4c
 		{Position -2658.84 3327.09}
 		{xform zl 99.43}
-		{TexMod "pebble"}
 		{DecalOrder 1}
 		{Color 0xffd5afa0}
 	}
@@ -44092,7 +43330,6 @@
 		{Position -2365.36 3576.11}
 		{xform zl 86.99 y 8.54 zw -158.7}
 		{Constrain surface}
-		{TexMod "pebble"}
 		{DecalOrder 1}
 		{Color 0xffd5afa0}
 	}
@@ -44100,72 +43337,61 @@
 		{Position -2032.24 3634.66}
 		{xform zl -44.63 y 9.06 zw 155.19}
 		{Constrain surface}
-		{TexMod "pebble"}
 		{DecalOrder 1}
 		{Color 0xffd5afa0}
 	}
 	{Entity "clay_road_03" 0x1b4f
 		{Position -1794.59 3937.42}
 		{xform zl -60.13}
-		{TexMod "pebble"}
 		{DecalOrder 1}
 		{Color 0xffd5afa0}
 	}
 	{Entity "clay_road_02" 0x1b50
 		{Position -1214.24 4239.97}
 		{xform zl 115.09}
-		{TexMod "1"}
 	}
 	{Entity "clay_road_03" 0x1b51
 		{Position -1491.46 4018.21}
 		{xform zl 107.84}
-		{TexMod "pebble"}
 		{DecalOrder 1}
 		{Color 0xffd5afa0}
 	}
 	{Entity "clay_road_02" 0x1b52
 		{Position -1135.38 4579.09}
 		{xform zl -61.19}
-		{TexMod "1"}
 		{DecalOrder 1}
 	}
 	{Entity "clay_road_03" 0x1b53
 		{Position -537.34 4928.08}
 		{xform zl 121.21}
-		{TexMod "pebble"}
 		{DecalOrder 1}
 		{Color 0xffd5afa0}
 	}
 	{Entity "clay_road_03" 0x1b54
 		{Position -810.39 4743.26}
 		{xform zl 110.67}
-		{TexMod "pebble"}
 		{DecalOrder 1}
 		{Color 0xffd5afa0}
 	}
 	{Entity "clay_road_03" 0x1b55
 		{Position -288.98 5161.63}
 		{xform zl 131.59}
-		{TexMod "pebble"}
 		{DecalOrder 1}
 		{Color 0xffd5afa0}
 	}
 	{Entity "clay_road_03" 0x1b56
 		{Position -95.34 5399.5}
 		{xform zl 138.17}
-		{TexMod "pebble"}
 		{Color 0xffd5afa0}
 	}
 	{Entity "clay_road_02" 0x1b57
 		{Position -3765.69 3203.06}
 		{xform zl -54.07 y 5.71 zw 90}
 		{Constrain surface}
-		{TexMod "1"}
 	}
 	{Entity "clay_road_03" 0x1b59
 		{Position -3397.06 3153.05}
 		{xform zl 84.94}
-		{TexMod "pebble"}
 		{Color 0xffd5afa0}
 	}
 	{Entity "railroad5" 0x46c0
@@ -45887,17 +45113,14 @@
 	{Entity "crater_medium" 0x1c24
 		{Position 1121.96 197.95 272.21}
 		{xform zl 10.56}
-		{TexMod "ground3"}
 	}
 	{Entity "crater_medium" 0x1c25
 		{Position 1242 -55.04 240.86}
 		{xform zl -155.81}
-		{TexMod "ground3"}
 	}
 	{Entity "crater_medium" 0x1c26
 		{Position 1010.42 -219 231.56}
 		{xform zl -40.22}
-		{TexMod "ground3"}
 	}
 	{Entity "crash_stone1" 0x1c27
 		{Position 2094.88 643.74}
@@ -45923,103 +45146,61 @@
 	{Entity "clay_road" 0x1c2c
 		{Position 1361.13 214.24}
 		{xform zl 57.83}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 		{DecalOrder 1}
 	}
 	{Entity "clay_road" 0x1c2d
 		{Position 1153.68 388.08}
 		{xform zl 32.19}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 		{DecalOrder 1}
 	}
 	{Entity "clay_road" 0x1c2e
 		{Position 1050.68 636.25}
 		{xform zl 2.88}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 	}
 	{Entity "clay_road" 0x1c2f
 		{Position 1018.13 908.03}
 		{xform zl -174.44}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 	}
 	{Entity "clay_road" 0x1c30
 		{Position 1387.49 992.27}
 		{xform zl -139.11}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 	}
 	{Entity "clay_road" 0x1c31
 		{Position 1172.19 1094.31}
 		{xform zl -103.94}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 	}
 	{Entity "clay_road" 0x1c32
 		{Position 1533.5 1175.53}
 		{xform zl -80.97}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 	}
 	{Entity "clay_road" 0x1c33
 		{Position 1275.31 1121.04}
 		{xform zl 90.27}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 	}
 	{Entity "clay_road" 0x1c34
 		{Position 1656.14 1519.18}
 		{xform zl -132.65}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 	}
 	{Entity "clay_road" 0x1c35
 		{Position 1411.53 1651}
 		{xform zl -175.37 y 12.84 zw 63.97}
 		{Constrain surface}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 	}
 	{Entity "clay_road" 0x1c36
 		{Position 1146.1 1689.78}
 		{xform zl 79.12}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 	}
 	{Entity "clay_road" 0x1c37
 		{Position 1178.36 730.15}
 		{xform zl 70.47}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 	}
 	{Entity "clay_road" 0x1c38
 		{Position 1157.11 580.81}
 		{xform zl -34.47}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 	}
 	{Entity "clay_road" 0x1c39
 		{Position 1511.23 1056.9}
 		{xform zl -27.99}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 	}
 	{Entity "crash_wood1" 0x1c5d
 		{Position 1234.91 2547.77 140.67}
@@ -46048,41 +45229,26 @@
 	{Entity "clay_road_03_spring" 0x1c9d
 		{Position 1342.42 2572.49 131.15}
 		{xform zl -150.92}
-		{TexMod
-			{"/entity/landscape/stamp/ground/ground_clay5" "dark"}
-		}
 	}
 	{Entity "clay_road_03_spring" 0x1c9f
 		{Position 1652 2802.51}
 		{xform zl -98.03 y 12.6 zw -26.56}
 		{Constrain surface}
-		{TexMod
-			{"/entity/landscape/stamp/ground/ground_clay5" "dark"}
-		}
 	}
 	{Entity "clay_road_03_spring" 0x1ca0
 		{Position 1748.89 3008.24}
 		{xform zl -103.01 y 15.94 zw -2.3}
 		{Constrain surface}
-		{TexMod
-			{"/entity/landscape/stamp/ground/ground_clay5" "dark"}
-		}
 	}
 	{Entity "clay_road_03_spring" 0x1ca1
 		{Position 1868.05 3191.29}
 		{xform zl -115.49 y 12.6 zw -26.57}
 		{Constrain surface}
-		{TexMod
-			{"/entity/landscape/stamp/ground/ground_clay5" "dark"}
-		}
 	}
 	{Entity "clay_road_03_spring" 0x1ca5
 		{Position 2538.9 3535.71}
 		{xform zl -136.86 y 3.76 zw -1.74}
 		{Constrain surface}
-		{TexMod
-			{"/entity/landscape/stamp/ground/ground_clay5" "dark"}
-		}
 	}
 	{Entity "landscape_rock_03" 0x1caa
 		{Position 1213.23 2320.22}
@@ -46865,9 +46031,6 @@
 	{Entity "clay_road_03_spring" 0x1c9e
 		{Position 1491.08 2651.47 135.97}
 		{xform zl -150.92}
-		{TexMod
-			{"/entity/landscape/stamp/ground/ground_clay5" "dark"}
-		}
 	}
 	{Entity "landscape_rock_03" 0x1ca8
 		{Position 1191.21 2394.93}
@@ -46965,9 +46128,6 @@
 		{Position 1207.63 2498.82}
 		{xform zl -114.33 y 8.05 zw -45.01}
 		{Constrain surface}
-		{TexMod
-			{"/entity/landscape/stamp/ground/ground_clay5" "dark"}
-		}
 	}
 	{Entity "finland_grass_tall2" 0x476e
 		{Position 1179.24 2508.6}
@@ -46998,82 +46158,53 @@
 		{Position 2366.82 3247.1}
 		{xform zl -63.18 y 13.09 zw 82.78}
 		{Constrain surface}
-		{TexMod
-			{"/entity/landscape/stamp/ground/ground_clay5" "dark"}
-		}
 	}
 	{Entity "clay_road_03_spring" 0x1cb6
 		{Position 2200.7 3181.06}
 		{xform zl -68.15 y 5.78 zw 88.25}
 		{Constrain surface}
-		{TexMod
-			{"/entity/landscape/stamp/ground/ground_clay5" "dark"}
-		}
 	}
 	{Entity "clay_road_03_spring" 0x1cb7
 		{Position 1990.4 3070.43}
 		{xform zl -48.23 y 11.29 zw 90.06}
 		{Constrain surface}
-		{TexMod
-			{"/entity/landscape/stamp/ground/ground_clay5" "dark"}
-		}
 	}
 	{Entity "clay_road_03_spring" 0x1cb8
 		{Position 1890.91 2877.97}
 		{xform zl -68.96 y 10.42 zw 147.07}
 		{Constrain surface}
-		{TexMod
-			{"/entity/landscape/stamp/ground/ground_clay5" "dark"}
-		}
 	}
 	{Entity "clay_road_03_spring" 0x1cb9
 		{Position 1790.79 2652.05 141.64}
 		{xform zl 49.99}
-		{TexMod
-			{"/entity/landscape/stamp/ground/ground_clay5" "dark"}
-		}
 	}
 	{Entity "clay_road_03_spring" 0x1cba
 		{Position 1621.64 2500.41 139.02}
 		{xform zl 33.87}
-		{TexMod
-			{"/entity/landscape/stamp/ground/ground_clay5" "dark"}
-		}
 	}
 	{Entity "clay_road_03_spring" 0x1cbb
 		{Position 1427.3 2380.59 137.55}
 		{xform zl 29.9}
-		{TexMod
-			{"/entity/landscape/stamp/ground/ground_clay5" "dark"}
-		}
 	}
 	{Entity "clay_road_03_spring" 0x1cbc
 		{Position 2544.52 3369.97}
 		{xform zl -40.25 y 5.71 zw 90}
 		{Constrain surface}
-		{TexMod
-			{"/entity/landscape/stamp/ground/ground_clay5" "dark"}
-		}
 	}
 	{Entity "clay_road_03_spring" 0x1cbd
 		{Position 2619.38 3507.87}
 		{xform zl 39.33 y 3.07 zw 33.53}
 		{Constrain surface}
-		{TexMod
-			{"/entity/landscape/stamp/ground/ground_clay5" "dark"}
-		}
 	}
 	{Entity "clay_road_02" 0x1cbe
 		{Position 2706.81 3736.43}
 		{xform zl 110.24}
-		{TexMod "1"}
 		{DecalOrder 2}
 	}
 	{Entity "clay_road_03" 0x1cbf
 		{Position 2791.5 4090.98}
 		{xform zl -34.97 y 2.27}
 		{Constrain surface}
-		{TexMod "pebble"}
 		{DecalOrder 1}
 		{Color 0xffd5afa0}
 	}
@@ -47081,14 +46212,12 @@
 		{Position 3040.5 4371.78}
 		{xform zl 65.49 y 6.22 zw 66.62}
 		{Constrain surface}
-		{TexMod "1"}
 		{DecalOrder 2}
 	}
 	{Entity "clay_road_03" 0x1cc1
 		{Position 3049.54 4702.69}
 		{xform zl -21.97 y 9.09 zw -154.83}
 		{Constrain surface}
-		{TexMod "pebble"}
 		{DecalOrder 1}
 		{Color 0xffd5afa0}
 	}
@@ -47096,7 +46225,6 @@
 		{Position 2827.88 5027.82}
 		{xform zl 15.49 y 5.71}
 		{Constrain surface}
-		{TexMod "pebble"}
 		{DecalOrder 1}
 		{Color 0xffd5afa0}
 	}
@@ -47104,7 +46232,6 @@
 		{Position 2762.59 5370.9}
 		{xform zl -5.3 y 5.78}
 		{Constrain surface}
-		{TexMod "pebble"}
 		{DecalOrder 1}
 		{Color 0xffd5afa0}
 	}
@@ -47112,14 +46239,12 @@
 		{Position 2802.04 5727.88}
 		{xform zl -76.26 y 4.86 zw 52.86}
 		{Constrain surface}
-		{TexMod "pebble"}
 		{DecalOrder 1}
 		{Color 0xffd5afa0}
 	}
 	{Entity "clay_road_03" 0x1cc7
 		{Position 2356.64 3598.95}
 		{xform zl -70.44}
-		{TexMod "pebble"}
 		{DecalOrder 1}
 		{Color 0xffd5afa0}
 	}
@@ -47127,51 +46252,43 @@
 		{Position 2054.99 3363.47}
 		{xform zl 31.26 y 0.69 zw 66.15}
 		{Constrain surface}
-		{TexMod "pebble"}
 		{DecalOrder 1}
 		{Color 0xffd5afa0}
 	}
 	{Entity "clay_road_02" 0x1cc9
 		{Position 1682.15 3315.21}
 		{xform zl -84}
-		{TexMod "1"}
 		{DecalOrder 2}
 	}
 	{Entity "clay_road_02" 0x1cca
 		{Position 1306.45 2712.76}
 		{xform zl 89.67}
-		{TexMod "1"}
 		{DecalOrder 2}
 	}
 	{Entity "clay_road_03" 0x1ccb
 		{Position 1533.74 2968.31}
 		{xform zl 144.53}
-		{TexMod "pebble"}
 		{DecalOrder 1}
 		{Color 0xffd5afa0}
 	}
 	{Entity "clay_road_03" 0x1ccc
 		{Position 907.04 1948.91}
 		{xform zl -167.45}
-		{TexMod "pebble"}
 		{Color 0xffd5afa0}
 	}
 	{Entity "clay_road_02" 0x1ccd
 		{Position 898.36 2645.59}
 		{xform zl -91.61}
-		{TexMod "1"}
 		{DecalOrder 2}
 	}
 	{Entity "clay_road_02" 0x1cce
 		{Position 704.08 2288.91}
 		{xform zl -23.9}
-		{TexMod "1"}
 		{DecalOrder 2}
 	}
 	{Entity "clay_road_03" 0x47fa
 		{Position 934.25 1868.7}
 		{xform zl -167.45}
-		{TexMod "pebble"}
 		{Color 0xffd5afa0}
 	}
 	{Entity "waterpool" 0x47fd
@@ -47196,17 +46313,11 @@
 		{Position 2110.25 3336.08}
 		{xform zl -163.09 y 2.73}
 		{Constrain surface}
-		{TexMod
-			{"/entity/landscape/stamp/ground/ground_clay5" "dark"}
-		}
 	}
 	{Entity "clay_road_03_spring" 0x231d
 		{Position 2331.84 3410.99}
 		{xform zl -73.19 y 6.06 zw -90}
 		{Constrain surface}
-		{TexMod
-			{"/entity/landscape/stamp/ground/ground_clay5" "dark"}
-		}
 	}
 	{Entity "landscape_rock_05" 0x231e
 		{Position 1893.11 3231.28}
@@ -53095,374 +52206,215 @@
 	{Entity "clay_road" 0x51a8
 		{Position 455.11 4494.76}
 		{xform zl 42.51}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 	}
 	{Entity "clay_road" 0x51a9
 		{Position 261.24 4696.73}
 		{xform zl -139.59}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 		{DecalOrder 1}
 	}
 	{Entity "clay_road" 0x51aa
 		{Position 133.06 4883.02}
 		{xform zl 20.51}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 	}
 	{Entity "clay_road" 0x4a8c
 		{Position -469.43 4430.86}
 		{xform zl -77.36}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 	}
 	{Entity "clay_road" 0x4a8d
 		{Position -213.07 4555.88}
 		{xform zl 124.44}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 	}
 	{Entity "clay_road" 0x4a96
 		{Position -805.83 3812.57}
 		{xform zl -1.57}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 	}
 	{Entity "clay_road" 0x4a97
 		{Position -587.94 3522.92}
 		{xform zl 96.13}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 	}
 	{Entity "clay_road" 0x4a98
 		{Position -490.03 3312.23}
 		{xform zl 154.93}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 	}
 	{Entity "clay_road" 0x4a99
 		{Position 247.09 2936.87}
 		{xform zl 110.41}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 	}
 	{Entity "clay_road" 0x4a9a
 		{Position 486.94 3323.03}
 		{xform zl 10.85}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 	}
 	{Entity "clay_road" 0x4a9b
 		{Position 594.64 3483.73}
 		{xform zl -89.71}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 	}
 	{Entity "clay_road" 0x4a9c
 		{Position 790.29 3811.6}
 		{xform zl 175.91}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 	}
 	{Entity "clay_road" 0x4a9d
 		{Position -256.75 2926.24}
 		{xform zl 63.64}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 	}
 	{Entity "clay_road" 0x4a9e
 		{Position -1424.41 980.81}
 		{xform zl -51.18}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 	}
 	{Entity "clay_road" 0x4a9f
 		{Position -1220.03 1123.19}
 		{xform zl -71.47}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 	}
 	{Entity "clay_road" 0x4aa0
 		{Position -1558.69 1208.64}
 		{xform zl -97.84}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 	}
 	{Entity "clay_road" 0x4aa1
 		{Position -1330 1161.71}
 		{xform zl 69.82}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 	}
 	{Entity "clay_road" 0x4aa2
 		{Position -1245.8 666.61}
 		{xform zl 82.15}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 	}
 	{Entity "clay_road" 0x4aa3
 		{Position -1002.29 701.81}
 		{xform zl 105.16}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 	}
 	{Entity "clay_road" 0x4aa4
 		{Position -1702.45 1544.2}
 		{xform zl -33.53}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 	}
 	{Entity "clay_road" 0x4aa5
 		{Position -1500.26 1693.51}
 		{xform zl -84.33}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 	}
 	{Entity "clay_road" 0x4aa6
 		{Position -1240.94 1695.5}
 		{xform zl -104.61}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 	}
 	{Entity "clay_road" 0x4aa7
 		{Position 525.2 -410.94}
 		{xform zl 163.41}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 	}
 	{Entity "clay_road" 0x4aa8
 		{Position 549.93 -276.51}
 		{xform zl 171.5}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 	}
 	{Entity "clay_road" 0x4aa9
 		{Position -481.72 -364.71}
 		{xform zl -12.34}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 	}
 	{Entity "clay_road" 0x4aaa
 		{Position -200.09 -531.21}
 		{xform zl 137.09}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 	}
 	{Entity "clay_road" 0x4aab
 		{Position 204.63 -606.19}
 		{xform zl 45.02}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 	}
 	{Entity "clay_road" 0x4aac
 		{Position 93.55 -515.05}
 		{xform zl -134.11}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 	}
 	{Entity "clay_road" 0x4aad
 		{Position -4.4 -723.8}
 		{xform zl -178.19}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 	}
 	{Entity "clay_road" 0x4aae
 		{Position -56.17 -539.94}
 		{xform zl -158.33}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 	}
 	{Entity "clay_road" 0x4aaf
 		{Position 130.16 -714.62}
 		{xform zl -75.09}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 	}
 	{Entity "clay_road" 0x4ab0
 		{Position -125.19 -666.44}
 		{xform zl -124.84}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 	}
 	{Entity "clay_road" 0x4ab1
 		{Position 446.2 -255.75}
 		{xform zl 117.51}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 	}
 	{Entity "clay_road" 0x4ab2
 		{Position 206.52 -389.22}
 		{xform zl 110.38}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 	}
 	{Entity "clay_road" 0x4ab3
 		{Position -51.89 -459.67}
 		{xform zl 88.39}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 	}
 	{Entity "clay_road" 0x4ab4
 		{Position -308.28 -400.16}
 		{xform zl 56.9}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 	}
 	{Entity "clay_road" 0x4ab5
 		{Position -521.92 -224.46}
 		{xform zl -137.85}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 	}
 	{Entity "clay_road" 0x4ab6
 		{Position -703.26 -27.37}
 		{xform zl 29.53}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 	}
 	{Entity "clay_road" 0x4ab7
 		{Position -860.49 201.34}
 		{xform zl -143.68}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 	}
 	{Entity "clay_road" 0x4ab8
 		{Position -1071.12 363.61}
 		{xform zl 54.37}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 	}
 	{Entity "clay_road" 0x4ab9
 		{Position -1267.86 550.85}
 		{xform zl -147.66}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 	}
 	{Entity "clay_road" 0x4aba
 		{Position -1098.39 528.92}
 		{xform zl -11.09}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 	}
 	{Entity "clay_road" 0x4abb
 		{Position 450.41 4307.53}
 		{xform zl -44.7}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 	}
 	{Entity "clay_road" 0x4abc
 		{Position 414 4253.67}
 		{xform zl -37.54}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 	}
 	{Entity "clay_road" 0x4abd
 		{Position -469.79 4339.49}
 		{xform zl -118}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 	}
 	{Entity "clay_road" 0x4abe
 		{Position -336.83 4259.96}
 		{xform zl -126.4}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 	}
 	{Entity "clay_road" 0x4abf
 		{Position -291.39 4392.15}
 		{xform zl -19.99}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 	}
 	{Entity "clay_road" 0x4ac0
 		{Position 213.11 4636.64}
 		{xform zl 5.75}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 	}
 	{Entity "clay_road" 0x4ac1
 		{Position 314.11 4372.86}
 		{xform zl 26.61}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 	}
 	{Entity "clay_road" 0x4ac2
 		{Position 648.85 -77.67}
 		{xform zl 134.94}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 	}
 	{Entity "clay_road" 0x4ac3
 		{Position 782.42 157.43}
 		{xform zl 156.62}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 	}
 	{Entity "clay_road" 0x4ac4
 		{Position 867.63 416.66}
 		{xform zl -27.03}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 	}
 	{Entity "clay_road" 0x4ac5
 		{Position 987.09 662.4}
 		{xform zl 150.07}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 	}
 	{Entity "clay_tracks" 0x1c94
 		{Position -697.71 -1059.3 132.07}
@@ -54662,22 +53614,18 @@
 	{Entity "crash_stone1" 0x6195
 		{Position -2896.26 2004.94}
 		{xform zl 41.05}
-		{TexMod "8"}
 	}
 	{Entity "crash_stone1" 0x1e01
 		{Position -2712.97 2245.23}
 		{xform zl 70.03}
-		{TexMod "8"}
 	}
 	{Entity "crash_stone1" 0x1e02
 		{Position -2716.14 2524.5}
 		{xform zl 110.67}
-		{TexMod "8"}
 	}
 	{Entity "crash_stone1" 0x1e03
 		{Position -2911.57 2741.62}
 		{xform zl 156.78}
-		{TexMod "8"}
 	}
 	{Entity "landscape_rock_01" 0x301d
 		{Position -2840.59 1944.74}
@@ -55623,24 +54571,20 @@
 		{Position -2138.82 3808.29}
 		{xform zl 178.97 y 8.37 zw -139.83}
 		{Constrain surface}
-		{TexMod "1"}
 	}
 	{Entity "clay_road_02" 0x1f10
 		{Position -2247.21 3768.44}
 		{xform zl 144.11}
-		{TexMod "1"}
 	}
 	{Entity "clay_road_03" 0x1f11
 		{Position -2456.66 4037.25}
 		{xform zl 36.56}
-		{TexMod "pebble"}
 		{DecalOrder 1}
 		{Color 0xffd5afa0}
 	}
 	{Entity "clay_road_03" 0x1f12
 		{Position -2683.44 4310.83}
 		{xform zl 24.35}
-		{TexMod "pebble"}
 		{DecalOrder 1}
 		{Color 0xffd5afa0}
 	}
@@ -55648,7 +54592,6 @@
 		{Position -2848.88 4594.69}
 		{xform zl 151.06 y 8.05 zw -135}
 		{Constrain surface}
-		{TexMod "pebble"}
 		{DecalOrder 1}
 		{Color 0xffd5afa0}
 	}
@@ -55656,14 +54599,12 @@
 		{Position -2881.55 4959.88}
 		{xform zl 128.37 y 6.8 zw -147.04}
 		{Constrain surface}
-		{TexMod "pebble"}
 		{DecalOrder 1}
 		{Color 0xffd5afa0}
 	}
 	{Entity "clay_road_03" 0x1e05
 		{Position -2727.23 5268.95}
 		{xform zl -46.31}
-		{TexMod "pebble"}
 		{DecalOrder 1}
 		{Color 0xffd5afa0}
 	}
@@ -55671,7 +54612,6 @@
 		{Position -2469.45 5485.65}
 		{xform zl -33.6 y 4.26 zw -178.65}
 		{Constrain surface}
-		{TexMod "pebble"}
 		{DecalOrder 1}
 		{Color 0xffd5afa0}
 	}
@@ -55679,14 +54619,12 @@
 		{Position -2400.5 5836.93}
 		{xform zl -12.96 y 5.77 zw -171.71}
 		{Constrain surface}
-		{TexMod "pebble"}
 		{DecalOrder 1}
 		{Color 0xffd5afa0}
 	}
 	{Entity "clay_road_03" 0x1e08
 		{Position -2566.26 6469.48}
 		{xform zl -20.97}
-		{TexMod "pebble"}
 		{DecalOrder 1}
 		{Color 0xffd5afa0}
 	}
@@ -55694,7 +54632,6 @@
 		{Position -2556.2 6123.85}
 		{xform zl 145.76 y 3.39 zw -139.21}
 		{Constrain surface}
-		{TexMod "pebble"}
 		{DecalOrder 1}
 		{Color 0xffd5afa0}
 	}
@@ -59338,7 +58275,6 @@
 	{Entity "ashtree1" 0x1e9e
 		{Position -2193.57 3225.42}
 		{xform zl -33.35 scale 0.9}
-		{TexMod "2"}
 	}
 	{Entity "ashtree1" 0x1e9f
 		{Position -2017.36 3959.44}
@@ -60117,219 +59053,126 @@
 	{Entity "clay_road" 0x1f4b
 		{Position -4918.21 6309.3}
 		{xform zl -156.34}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 	}
 	{Entity "clay_road" 0x1f4c
 		{Position -4830.8 6050.84}
 		{xform zl -175.2}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 	}
 	{Entity "clay_road" 0x1f4d
 		{Position -4789.61 5778.66}
 		{xform zl 9.87}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 	}
 	{Entity "clay_road" 0x1f4e
 		{Position -4658.92 5548.47}
 		{xform zl 42.4}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 	}
 	{Entity "clay_road" 0x1f4f
 		{Position -4466.33 5361.01}
 		{xform zl -146.18}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 	}
 	{Entity "clay_road" 0x1f50
 		{Position -4282.23 5143.11}
 		{xform zl 42.98}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 	}
 	{Entity "clay_road" 0x1f51
 		{Position -4053.91 5005.86}
 		{xform zl 67.86}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 	}
 	{Entity "clay_road" 0x1f52
 		{Position -3784.57 4985.33}
 		{xform zl -91.94}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 	}
 	{Entity "clay_road" 0x1f53
 		{Position -3506.06 4953.27}
 		{xform zl 73.39}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 	}
 	{Entity "clay_road" 0x1f54
 		{Position -3235.22 4975.65}
 		{xform zl 102.92}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 	}
 	{Entity "clay_road" 0x1f55
 		{Position -2998.56 5114.47}
 		{xform zl 126.26}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 	}
 	{Entity "clay_road" 0x1f56
 		{Position -2771.59 5267.35}
 		{xform zl -75.41}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 	}
 	{Entity "clay_road" 0x1f57
 		{Position -2528.66 5289.28}
 		{xform zl -102.64}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 	}
 	{Entity "clay_road" 0x1f58
 		{Position -2258.25 5222.72}
 		{xform zl 70.43}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 	}
 	{Entity "clay_road" 0x1f59
 		{Position -1993.44 5226.34}
 		{xform zl 100.05}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 	}
 	{Entity "clay_road" 0x1f5a
 		{Position -1725.42 5251.06}
 		{xform zl -104.51}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 	}
 	{Entity "clay_road" 0x1f5b
 		{Position -1458.21 5183.48}
 		{xform zl -113.55}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 	}
 	{Entity "clay_road" 0x1f5c
 		{Position -1267.99 5022.79}
 		{xform zl -154.68}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 	}
 	{Entity "clay_road" 0x1f5d
 		{Position -1140.48 4789.45}
 		{xform zl 25.13}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 	}
 	{Entity "clay_road" 0x1f5e
 		{Position -971.98 4602.1}
 		{xform zl 46.71}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 	}
 	{Entity "clay_road" 0x1f5f
 		{Position -728.46 4502.65}
 		{xform zl -106.5}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 	}
 	{Entity "clay_road" 0x1f60
 		{Position -517.32 4400.6}
 		{xform zl -133.24}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 	}
 	{Entity "clay_road" 0x1f61
 		{Position -3950.27 3619.95}
 		{xform zl -3.18}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 	}
 	{Entity "clay_road" 0x1f62
 		{Position -3925.48 3886.08}
 		{xform zl 167.17}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 	}
 	{Entity "clay_road" 0x1f63
 		{Position -3934.95 4153.73}
 		{xform zl -173.99}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 	}
 	{Entity "clay_road" 0x1f64
 		{Position -4054.9 4397.65}
 		{xform zl -146.06}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 	}
 	{Entity "clay_road" 0x1f65
 		{Position -4224.94 4611.76}
 		{xform zl 25.29}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 	}
 	{Entity "clay_road" 0x1f66
 		{Position -4321.39 4861.01}
 		{xform zl 4.44}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 	}
 	{Entity "clay_road" 0x1f67
 		{Position -4355.93 5119.03}
 		{xform zl -174.21}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 	}
 	{Entity "clay_road" 0x1f68
 		{Position -4035.38 4880.32}
 		{xform zl -53.55}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 	}
 	{Entity "clay_road" 0x1f69
 		{Position -4151.11 4654.54}
 		{xform zl -12.76}
-		{TexMod
-			{"/entity/landscape/stamp/road/path_sand2a" "red"}
-		}
 	}
 	{Entity "clay_pile" 0x1f6c
 		{Position -4352.26 5724.98}
@@ -60776,7 +59619,6 @@
 		{Position 2918.15 6328.96}
 		{xform zl -35.6 y 5.03 zw -138.73}
 		{Constrain surface}
-		{TexMod "pebble"}
 		{DecalOrder 1}
 		{Color 0xffd5afa0}
 	}
@@ -60784,7 +59626,6 @@
 		{Position 2938.15 5995.92}
 		{xform zl 83.82 y 5.69 zw 82.98}
 		{Constrain surface}
-		{TexMod "pebble"}
 		{DecalOrder 1}
 		{Color 0xffd5afa0}
 	}
@@ -60798,9 +59639,4 @@
 		{xform zl 4.14}
 		{Opacity 0.34902}
 	}
-	{Link 0x1a9c {0x1ab3 "wall"}}
-	{Link 0x1a9d {0x1ab3 "1"}}
-	{Link 0x1a9f {0x1ab3 "3"}}
-	{Link 0x1aa0 {0x1ab3 "4"}}
-	{Link 0x1aa1 {0x1ab3 "5"}}
 }
