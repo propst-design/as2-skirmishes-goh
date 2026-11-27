@@ -18,6 +18,7 @@ from mappings import (
     LAND_TEX_MAP,
     MAP_ENTITY_MAP,
     MI_ENTITY_MAP,
+    SKIP_MAP_ENTITIES,
     resolve_map_prop,
 )
 
@@ -278,6 +279,11 @@ def sanitize_map_entity_blocks(map_text: str, goh_entities: set) -> tuple[str, i
 
             block_str = "".join(block)
             is_railcar = "{Chassis" in block_str and "{MID" in block_str
+
+            # Omit wrong-scale AS2 rock/cliff/trench/clay decals (terrain is already in map.net)
+            if old in SKIP_MAP_ENTITIES or old.split("#")[0] in SKIP_MAP_ENTITIES:
+                remapped += 1
+                continue
 
             if old == "cistern" and is_railcar:
                 new = "wagon_tanker"

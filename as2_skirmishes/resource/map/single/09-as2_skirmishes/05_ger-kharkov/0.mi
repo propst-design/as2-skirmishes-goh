@@ -1,155 +1,155 @@
 {mission
-	{Entity "sandbag_cannon_standard" 0xc002
+	{Entity "sandbag_framed_straight" 0xc002
 		{Position 952.36 2471.02}
 		{xform zl -135.24}
 		{Impregnability full}
 	}
-	{Entity "sandbag_cannon_standard" 0xc003
+	{Entity "sandbag_framed_straight" 0xc003
 		{Position 1047.36 2472.88 3.6}
 		{xform zl -47.88}
 		{Impregnability full}
 	}
-	{Entity "sandbag_cannon_standard" 0xa000
+	{Entity "sandbag_framed_straight" 0xa000
 		{Position 951.75 2534.34}
 		{xform zl 132.66}
 		{Impregnability full}
 	}
-	{Entity "sandbag_cannon_standard" 0xa001
+	{Entity "sandbag_framed_straight" 0xa001
 		{Position 1047.32 2536.56 3}
 		{xform zl 45.64}
 		{Impregnability full}
 	}
-	{Entity "sandbag_cannon_standard" 0xc00c
+	{Entity "sandbag_framed_straight" 0xc00c
 		{Position 52.25 29.08}
 		{xform zl 42.58}
 		{Impregnability full}
 	}
-	{Entity "sandbag_cannon_standard" 0xc00d
+	{Entity "sandbag_framed_straight" 0xc00d
 		{Position -42.7 32.44}
 		{xform zl 129.94}
 		{Impregnability full}
 	}
-	{Entity "sandbag_cannon_standard" 0xc010
+	{Entity "sandbag_framed_straight" 0xc010
 		{Position 50.37 -36.89}
 		{xform zl -49.52}
 		{Impregnability full}
 	}
-	{Entity "sandbag_cannon_standard" 0xc011
+	{Entity "sandbag_framed_straight" 0xc011
 		{Position -45.17 -33.85}
 		{xform zl -136.54}
 		{Impregnability full}
 	}
-	{Entity "sandbag_cannon_standard" 0xc024
+	{Entity "sandbag_framed_straight" 0xc024
 		{Position 952.55 469.84}
 		{xform zl -132.53}
 		{Impregnability full}
 	}
-	{Entity "sandbag_cannon_standard" 0xc025
+	{Entity "sandbag_framed_straight" 0xc025
 		{Position 1047.33 472.36}
 		{xform zl -45.17}
 		{Impregnability full}
 	}
-	{Entity "sandbag_cannon_standard" 0xc026
+	{Entity "sandbag_framed_straight" 0xc026
 		{Position 948.79 535.72}
 		{xform zl 135.37}
 		{Impregnability full}
 	}
-	{Entity "sandbag_cannon_standard" 0xc027
+	{Entity "sandbag_framed_straight" 0xc027
 		{Position 1044.13 538.61}
 		{xform zl 48.35}
 		{Impregnability full}
 	}
-	{Entity "sandbag_cannon_standard" 0x8101
+	{Entity "sandbag_framed_straight" 0x8101
 		{Position -1048.25 2472.28}
 		{xform zl -138.02}
 		{Impregnability full}
 	}
-	{Entity "sandbag_cannon_standard" 0x8102
+	{Entity "sandbag_framed_straight" 0x8102
 		{Position -953.27 2469.53}
 		{xform zl -50.66}
 		{Impregnability full}
 	}
-	{Entity "sandbag_cannon_standard" 0x8103
+	{Entity "sandbag_framed_straight" 0x8103
 		{Position -1047.38 2538.26}
 		{xform zl 129.88}
 		{Impregnability full}
 	}
-	{Entity "sandbag_cannon_standard" 0x8104
+	{Entity "sandbag_framed_straight" 0x8104
 		{Position -951.81 2535.83}
 		{xform zl 42.86}
 		{Impregnability full}
 	}
-	{Entity "sandbag_cannon_standard" 0xe00e
+	{Entity "sandbag_framed_straight" 0xe00e
 		{Position -951.33 471.51}
 		{xform zl -48.67}
 		{Impregnability full}
 	}
-	{Entity "sandbag_cannon_standard" 0xe011
+	{Entity "sandbag_framed_straight" 0xe011
 		{Position -950.48 537.83}
 		{xform zl 44.85}
 		{Impregnability full}
 	}
-	{Entity "sandbag_cannon_standard" 0xe012
+	{Entity "sandbag_framed_straight" 0xe012
 		{Position -1046.34 470.95}
 		{xform zl -136.03}
 		{Impregnability full}
 	}
-	{Entity "sandbag_cannon_standard" 0xe013
+	{Entity "sandbag_framed_straight" 0xe013
 		{Position -1046.06 536.93 3}
 		{xform zl 131.87}
 		{Impregnability full}
 	}
-	{Entity "sandbag_cannon_standard" 0x8131
+	{Entity "sandbag_framed_straight" 0x8131
 		{Position 2044.38 1536.48}
 		{xform zl 49.54}
 		{Impregnability full}
 	}
-	{Entity "sandbag_cannon_standard" 0x8133
+	{Entity "sandbag_framed_straight" 0x8133
 		{Position 2050.51 1470.77}
 		{xform zl -42.56}
 		{Impregnability full}
 	}
-	{Entity "sandbag_cannon_standard" 0xc009
+	{Entity "sandbag_framed_straight" 0xc009
 		{Position 45.16 1534.73}
 		{xform zl 47.55}
 		{Impregnability full}
 	}
-	{Entity "sandbag_cannon_standard" 0xc012
+	{Entity "sandbag_framed_straight" 0xc012
 		{Position -49.61 1529.88}
 		{xform zl 134.91}
 		{Impregnability full}
 	}
-	{Entity "sandbag_cannon_standard" 0xc013
+	{Entity "sandbag_framed_straight" 0xc013
 		{Position 48.99 1468.86}
 		{xform zl -44.55}
 		{Impregnability full}
 	}
-	{Entity "sandbag_cannon_standard" 0xc018
+	{Entity "sandbag_framed_straight" 0xc018
 		{Position -46.36 1463.64}
 		{xform zl -131.57}
 		{Impregnability full}
 	}
-	{Entity "sandbag_cannon_standard" 0xc02c
+	{Entity "sandbag_framed_straight" 0xc02c
 		{Position -1951.36 1468.89}
 		{xform zl -46.87}
 		{Impregnability full}
 	}
-	{Entity "sandbag_cannon_standard" 0xc02f
+	{Entity "sandbag_framed_straight" 0xc02f
 		{Position -2048.11 1531.32}
 		{xform zl 133.67}
 		{Impregnability full}
 	}
-	{Entity "sandbag_cannon_standard" 0xc031
+	{Entity "sandbag_framed_straight" 0xc031
 		{Position -1952.61 1535.2}
 		{xform zl 46.65}
 		{Impregnability full}
 	}
-	{Entity "sandbag_cannon_standard" 0xc03e
+	{Entity "sandbag_framed_straight" 0xc03e
 		{Position -51.25 2972.18}
 		{xform zl -139.05}
 		{Impregnability full}
 	}
-	{Entity "sandbag_cannon_standard" 0xc040
+	{Entity "sandbag_framed_straight" 0xc040
 		{Position -47.49 3038.07}
 		{xform zl 128.85}
 		{Impregnability full}
@@ -255,22 +255,22 @@
 		{Player 0}
 		{MID 20}
 	}
-	{Entity "sandbag_cannon_standard" 0xc03a
+	{Entity "sandbag_framed_straight" 0xc03a
 		{Position 48.02 3033.92}
 		{xform zl 41.83}
 		{Impregnability full}
 	}
-	{Entity "sandbag_cannon_standard" 0xc03c
+	{Entity "sandbag_framed_straight" 0xc03c
 		{Position 43.67 2967.73}
 		{xform zl -51.69}
 		{Impregnability full}
 	}
-	{Entity "sandbag_cannon_standard" 0x8132
+	{Entity "sandbag_framed_straight" 0x8132
 		{Position 1951.11 1530.2}
 		{xform zl 136.9}
 		{Impregnability full}
 	}
-	{Entity "sandbag_cannon_standard" 0x8134
+	{Entity "sandbag_framed_straight" 0x8134
 		{Position 1955.43 1463.68}
 		{xform zl -129.58}
 		{Impregnability full}
@@ -567,7 +567,7 @@
 		{NameId 91 67}
 		{FsmState "stand"}
 	}
-	{Entity "sandbag_cannon_standard" 0xc02a
+	{Entity "sandbag_framed_straight" 0xc02a
 		{Position -2046.31 1465.36}
 		{xform zl -134.23}
 		{Impregnability full}

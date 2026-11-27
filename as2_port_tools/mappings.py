@@ -77,10 +77,10 @@ MI_ENTITY_MAP = {
     "m5a1": "m5a1_stuart_late",
     "maxson": "50cal_quad_m45",
     "willysat": "willys_mb_50cal",
-    # Fortifications
-    "sandbag2": "sandbag_curved",
-    "sandbag2_round": "sandbag_curved",
-    "sandbag_woodbeam1": "sandbag_cannon_standard",
+    # Fortifications (use single wall segments, NOT full 360-deg cannon emplacements!)
+    "sandbag2": "sandbag_heap_straight",
+    "sandbag2_round": "sandbag_framed_curved",
+    "sandbag_woodbeam1": "sandbag_framed_straight",
     # Skirmish flags & helpers
     "skirmish_flag": "flag_skirmish",
     "skirmish_flag_5_victory": "flag_skirmish_1",
@@ -322,11 +322,27 @@ MAP_ENTITY_MAP = {
     "water_river4": "water_river",
 }
 
+# Map props to OMIT completely instead of replacing with wrong-scale GoH 3D objects:
+# - AS2 pebble/cliff-edge decals (stone_af1*, rockwall*, rock_island*) became huge GoH boulders/cliffs
+# - AS2 trench overlays (trench_ground*, trench_tank*, ditch_tank*) have different pivots/sizes than GoH
+#   while the actual trench ditches are already carved into map.net!
+# - AS2 flat clay ground decals (ground_clay5*, clay_11*) became 3D road strips
+SKIP_MAP_ENTITIES = {
+    "stone_af1a", "stone_af1b", "stone_af1c", "stone_af1d", "stone_af1e", "stone_af1f", "stone_af1g",
+    "rockwall", "rockwall1", "rockwall2", "rockwall3", "rockwall4", "rockwall5",
+    "rock_island1b_aut", "rock_island3_aut",
+    "trench_ground", "trench_ground2", "trench_ground_exit2", "trench_ground_t",
+    "trench_ground_turn", "trench_ground_turn2", "trench_ground_mgun",
+    "trench_tank_2_ls", "trench_tank_2_rs", "trench_cannon_2_ls", "trench_cannon_2_rs",
+    "ditch_tank", "ditch_tank_side", "ditch_tank_turn",
+    "ground_clay5", "ground_clay5a", "ground_clay5b",
+    "clay_11", "clay_111", "clay_11a", "clay_11angle",
+}
+
 # Category-based fallback rules ONLY for scenery props in `map` that aren't in MAP_ENTITY_MAP
 # Every fallback target here is verified to exist in GoH!
 MAP_PROP_FALLBACK_RULES = [
-    (re.compile(r"trench|ditch", re.I), "euro_log_trench_dirt_straight2"),
-    (re.compile(r"sandbag|bag", re.I), "sandbag_curved"),
+    (re.compile(r"sandbag|bag", re.I), "sandbag_heap_straight"),
     (re.compile(r"fence|hedge|wire", re.I), "fence-wood_3"),
     (re.compile(r"crater", re.I), "crater_medium"),
     (re.compile(r"birch", re.I), "birch_adult_01"),
@@ -338,7 +354,7 @@ MAP_PROP_FALLBACK_RULES = [
     (re.compile(r"road|asf|cobble|street|path|track|trace", re.I), "clay_road"),
     (re.compile(r"rail|station", re.I), "railroad5"),
     (re.compile(r"water|river|pool|bog|pond", re.I), "waterpool"),
-    (re.compile(r"rock|stone|cliff|clay|stoun", re.I), "landscape_rock_01"),
+    (re.compile(r"rock|stone|cliff|clay|stoun", re.I), "crash_stone1"),
     (re.compile(r"barn|shed|farm|hangar", re.I), "barn001"),
     (re.compile(r"house|home|building|cottage|mill|church|wall|corner|door|roof|tower|bridge", re.I), "c_house1_1"),
     (re.compile(r"barrel", re.I), "barrel1"),
