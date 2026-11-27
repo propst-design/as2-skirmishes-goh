@@ -1,0 +1,9 @@
+{location
+	{side ger}
+	{enableProgression 0}
+	{background
+		{media ""
+			{file "/music/panzerlied" loop}
+		}
+	}
+}

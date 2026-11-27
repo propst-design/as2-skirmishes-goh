@@ -1,0 +1,451 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Gates of Hell (04_rus-kursk)\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgctxt "mission/single/09-as2_skirmishes/04_rus-kursk/date"
+msgid "Soviet Union vs Germany"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/04_rus-kursk/menu:1_0"
+msgid "Infantry: 0 units"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/04_rus-kursk/menu:1_1"
+msgid "Infantry: 1 unit"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/04_rus-kursk/menu:1_2"
+msgid "Infantry: 2 units"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/04_rus-kursk/menu:1_3"
+msgid "Infantry: 3 units"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/04_rus-kursk/menu:1_4"
+msgid "Infantry: 4 units"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/04_rus-kursk/menu:1_5"
+msgid "Infantry: 5 units"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/04_rus-kursk/menu:2_0"
+msgid "Support: 0 units"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/04_rus-kursk/menu:2_1"
+msgid "Support: 1 unit"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/04_rus-kursk/menu:2_2"
+msgid "Support: 2 units"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/04_rus-kursk/menu:2_3"
+msgid "Support: 3 units"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/04_rus-kursk/menu:2_4"
+msgid "Support: 4 units"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/04_rus-kursk/menu:2_5"
+msgid "Support: 5 units"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/04_rus-kursk/menu:3_0"
+msgid "Armor: 0 units"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/04_rus-kursk/menu:3_1"
+msgid "Armor: 1 unit"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/04_rus-kursk/menu:3_2"
+msgid "Armor: 2 units"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/04_rus-kursk/menu:3_3"
+msgid "Armor: 3 units"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/04_rus-kursk/menu:3_4"
+msgid "Armor: 4 units"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/04_rus-kursk/menu:3_5"
+msgid "Armor: 5 units"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/04_rus-kursk/menu:4_0"
+msgid ""
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/04_rus-kursk/menu:4_1"
+msgid ""
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/04_rus-kursk/menu:4_2"
+msgid ""
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/04_rus-kursk/menu:4_3"
+msgid ""
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/04_rus-kursk/menu:4_4"
+msgid ""
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/04_rus-kursk/menu:4_5"
+msgid ""
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/04_rus-kursk/menu:back"
+msgid "Return to menu"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/04_rus-kursk/mission_attack"
+msgid "Attack the fortified position and capture it!"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/04_rus-kursk/mission_defend"
+msgid "Repel the enemy and stall their advance!"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/04_rus-kursk/mission_defend_east"
+msgid "Defend the Eastern strategic position."
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/04_rus-kursk/mission_defend_hq"
+msgid "Defend our field HQ."
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/04_rus-kursk/mission_defend_north"
+msgid "Defend the Northern strategic position."
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/04_rus-kursk/mission_defend_west"
+msgid "Defend the Western strategic position."
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/04_rus-kursk/mission_prepare_player"
+msgid "Prepare to repel the major enemy assault!"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/04_rus-kursk/name"
+msgid "[Soviet Union] Kursk"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/04_rus-kursk/name_big"
+msgid "Kursk"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/04_rus-kursk/officer_10min"
+msgid "We are holding out! Continue and our reinforcements will arrive soon!"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/04_rus-kursk/officer_20min"
+msgid "Reports indicate our reinforcements are on the way. Keep it up, we have to defend our position at all costs!"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/04_rus-kursk/officer_25min"
+msgid "Our reinforcements are almost here. Don’t give up! We must smash our enemies... for Mother Russia!"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/04_rus-kursk/officer_lostflag_1"
+msgid "We can’t hold, we are losing our forward outpost. We request reinforcements!"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/04_rus-kursk/officer_lostflag_2"
+msgid "We are losing ground. Germans have overrun another forward position! We can’t keep this up... we must stop them!"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/04_rus-kursk/officer_lostflag_3"
+msgid "Retreat! They have taken all forward positions, we must fall back to our field HQ!"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/04_rus-kursk/officer_lostflag_recapture"
+msgid "Excellent counter-attack! All strategic positions have been recaptured! You are a tactical genius!"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/04_rus-kursk/officer_start"
+msgid "Comrade Commissar, thank goodness you’ve arrived... The German 4th Tank Army is preparing for a major assault on Kursk. Command has granted limited resources, but we must defend our position at all costs!"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/04_rus-kursk/officer_start2"
+msgid "Our defense sector is split into four strategic points. We can afford to lose some of them, but the field HQ must remain ours at all costs. The longer we hold out the more reinforcements HQ will grant us. Our armored divisions are already moving in and we are promised a swift counter-attack if we hold out!"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/04_rus-kursk/officer_start_attack"
+msgid "Comrade Commissar! Forward observers report a major enemy movement ahead. The assault has begun, so prepare yourself to defend Kursk. The Motherland cannot fall!"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/04_rus-kursk/outro_completed"
+msgid "Great job! You've achieved a glorious victory for the Motherland!"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/04_rus-kursk/outro_failed"
+msgid "You have been defeated!"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/04_rus-kursk/outro_start"
+msgid ""
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/04_rus-kursk/place"
+msgid "Soviet Union, West of Kursk"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/04_rus-kursk/player_money_000"
+msgid "<e(shadow)>%1% MP  <c(e74236)>0%"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/04_rus-kursk/player_money_005"
+msgid "<e(shadow)>%1% MP  <c(e74236)>5%"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/04_rus-kursk/player_money_010"
+msgid "<e(shadow)>%1% MP  <c(e74236)>10%"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/04_rus-kursk/player_money_015"
+msgid "<e(shadow)>%1% MP  <c(e74236)>14%"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/04_rus-kursk/player_money_020"
+msgid "<e(shadow)>%1% MP  <c(e74236)>19%"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/04_rus-kursk/player_money_025"
+msgid "<e(shadow)>%1% MP  <c(e74236)>24%"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/04_rus-kursk/player_money_030"
+msgid "<e(shadow)>%1% MP  <c(e74236)>29%"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/04_rus-kursk/player_money_035"
+msgid "<e(shadow)>%1% MP  <c(e74236)>33%"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/04_rus-kursk/player_money_040"
+msgid "<e(shadow)>%1% MP  <c(e7c436)>38%"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/04_rus-kursk/player_money_045"
+msgid "<e(shadow)>%1% MP  <c(e7c436)>43%"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/04_rus-kursk/player_money_050"
+msgid "<e(shadow)>%1% MP  <c(e7c436)>48%"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/04_rus-kursk/player_money_055"
+msgid "<e(shadow)>%1% MP  <c(e7c436)>52%"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/04_rus-kursk/player_money_060"
+msgid "<e(shadow)>%1% MP  <c(e7c436)>57%"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/04_rus-kursk/player_money_065"
+msgid "<e(shadow)>%1% MP  <c(e7c436)>62%"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/04_rus-kursk/player_money_070"
+msgid "<e(shadow)>%1% MP  <c(e7c436)>67%"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/04_rus-kursk/player_money_075"
+msgid "<e(shadow)>%1% MP  <c(4fe736)>71%"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/04_rus-kursk/player_money_080"
+msgid "<e(shadow)>%1% MP  <c(4fe736)>76%"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/04_rus-kursk/player_money_085"
+msgid "<e(shadow)>%1% MP  <c(4fe736)>81%"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/04_rus-kursk/player_money_090"
+msgid "<e(shadow)>%1% MP  <c(4fe736)>86%"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/04_rus-kursk/player_money_095"
+msgid "<e(shadow)>%1% MP  <c(4fe736)>90%"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/04_rus-kursk/player_money_100"
+msgid "<e(shadow)>%1% MP  <c(4fe736)>95%"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/04_rus-kursk/player_money_105"
+msgid "<e(shadow)>%1% MP  <c(4fe736)>100%"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/04_rus-kursk/player_money_110"
+msgid "<e(shadow)>%1% MP  <c(4fe736)>100%"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/04_rus-kursk/player_money_115"
+msgid "<e(shadow)>%1% MP  <c(4fe736)>100%"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/04_rus-kursk/player_money_120"
+msgid "<e(shadow)>%1% MP  <c(4fe736)>100%"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/04_rus-kursk/player_money_125"
+msgid "<e(shadow)>%1% MP  <c(4fe736)>100%"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/04_rus-kursk/player_money_130"
+msgid "<e(shadow)>%1% MP  <c(4fe736)>100%"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/04_rus-kursk/player_money_135"
+msgid "<e(shadow)>%1% MP  <c(4fe736)>100%"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/04_rus-kursk/player_money_140"
+msgid "<e(shadow)>%1% MP  <c(4fe736)>100%"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/04_rus-kursk/player_money_145"
+msgid "<e(shadow)>%1% MP  <c(4fe736)>100%"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/04_rus-kursk/player_money_150"
+msgid "<e(shadow)>%1% MP  <c(4fe736)>100%"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/04_rus-kursk/player_money_155"
+msgid "<e(shadow)>%1% MP  <c(4fe736)>100%"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/04_rus-kursk/player_money_160"
+msgid "<e(shadow)>%1% MP  <c(4fe736)>100%"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/04_rus-kursk/player_money_165"
+msgid "<e(shadow)>%1% MP  <c(4fe736)>100%"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/04_rus-kursk/player_money_170"
+msgid "<e(shadow)>%1% MP  <c(4fe736)>100%"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/04_rus-kursk/player_money_175"
+msgid "<e(shadow)>%1% MP  <c(4fe736)>100%"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/04_rus-kursk/player_money_180"
+msgid "<e(shadow)>%1% MP  <c(4fe736)>100%"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/04_rus-kursk/player_money_185"
+msgid "<e(shadow)>%1% MP  <c(4fe736)>100%"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/04_rus-kursk/reinf_01"
+msgid "Infantry"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/04_rus-kursk/reinf_02"
+msgid "AT infantry"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/04_rus-kursk/reinf_03"
+msgid "Combat engineers"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/04_rus-kursk/reinf_04"
+msgid "Sniper"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/04_rus-kursk/reinf_05"
+msgid "Marines"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/04_rus-kursk/reinf_06"
+msgid "DShK Heavy MG"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/04_rus-kursk/reinf_07"
+msgid "BM-37 mortar"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/04_rus-kursk/reinf_08"
+msgid "61-k M1939"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/04_rus-kursk/reinf_09"
+msgid "ZIS-2"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/04_rus-kursk/reinf_10"
+msgid "Supply truck"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/04_rus-kursk/reinf_11"
+msgid "T-60"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/04_rus-kursk/reinf_12"
+msgid "ZSU-37"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/04_rus-kursk/reinf_13"
+msgid "T-34/76"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/04_rus-kursk/reinf_14"
+msgid "T-34/57"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/04_rus-kursk/reinf_15"
+msgid "T-34/85"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/04_rus-kursk/reinf_16"
+msgid "ISU-122"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/04_rus-kursk/reinf_17"
+msgid "SU-122"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/04_rus-kursk/reinf_18"
+msgid "Radio Operator"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/04_rus-kursk/reinf_19"
+msgid "Allied Infantry"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/04_rus-kursk/reinf_20"
+msgid "Guards Rifle"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/04_rus-kursk/skirmish_flag_capture"
+msgid "We have captured a strategic position!"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/04_rus-kursk/skirmish_flag_recapture"
+msgid "We have lost a strategic position to the enemy!"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/04_rus-kursk/skirmish_reinf_arrive"
+msgid "Reinforcements have arrived!"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/04_rus-kursk/start"
+msgid "Press \"Continue\" to start the battle!"
+msgstr ""

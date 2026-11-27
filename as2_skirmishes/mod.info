@@ -1,0 +1,6 @@
+{mod
+	{name "AS2 Classic Skirmishes"}
+	{desc "Ports of classic Men of War: Assault Squad 2 skirmish missions (Seelow Heights, Kursk, Kharkov, Bocage) for Call to Arms: Gates of Hell."}
+	{minGameVersion "1.000.0"}
+	{maxGameVersion "2.000.0"}
+}

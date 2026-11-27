@@ -1,0 +1,387 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Gates of Hell (01b_usa-bocage)\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgctxt "mission/single/09-as2_skirmishes/01b_usa-bocage/date"
+msgid "USA vs Germany"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/01b_usa-bocage/menu:1_0"
+msgid "Infantry: 0 units"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/01b_usa-bocage/menu:1_1"
+msgid "Infantry: 1 unit"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/01b_usa-bocage/menu:1_2"
+msgid "Infantry: 2 units"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/01b_usa-bocage/menu:1_3"
+msgid "Infantry: 3 units"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/01b_usa-bocage/menu:1_4"
+msgid "Infantry: 4 units"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/01b_usa-bocage/menu:1_5"
+msgid "Infantry: 5 units"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/01b_usa-bocage/menu:2_0"
+msgid "Support: 0 units"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/01b_usa-bocage/menu:2_1"
+msgid "Support: 1 unit"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/01b_usa-bocage/menu:2_2"
+msgid "Support: 2 units"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/01b_usa-bocage/menu:2_3"
+msgid "Support: 3 units"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/01b_usa-bocage/menu:2_4"
+msgid "Support: 4 units"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/01b_usa-bocage/menu:2_5"
+msgid "Support: 5 units"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/01b_usa-bocage/menu:3_0"
+msgid "Armor: 0 units"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/01b_usa-bocage/menu:3_1"
+msgid "Armor: 1 unit"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/01b_usa-bocage/menu:3_2"
+msgid "Armor: 2 units"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/01b_usa-bocage/menu:3_3"
+msgid "Armor: 3 units"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/01b_usa-bocage/menu:3_4"
+msgid "Armor: 4 units"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/01b_usa-bocage/menu:3_5"
+msgid "Armor: 5 units"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/01b_usa-bocage/menu:4_0"
+msgid ""
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/01b_usa-bocage/menu:4_1"
+msgid ""
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/01b_usa-bocage/menu:4_2"
+msgid ""
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/01b_usa-bocage/menu:4_3"
+msgid ""
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/01b_usa-bocage/menu:4_4"
+msgid ""
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/01b_usa-bocage/menu:4_5"
+msgid ""
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/01b_usa-bocage/menu:back"
+msgid "Return to menu"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/01b_usa-bocage/mission_prepare_player"
+msgid "Prepare to repel the enemy assault!"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/01b_usa-bocage/mission_defend_hq"
+msgid "Defend our field HQ  at all costs!"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/01b_usa-bocage/mission_survive"
+msgid "Maintain a defensive presence, survive and eliminate the majority of enemy units!"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/01b_usa-bocage/mission_convoy"
+msgid "Repair  and recover a powerful allied tank disabled during an ambush on an allied convoy!"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/01b_usa-bocage/name"
+msgid "[USA] Bocage"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/01b_usa-bocage/name_big"
+msgid "Bocage"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/01b_usa-bocage/officer_money"
+msgid "Good job, you survived another enemy attack wave! HQ grants you additional resources. Use them wisely and prepare for the next enemy attack wave!"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/01b_usa-bocage/officer_finish"
+msgid "Enemy attack waves are over! To ensure victory eliminate the majority of enemy forces that are still on the battlefield!"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/01b_usa-bocage/officer_start"
+msgid "Major, today we have a huge task ahead of us. Your objective is to defend the outskirts of Bocage from a German armored counter offensive!"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/01b_usa-bocage/officer_start2"
+msgid "Our field HQ must remain ours at all costs. The more enemy attack waves we survive, the more reinforcements HQ will grant us."
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/01b_usa-bocage/officer_start_attack"
+msgid "Major! I have received reports from forward observers claiming there is a major enemy armor column ahead. It seems like the assault is starting, prepare yourself to defend!"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/01b_usa-bocage/officer_counter1"
+msgid "Major! Stronger enemy forces than expected have been spotted!"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/01b_usa-bocage/officer_counter2"
+msgid "Alarm! Reports are coming that heavy enemy units are approaching!"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/01b_usa-bocage/officer_counter3"
+msgid "Brace yourself! Enemy is throwing their best units at us in their final push!"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/01b_usa-bocage/officer_convoy"
+msgid "Enemy intercepted our convoy not far from our location. This convoy contains a special tank. We should try and recover this tank to ensure victory!"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/01b_usa-bocage/officer_convoyfail"
+msgid "The enemy managed to destroy the special tank from the allied convoy!"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/01b_usa-bocage/officer_convoyassign"
+msgid "Any allied convoy survivors are now under your command!"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/01b_usa-bocage/officer_convoycomplete"
+msgid "Excellent job! You've repaired and recovered the special tank lost during an attack on our allied convoy. Now use it to defend your position!"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/01b_usa-bocage/hint_start_attack"
+msgid "Make sure you have positioned yourself well and picked up the right tools to take out vast amounts of enemy armor!"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/01b_usa-bocage/hint_direction"
+msgid "HQ indicates that enemy forces will be attacking from the North!"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/01b_usa-bocage/hint_nomedic"
+msgid "Be Careful. In this mission medics are not available. When your soldiers get severely wounded, they cannot be revived."
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/01b_usa-bocage/hint_resources"
+msgid "Expect to be outnumbered and outgunned. Think of saving resources if possible. Try to steal enemy weapons as well as repair enemy tanks!"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/01b_usa-bocage/outro_completed"
+msgid "Great job! You've made Uncle Sam proud!"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/01b_usa-bocage/outro_failed"
+msgid "You have been defeated!"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/01b_usa-bocage/kill_majority"
+msgid "Kill the majority of enemy forces to earn Victory!"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/01b_usa-bocage/outro_start"
+msgid ""
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/01b_usa-bocage/place"
+msgid "France, near Bocage"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/01b_usa-bocage/wave_01"
+msgid "<e(shadow)>Progress: Enemy Attack Wave 1/8"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/01b_usa-bocage/wave_01c"
+msgid "<e(shadow)>Wave 1/8 complete! Additional resources received."
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/01b_usa-bocage/wave_02"
+msgid "<e(shadow)>Progress: Enemy Attack Wave 2/8"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/01b_usa-bocage/wave_02c"
+msgid "<e(shadow)>Wave 2/8 complete! Additional resources received."
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/01b_usa-bocage/wave_03"
+msgid "<e(shadow)>Progress: Enemy Attack Wave 3/8"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/01b_usa-bocage/wave_03c"
+msgid "<e(shadow)>Wave 3/8 complete! Additional resources received."
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/01b_usa-bocage/wave_04"
+msgid "<e(shadow)>Progress: Enemy Attack Wave 4/8"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/01b_usa-bocage/wave_04c"
+msgid "<e(shadow)>Wave 4/8 complete! Additional resources received."
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/01b_usa-bocage/wave_05"
+msgid "<e(shadow)>Progress: Enemy Attack Wave 5/8"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/01b_usa-bocage/wave_05c"
+msgid "<e(shadow)>Wave 5/8 complete! Additional resources received."
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/01b_usa-bocage/wave_06"
+msgid "<e(shadow)>Progress: Enemy Attack Wave 6/8"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/01b_usa-bocage/wave_06c"
+msgid "<e(shadow)>Wave 6/8 complete! Additional resources received."
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/01b_usa-bocage/wave_07"
+msgid "<e(shadow)>Progress: Enemy Attack Wave 7/8"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/01b_usa-bocage/wave_07c"
+msgid "<e(shadow)>Wave 7/8 complete! Additional resources received."
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/01b_usa-bocage/wave_08"
+msgid "<e(shadow)>Progress: Enemy Attack Wave 8/8"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/01b_usa-bocage/wave_08c"
+msgid "<e(shadow)>Wave 8/8 complete! Additional resources received."
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/01b_usa-bocage/wave_09"
+msgid "<e(shadow)>Progress: Enemy Attack Wave 9/10"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/01b_usa-bocage/wave_09c"
+msgid "<e(shadow)>Wave 9/10 complete! Additional resources received."
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/01b_usa-bocage/wave_10"
+msgid "<e(shadow)>Progress: Enemy Attack Wave 10/10"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/01b_usa-bocage/wave_10c"
+msgid "<e(shadow)>Wave 10 Complete!"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/01b_usa-bocage/reinf_i01"
+msgid "AT infantry"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/01b_usa-bocage/reinf_i02"
+msgid "Tank crew"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/01b_usa-bocage/reinf_s01"
+msgid "M45 Maxson AA"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/01b_usa-bocage/reinf_s02"
+msgid "M3 AT gun"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/01b_usa-bocage/reinf_s03"
+msgid "40mm M1 Bofors L/60"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/01b_usa-bocage/reinf_s04"
+msgid "M5 At gun"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/01b_usa-bocage/reinf_s05"
+msgid "Supply truck"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/01b_usa-bocage/reinf_a01"
+msgid "M5A1 Stuart"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/01b_usa-bocage/reinf_a02"
+msgid "M4A3 Sherman"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/01b_usa-bocage/reinf_a03"
+msgid "M10 Wolverine"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/01b_usa-bocage/reinf_sp01"
+msgid "M18 Hellcat"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/01b_usa-bocage/reinf_sp02"
+msgid "M4A3E8(76)W Sherman"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/01b_usa-bocage/reinf_sp03"
+msgid "M4A3E2(76)W Jumbo"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/01b_usa-bocage/reinf_sp04"
+msgid "Super Pershing"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/01b_usa-bocage/skirmish_flag_capture"
+msgid "We have captured a strategic position!"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/01b_usa-bocage/skirmish_flag_recapture"
+msgid "We have lost a strategic position to the enemy!"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/01b_usa-bocage/skirmish_reinf_arrive"
+msgid "Reinforcements have arrived!"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/01b_usa-bocage/start"
+msgid "Press \"Continue\" to start the battle!"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/01b_usa-bocage/timer"
+msgid "<e(shadow)><c(fdef03)>Estimated arrival of enemy forces."
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/01b_usa-bocage/timerwave"
+msgid "<e(shadow)><c(fdef03)>Time you must defend your position to receive more resources."
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/01b_usa-bocage/timerwaveold"
+msgid "<e(shadow)><c(fdef03)>Estimated exhaust of enemy wave reinforcements."
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/01b_usa-bocage/timerpause"
+msgid "<e(shadow)><c(fdef03)>Estimated arrival of a new enemy wave."
+msgstr ""

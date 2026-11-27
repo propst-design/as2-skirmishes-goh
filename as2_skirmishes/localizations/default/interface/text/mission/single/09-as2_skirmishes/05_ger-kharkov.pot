@@ -1,0 +1,427 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Gates of Hell (05_ger-kharkov)\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgctxt "mission/single/09-as2_skirmishes/05_ger-kharkov/date"
+msgid "Germany vs Soviet Union"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/05_ger-kharkov/hint_start_attack"
+msgid "Enemies will only attack when they can see you. If necessary, fall back to hide and enemy troops will give up searching for you. Use guerrilla warfare to wear down your enemy!"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/05_ger-kharkov/menu:1_0"
+msgid "Infantry: 0 units"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/05_ger-kharkov/menu:1_1"
+msgid "Infantry: 1 unit"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/05_ger-kharkov/menu:1_2"
+msgid "Infantry: 2 units"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/05_ger-kharkov/menu:1_3"
+msgid "Infantry: 3 units"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/05_ger-kharkov/menu:1_4"
+msgid "Infantry: 4 units"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/05_ger-kharkov/menu:1_5"
+msgid "Infantry: 5 units"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/05_ger-kharkov/menu:2_0"
+msgid ""
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/05_ger-kharkov/menu:2_1"
+msgid ""
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/05_ger-kharkov/menu:2_2"
+msgid ""
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/05_ger-kharkov/menu:2_3"
+msgid ""
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/05_ger-kharkov/menu:2_4"
+msgid ""
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/05_ger-kharkov/menu:2_5"
+msgid ""
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/05_ger-kharkov/menu:3_0"
+msgid ""
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/05_ger-kharkov/menu:3_1"
+msgid ""
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/05_ger-kharkov/menu:3_2"
+msgid ""
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/05_ger-kharkov/menu:3_3"
+msgid ""
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/05_ger-kharkov/menu:3_4"
+msgid ""
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/05_ger-kharkov/menu:3_5"
+msgid ""
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/05_ger-kharkov/menu:4_0"
+msgid ""
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/05_ger-kharkov/menu:4_1"
+msgid ""
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/05_ger-kharkov/menu:4_2"
+msgid ""
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/05_ger-kharkov/menu:4_3"
+msgid ""
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/05_ger-kharkov/menu:4_4"
+msgid ""
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/05_ger-kharkov/menu:4_5"
+msgid ""
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/05_ger-kharkov/menu:back"
+msgid "Return to menu"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/05_ger-kharkov/mission_all_flags"
+msgid "Capture and hold all strategic positions to achieve victory!"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/05_ger-kharkov/mission_convoy_01"
+msgid "Let the first enemy convoy pass!"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/05_ger-kharkov/mission_convoy_01_destroy"
+msgid "Destroy the first enemy convoy!"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/05_ger-kharkov/mission_convoy_02"
+msgid "Let the second enemy convoy pass!"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/05_ger-kharkov/mission_convoy_02_destroy"
+msgid "Destroy the second enemy convoy!"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/05_ger-kharkov/mission_officer"
+msgid "Assassinate the enemy officer in command!"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/05_ger-kharkov/name"
+msgid "[Germany] Kharkov"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/05_ger-kharkov/name_big"
+msgid "Kharkov"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/05_ger-kharkov/officer_capture3"
+msgid "Very nice! But don't slow down, we have to carry on with our mission and annihilate their defending forces!"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/05_ger-kharkov/officer_capture6"
+msgid "We are almost there, but stay careful, our observers spotted incoming enemy armor. Ready our anti-tank weapons!"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/05_ger-kharkov/officer_convoy_01"
+msgid "An enemy convoy is heading our way! Should we attack or let them pass? Awaiting your order!"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/05_ger-kharkov/officer_convoy_01_comp"
+msgid "Excellent work! Brigade headquarters grants you additional resources (100 MP)!"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/05_ger-kharkov/officer_convoy_01_destroy"
+msgid "Ha! You seem to enjoy killing them! Brigade headquarters grants you additional resources (100 MP)!"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/05_ger-kharkov/officer_convoy_02"
+msgid "Another enemy convoy is heading our way! Keep your heads down!"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/05_ger-kharkov/officer_convoy_02_comp"
+msgid "Wonderful, you are a master of stealth! Brigade headquarters grants you additional resources (100 MP)!"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/05_ger-kharkov/officer_convoy_02_destroy"
+msgid "You crushed the enemy convoy! Brigade headquarters grants you additional resources (100 MP)!"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/05_ger-kharkov/officer_convoy_02_start"
+msgid "Intelligence spotted another convoy, be advised!"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/05_ger-kharkov/officer_enemy_officer_comp"
+msgid "Excellent strike on our enemies morale and command structures! Brigade headquarters grants you additional resources (50 MP)!"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/05_ger-kharkov/officer_start"
+msgid "Herr Oberstleutnant, today I have a task of huge importance for you. Your objective is to infiltrate and capture all strategic positions in support of the Kharkov counter offensive!"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/05_ger-kharkov/officer_start2"
+msgid "Be advised that our intelligence spotted enemy convoys on the way to our position. It is your choice whether to engage them, but the Russians are outnumbering us ten to one, so don't draw anymore attention then necessary"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/05_ger-kharkov/officer_start_attack"
+msgid "Herr Oberstleutnant, our positions have been compromised! Should we retreat to hide or engage our enemies before they can alert the others!?"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/05_ger-kharkov/outro_completed"
+msgid "Excellent job! You've made the Fatherland proud!"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/05_ger-kharkov/outro_failed"
+msgid "You have been defeated!"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/05_ger-kharkov/outro_start"
+msgid ""
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/05_ger-kharkov/place"
+msgid "Germany, East of Berlin"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/05_ger-kharkov/player_money_000"
+msgid "Progress: <c(e74236)>0%"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/05_ger-kharkov/player_money_005"
+msgid "Progress: <c(4fe736)>15%"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/05_ger-kharkov/player_money_010"
+msgid "Progress: <c(4fe736)>30%"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/05_ger-kharkov/player_money_015"
+msgid "Progress: <c(4fe736)>45%"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/05_ger-kharkov/player_money_020"
+msgid "Progress: <c(4fe736)>60%"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/05_ger-kharkov/player_money_025"
+msgid "Progress: <c(4fe736)>75%"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/05_ger-kharkov/player_money_030"
+msgid "Progress: <c(4fe736)>90%"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/05_ger-kharkov/player_money_035"
+msgid "Progress: <c(4fe736)>100%"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/05_ger-kharkov/player_money_040"
+msgid "Progress: <c(4fe736)>100%"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/05_ger-kharkov/player_money_045"
+msgid "Progress: <c(4fe736)>100%"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/05_ger-kharkov/player_money_050"
+msgid "Progress: <c(4fe736)>100%"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/05_ger-kharkov/player_money_055"
+msgid "Progress: <c(4fe736)>100%"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/05_ger-kharkov/player_money_060"
+msgid "Progress: <c(4fe736)>100%"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/05_ger-kharkov/player_money_065"
+msgid "Progress: <c(4fe736)>100%"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/05_ger-kharkov/player_money_070"
+msgid "Progress: <c(4fe736)>100%"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/05_ger-kharkov/player_money_075"
+msgid "Progress: <c(4fe736)>100%"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/05_ger-kharkov/player_money_080"
+msgid "Progress: <c(4fe736)>100%"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/05_ger-kharkov/player_money_085"
+msgid "Progress: <c(4fe736)>100%"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/05_ger-kharkov/player_money_090"
+msgid "Progress: <c(4fe736)>100%"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/05_ger-kharkov/player_money_095"
+msgid "Progress: <c(4fe736)>100%"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/05_ger-kharkov/player_money_100"
+msgid "Progress: <c(4fe736)>100%"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/05_ger-kharkov/player_money_105"
+msgid "Progress: <c(4fe736)>100%"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/05_ger-kharkov/player_money_110"
+msgid "Progress: <c(4fe736)>100%"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/05_ger-kharkov/player_money_115"
+msgid "Progress: <c(4fe736)>100%"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/05_ger-kharkov/player_money_120"
+msgid "Progress: <c(4fe736)>100%"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/05_ger-kharkov/player_money_125"
+msgid "Progress: <c(4fe736)>100%"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/05_ger-kharkov/player_money_130"
+msgid "Progress: <c(4fe736)>100%"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/05_ger-kharkov/player_money_135"
+msgid "Progress: <c(4fe736)>100%"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/05_ger-kharkov/player_money_140"
+msgid "Progress: <c(4fe736)>100%"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/05_ger-kharkov/player_money_145"
+msgid "Progress: <c(4fe736)>100%"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/05_ger-kharkov/player_money_150"
+msgid "Progress: <c(4fe736)>100%"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/05_ger-kharkov/player_money_155"
+msgid "Progress: <c(4fe736)>100%"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/05_ger-kharkov/player_money_160"
+msgid "Progress: <c(4fe736)>100%"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/05_ger-kharkov/player_money_165"
+msgid "Progress: <c(4fe736)>100%"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/05_ger-kharkov/player_money_170"
+msgid "Progress: <c(4fe736)>100%"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/05_ger-kharkov/player_money_175"
+msgid "Progress: <c(4fe736)>100%"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/05_ger-kharkov/player_money_180"
+msgid "Progress: <c(4fe736)>100%"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/05_ger-kharkov/player_money_185"
+msgid "Progress: <c(4fe736)>100%"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/05_ger-kharkov/reinf_01"
+msgid "Brandenburger"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/05_ger-kharkov/reinf_02"
+msgid "AT-Rifle Infantry"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/05_ger-kharkov/reinf_03"
+msgid "AT infantry"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/05_ger-kharkov/reinf_04"
+msgid "Medic"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/05_ger-kharkov/reinf_05"
+msgid "Officer"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/05_ger-kharkov/reinf_06"
+msgid "Veteran Sniper"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/05_ger-kharkov/reinf_07"
+msgid "le. PaK 41"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/05_ger-kharkov/reinf_08"
+msgid "Kubel VW82"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/05_ger-kharkov/reinf_09"
+msgid "SdKfz 223"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/05_ger-kharkov/reinf_10"
+msgid "PzKpfw II Luchs"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/05_ger-kharkov/skirmish_flag_capture"
+msgid "We have captured a strategic position!"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/05_ger-kharkov/skirmish_flag_recapture"
+msgid "We have lost a strategic position to the enemy!"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/05_ger-kharkov/skirmish_reinf_arrive"
+msgid "Reinforcements have arrived!"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/05_ger-kharkov/start"
+msgid "Press \"Continue\" to start the battle!"
+msgstr ""
+
+msgctxt "mission/single/09-as2_skirmishes/05_ger-kharkov/timer"
+msgid "Estimated arrival of enemy convoy"
+msgstr ""
