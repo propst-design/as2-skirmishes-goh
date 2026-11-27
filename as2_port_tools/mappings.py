@@ -77,10 +77,11 @@ MI_ENTITY_MAP = {
     "m5a1": "m5a1_stuart_late",
     "maxson": "50cal_quad_m45",
     "willysat": "willys_mb_50cal",
-    # Fortifications (use single wall segments, NOT full 360-deg cannon emplacements!)
-    "sandbag2": "sandbag_heap_straight",
-    "sandbag2_round": "sandbag_framed_curved",
-    "sandbag_woodbeam1": "sandbag_framed_straight",
+    # Fortifications (use LOW-PROFILE sandbags so AT guns shoot cleanly over them!)
+    # sandbag_straight: z=13.3, sandbag_curved: z=8.3, sandbag_five: z=9.4
+    "sandbag2": "sandbag_five",
+    "sandbag2_round": "sandbag_curved",
+    "sandbag_woodbeam1": "sandbag_straight",
     # Skirmish flags & helpers
     "skirmish_flag": "flag_skirmish",
     "skirmish_flag_5_victory": "flag_skirmish_1",
@@ -216,13 +217,13 @@ MAP_ENTITY_MAP = {
     "e_farm_c9": "c_house5_2",
     "e_hangar_111": "hangar_01",
     "aerostrip": "clay_road",
-    # Trees & bushes
-    "ash_tree_bush1": "bush_euro_small1",
-    "ash_tree_bush2": "bush_euro_small2",
+    # Trees & bushes (all verified 0-missing-texture in GoH flora.pak)
+    "ash_tree_bush1": "point-bush_small_g",
+    "ash_tree_bush2": "point-bush_01_g",
     "ash_tree3": "ashtree1",
-    "bush_curly": "bush_euro1",
-    "bush_curly_a": "bush_euro2",
-    "bush_curly_b": "bush_generic_1",
+    "bush_curly": "bush_generic_5",
+    "bush_curly_a": "bush_generic_5a",
+    "bush_curly_b": "bush_generic_5b",
     "new_birch": "birch_adult_01",
     "new_tree2": "ashtree1",
     "new_tree3": "ashtree2",
@@ -230,11 +231,11 @@ MAP_ENTITY_MAP = {
     "pine": "pine1",
     "pine_small": "pine3",
     "pine_smallest": "pine4",
-    # Grass, crops, reeds, petals
+    # Grass, crops, reeds, petals (all verified 0-missing-texture in GoH flora.pak)
     "burn_grass1": "autumn_grass1",
     "burn_grass1#1": "autumn_grass1",
-    "cane2": "finland_grass_tall1",
-    "cane3": "finland_grass_tall2",
+    "cane2": "tall-grass_01",
+    "cane3": "tall-grass_01a",
     "farm_corn1": "b2corn01",
     "farm_corn2": "b2corn02",
     "farm_corn6": "b2corn03",
@@ -283,7 +284,7 @@ MAP_ENTITY_MAP = {
     "stone_af1g": "granite_rock",
     # Trenches, bunkers & sandbags
     "dzot1": "forest_bunker_entrance",
-    "sandbag3": "sandbag_curved",
+    "sandbag3": "sandbag_five",
     "trench_ground2": "euro_log_trench_dirt_straight2",
     "trench_ground_exit2": "euro_log_trench_dirt_exit",
     "trench_ground_t": "euro_log_trench_dirt_intersection2",
@@ -302,8 +303,9 @@ MAP_ENTITY_MAP = {
     "tendor": "wagon_plato",
     "tradevan_big": "wagon1",
     # Barrels, bags, haystacks, netting, misc entourage
-    "bags_big": "sandbag_curved_heap",
-    "bags_big2": "sandbag_crush",
+    # bags_big / bags_big2 in AS2 are supply/grain sacks, NOT sandbags
+    "bags_big": "crate_one",
+    "bags_big2": "crate_one",
     "barrel_woods": "barrel1",
     "barrel_woods4": "barrel2",
     "barrel_woods6": "barrel3",
@@ -374,13 +376,13 @@ def should_skip_map_prop(name: str) -> bool:
 # Category-based fallback rules ONLY for scenery props in `map` that aren't in MAP_ENTITY_MAP
 # Every fallback target here is verified to exist in GoH!
 MAP_PROP_FALLBACK_RULES = [
-    (re.compile(r"sandbag|bag", re.I), "sandbag_heap_straight"),
+    (re.compile(r"sandbag", re.I), "sandbag_five"),
     (re.compile(r"fence|hedge|wire", re.I), "fence-wood_3"),
     (re.compile(r"crater", re.I), "crater_medium"),
     (re.compile(r"birch", re.I), "birch_adult_01"),
     (re.compile(r"pine|fir|spruce", re.I), "pine2"),
     (re.compile(r"tree|oak|ash|apple|poplar|topol|willow|orchard", re.I), "ashtree1"),
-    (re.compile(r"bush|shrub|vine|^pla\d|plant", re.I), "bush_euro_small1"),
+    (re.compile(r"bush|shrub|vine|^pla\d|plant", re.I), "point-bush_small_g"),
     (re.compile(r"wheat|corn|weat", re.I), "gem2_wheat"),
     (re.compile(r"grass|reed|cane|flower|dried|weed|fern|clover|sunflover", re.I), "finland_grass_short1"),
     (re.compile(r"road|asf|cobble|street|path", re.I), "clay_road"),

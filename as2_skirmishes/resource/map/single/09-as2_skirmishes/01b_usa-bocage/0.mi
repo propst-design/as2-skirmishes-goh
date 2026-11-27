@@ -1228,16 +1228,16 @@
 	{Entity "tent1" 0x8080
 		{Position 2945.8 -4510.09 0.56}
 	}
-	{Entity "sandbag_heap_straight" 0xc013
+	{Entity "sandbag_five" 0xc013
 		{Position 2945.97 -4441.45}
 		{xform zl 144.17 y 6.75 zw -144.2}
 		{Constrain surface}
 	}
-	{Entity "sandbag_heap_straight" 0xc017
+	{Entity "sandbag_five" 0xc017
 		{Position -338.01 -4321 2.87}
 		{xform zl -0.23}
 	}
-	{Entity "sandbag_heap_straight" 0xc01b
+	{Entity "sandbag_five" 0xc01b
 		{Position -3056.32 -4398.55 -0.05}
 	}
 	{Human "mp/ger/late/begleitgren_sa" 0x8076

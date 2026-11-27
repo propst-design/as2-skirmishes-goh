@@ -352,6 +352,31 @@ def remap_music(mi_text: str, goh_music: set) -> tuple[str, int]:
     return new_text, count
 
 
+def rotate_xform_zl(block: list[str], delta_deg: float) -> list[str]:
+    """Adjust `{xform zl <deg> ...}` inside an entity block by delta_deg (or insert if missing)."""
+    out = []
+    found = False
+    for line in block:
+        m = re.match(r"^(\t\t\{xform\b.*?\bzl\s+)(-?\d+(?:\.\d+)?)(.*)$", line)
+        if m:
+            new_ang = float(m.group(2)) + delta_deg
+            while new_ang > 180.0:
+                new_ang -= 360.0
+            while new_ang <= -180.0:
+                new_ang += 360.0
+            out.append(f"{m.group(1)}{new_ang:.2f}{m.group(3)}\n")
+            found = True
+        else:
+            out.append(line)
+    if not found and len(out) >= 2:
+        out.insert(-1, f"\t\t{{xform zl {delta_deg:.2f}}}\n")
+    return out
+
+
+# GoH straight road decals whose sprite axis is rotated 90 deg relative to AS2 road decals
+ROAD_ROTATE_90_TARGETS = {"clay_road", "clay_road_02", "clay_road_03", "clay_road_03_spring"}
+
+
 def sanitize_map_entity_blocks(map_text: str, goh_entities: set) -> tuple[str, int, int]:
     """Remap AS2 entities in `map` and strip incompatible AS2 sub-blocks on remapped/static props.
 
@@ -406,6 +431,8 @@ def sanitize_map_entity_blocks(map_text: str, goh_entities: set) -> tuple[str, i
             if was_remapped:
                 remapped += 1
                 block[0] = f"{m.group(1)}{new}{m.group(3)}\n"
+                if new in ROAD_ROTATE_90_TARGETS:
+                    block = rotate_xform_zl(block, 90.0)
 
             # Strip incompatible sub-blocks if entity was remapped OR if it has {Placer}/{Volumes}
             # that may reference AS2 bone/state names not present in GoH's updated .def
