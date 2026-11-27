@@ -31983,13 +31983,13 @@
 		{Position -828.5 -4272.54}
 		{xform zl 43.63}
 	}
-	{Entity "bucket" 0x7077
+	{Entity "barrel4" 0x7077
 		{Position -969.08 -4338.85}
 	}
-	{Entity "bucket" 0x7078
+	{Entity "barrel4" 0x7078
 		{Position -974.09 -4348.11}
 	}
-	{Entity "bucket" 0x7079
+	{Entity "barrel4" 0x7079
 		{Position -977.64 -4341.75}
 		{xform zl -89.46 y 79.8 zw 89.46}
 	}
@@ -34443,15 +34443,15 @@
 		{xform zl 121.61}
 		{DecalOrder 4}
 	}
-	{Entity "bucket" 0x606d
+	{Entity "barrel4" 0x606d
 		{Position 3847.43 -1459.01}
 		{xform zl 121.61}
 	}
-	{Entity "bucket" 0x606e
+	{Entity "barrel4" 0x606e
 		{Position 3857.94 -1458.42}
 		{xform zl 121.61}
 	}
-	{Entity "bucket" 0x606f
+	{Entity "barrel4" 0x606f
 		{Position 3854.38 -1464.78}
 		{xform zl -89.46 y 79.8 zw -148.93}
 	}

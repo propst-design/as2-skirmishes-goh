@@ -45,6 +45,7 @@ def index_goh_assets(goh_root: str):
             paks.extend(glob.glob(os.path.join(sd, "**", "*.pak"), recursive=True))
 
     entities = set()
+    map_entities = set()  # excludes inventory.pak items so props never collide with grenades/buckets!
     breeds = set()
     land_tex = set()
     envs = set()
@@ -52,13 +53,19 @@ def index_goh_assets(goh_root: str):
     music = set()
 
     for pak in paks:
+        is_inv_pak = os.path.basename(pak).lower() == "inventory.pak"
         try:
             with zipfile.ZipFile(pak) as z:
                 for n in z.namelist():
                     nl = n.lower()
                     if nl.endswith(".def"):
-                        entities.add(os.path.splitext(os.path.basename(n))[0])
-                        entities.add(os.path.basename(os.path.dirname(n)))
+                        base = os.path.splitext(os.path.basename(n))[0]
+                        parent = os.path.basename(os.path.dirname(n))
+                        entities.add(base)
+                        entities.add(parent)
+                        if not is_inv_pak:
+                            map_entities.add(base)
+                            map_entities.add(parent)
                     elif "/breed/" in nl and nl.endswith(".set"):
                         idx = nl.find("/breed/")
                         breeds.add(nl[idx + len("/breed/") : -4])
@@ -77,6 +84,7 @@ def index_goh_assets(goh_root: str):
 
     return {
         "entities": entities,
+        "map_entities": map_entities,
         "breeds": breeds,
         "land_tex": land_tex,
         "envs": envs,
@@ -232,6 +240,91 @@ MUSIC_MAP = {
 }
 
 
+def strip_achievement_actions(mi_text: str) -> tuple[str, int]:
+    """Remove AS2 {"achievement" ...} trigger actions that cause GoH enum Assertion failed warnings."""
+    lines = mi_text.splitlines(keepends=True)
+    out = []
+    i = 0
+    removed = 0
+    while i < len(lines):
+        if re.match(r'^\t+\{"achievement"\b', lines[i]):
+            depth = lines[i].count("{") - lines[i].count("}")
+            i += 1
+            while i < len(lines) and depth > 0:
+                depth += lines[i].count("{") - lines[i].count("}")
+                i += 1
+            removed += 1
+            continue
+        out.append(lines[i])
+        i += 1
+    return "".join(out), removed
+
+
+# Verified GoH crew seat remapping for remapped AS2 vehicles
+VEHICLE_SEAT_FIXES = {
+    ("panzer4g", "gunner2"): ["gunner3", "commander", "charger"],
+    ("panzer4h", "gunner2"): ["gunner3", "commander", "charger"],
+    ("panzer5g", "gunner2"): ["gunner3", "commander", "charger"],
+    ("tiger1e", "gunner2"): ["gunner3", "commander", "charger"],
+    ("tiger2h", "gunner2"): ["gunner3", "commander", "charger"],
+    ("is2_44", "gunner2"): ["gunner3", "commander", "charger"],
+    ("stuh42", "gunner2"): ["gunner3", "commander", "charger"],
+    ("m4a3_75_late", "gunner2"): ["gunner3", "commander", "charger"],
+    ("m18_hellcat", "gunner2"): ["commander", "gunner3", "charger"],
+    ("hetzer", "gunner3"): ["commander", "charger"],
+    ("stug3g", "gunner3"): ["commander", "charger"],
+    ("t3476_41", "charger"): ["gunner3", "commander"],
+    ("t3476_43", "charger"): ["gunner3", "commander"],
+    ("ba10", "charger"): ["gunner3", "commander"],
+    ("m5a1_stuart_late", "charger"): ["gunner3", "commander"],
+    ("sdkfz251d_1", "gunner"): ["gunner2", "gunner4", "seat1"],
+    ("il2_mod42", "gunner"): ["driver"],
+}
+
+
+def fix_mi_crew_links(mi_text: str) -> tuple[str, int, int]:
+    """Fix AS2->GoH vehicle seat names in {Link ...} and drop broken AS2 building-window links."""
+    id_to_type = {}
+    for m in re.finditer(r'^\t\{Entity\s+"([^"]+)"\s+(0x[0-9a-fA-F]+)', mi_text, re.M):
+        id_to_type[m.group(2).lower()] = m.group(1)
+
+    # First pass: track already-occupied seats per target entity
+    occupied = {}
+    for m in re.finditer(r'^\t\{Link\s+0x[0-9a-fA-F]+\s+\{(0x[0-9a-fA-F]+)\s+"([^"]+)"\}\}', mi_text, re.M):
+        tid, seat = m.group(1).lower(), m.group(2)
+        occupied.setdefault(tid, set()).add(seat)
+
+    fixed = 0
+    dropped = 0
+    out = []
+    for line in mi_text.splitlines(keepends=True):
+        m = re.match(r'^(\t\{Link\s+0x[0-9a-fA-F]+\s+\{)(0x[0-9a-fA-F]+)(\s+")([^"]+)("\}\}\r?\n?)$', line)
+        if m:
+            tid = m.group(2).lower()
+            seat = m.group(4)
+            vtype = id_to_type.get(tid, "")
+            # Drop broken AS2 building-window links (e.g. "121_f2w6", "120_f1w1")
+            if re.match(r"^\d+_f\d+w\d+", seat):
+                dropped += 1
+                continue
+            key = (vtype, seat)
+            if key in VEHICLE_SEAT_FIXES:
+                chosen = None
+                for cand in VEHICLE_SEAT_FIXES[key]:
+                    if cand not in occupied.get(tid, set()):
+                        chosen = cand
+                        break
+                if chosen:
+                    occupied.setdefault(tid, set()).add(chosen)
+                    out.append(f"{m.group(1)}{m.group(2)}{m.group(3)}{chosen}{m.group(5)}")
+                    fixed += 1
+                else:
+                    dropped += 1
+                continue
+        out.append(line)
+    return "".join(out), fixed, dropped
+
+
 def remap_music(mi_text: str, goh_music: set) -> tuple[str, int]:
     count = 0
 
@@ -288,14 +381,16 @@ def sanitize_map_entity_blocks(map_text: str, goh_entities: set) -> tuple[str, i
             if old == "cistern" and is_railcar:
                 new = "wagon_tanker"
                 was_remapped = True
+            elif old in MAP_ENTITY_MAP:
+                new = MAP_ENTITY_MAP[old]
+                was_remapped = True
             elif old in goh_entities:
                 new = old
                 was_remapped = False
             else:
                 new = resolve_map_prop(old, goh_entities)
                 was_remapped = True
-                if old not in MAP_ENTITY_MAP:
-                    fallbacks.add((old, new))
+                fallbacks.add((old, new))
 
             if was_remapped:
                 remapped += 1
@@ -658,10 +753,10 @@ def port_single(
     mat_content = convert_materials(z, as2_prefix, goh_idx["land_tex"])
     (mission_dir / ".materials").write_text(mat_content, encoding="utf-8")
 
-    # 3. Map file
+    # 3. Map file (use map_entities which excludes inventory.pak items like bucket/m24)
     map_txt = z.read(as2_prefix + "map").decode("utf-8", errors="replace")
     map_txt = strip_clip_water(map_txt)
-    map_txt, map_ent_n, fb_n = sanitize_map_entity_blocks(map_txt, goh_idx["entities"])
+    map_txt, map_ent_n, fb_n = sanitize_map_entity_blocks(map_txt, goh_idx["map_entities"])
     map_txt, _ = remap_environments(map_txt, goh_idx["envs"])
     (mission_dir / "map").write_text(map_txt, encoding="utf-8")
 
@@ -669,7 +764,9 @@ def port_single(
     mi_txt = z.read(as2_prefix + "0.mi").decode("utf-8", errors="replace")
     mi_txt, stripped_n = strip_top_blocks(mi_txt, ("Inventory", "Covers"))
     mi_txt, spk_n = strip_speaker_extenders(mi_txt)
+    mi_txt, ach_n = strip_achievement_actions(mi_txt)
     mi_txt, mi_ent_n = remap_mi_entities(mi_txt, goh_idx["entities"])
+    mi_txt, seat_fix_n, seat_drop_n = fix_mi_crew_links(mi_txt)
     mi_txt, mi_hum_n = remap_text_humans(mi_txt, BREED_MAP)
     mi_txt, _ = remap_environments(mi_txt, goh_idx["envs"])
     mi_txt, icon_n = remap_reinforcement_icons(mi_txt, goh_idx["icons"])
@@ -688,8 +785,8 @@ def port_single(
 
     print(
         f"  Remapped: map={map_ent_n} (cat-fb={fb_n}), mi_ents={mi_ent_n}, humans={mi_hum_n}, "
-        f"icons={icon_n}, music={mus_n}, stripped_blocks={stripped_n}, speakers={spk_n}, "
-        f"strings={n_str}, wavs={n_wav}"
+        f"icons={icon_n}, music={mus_n}, seats={seat_fix_n}fix/{seat_drop_n}drop, "
+        f"stripped={stripped_n}blk/{spk_n}spk/{ach_n}ach, strings={n_str}, wavs={n_wav}"
     )
 
     # 6. Validate
