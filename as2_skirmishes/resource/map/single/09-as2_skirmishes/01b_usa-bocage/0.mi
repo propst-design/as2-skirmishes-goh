@@ -298,11 +298,29 @@
 		{Position -29.11 4259.45}
 		{Player 3}
 		{MID 1}
+		{Color 0xffff0000}
+		{Extender "map_point"
+			{name "sk_80a4"}
+			{zone
+				{radius 350}
+			}
+			{phase 0}
+			{order 0}
+		}
 	}
 	{Entity "flag_skirmish" 0x80a5
 		{Position -29.16 4259.51}
 		{Player 0}
 		{MID 2}
+		{Color 0xff00ff00}
+		{Extender "map_point"
+			{name "sk_80a5"}
+			{zone
+				{radius 350}
+			}
+			{phase 0}
+			{order 0}
+		}
 	}
 	{Entity "arrow_friendly" 0x80a6
 		{Position -26.13 4238.75 221.34}

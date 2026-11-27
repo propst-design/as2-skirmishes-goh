@@ -608,41 +608,113 @@
 		{Position -1200 1200}
 		{Player 3}
 		{MID 3}
+		{Color 0xffff0000}
+		{Extender "map_point"
+			{name "sk_829d"}
+			{zone
+				{radius 350}
+			}
+			{phase 0}
+			{order 0}
+		}
 	}
 	{Entity "flag_skirmish" 0x82a2
 		{Position -1200 1200}
 		{Player 0}
 		{MID 5}
+		{Color 0xff00ff00}
+		{Extender "map_point"
+			{name "sk_82a2"}
+			{zone
+				{radius 350}
+			}
+			{phase 0}
+			{order 0}
+		}
 	}
 	{Entity "flag_skirmish_1" 0x82b2
 		{Position 0 -4499.05}
 		{Player 3}
 		{MID 49}
+		{Color 0xffff0000}
+		{Extender "map_point"
+			{name "sk_82b2"}
+			{zone
+				{radius 350}
+			}
+			{phase 0}
+			{order 0}
+		}
 	}
 	{Entity "flag_skirmish" 0x82b3
 		{Position 0 -4499.06}
 		{Player 0}
 		{MID 59}
+		{Color 0xff00ff00}
+		{Extender "map_point"
+			{name "sk_82b3"}
+			{zone
+				{radius 350}
+			}
+			{phase 0}
+			{order 0}
+		}
 	}
 	{Entity "flag_skirmish_2" 0xf004
 		{Position 0 -557.44}
 		{Player 3}
 		{MID 77}
+		{Color 0xffff0000}
+		{Extender "map_point"
+			{name "sk_f004"}
+			{zone
+				{radius 350}
+			}
+			{phase 0}
+			{order 0}
+		}
 	}
 	{Entity "flag_skirmish" 0xf005
 		{Position 0 -557.45}
 		{Player 0}
 		{MID 78}
+		{Color 0xff00ff00}
+		{Extender "map_point"
+			{name "sk_f005"}
+			{zone
+				{radius 350}
+			}
+			{phase 0}
+			{order 0}
+		}
 	}
 	{Entity "flag_skirmish_2" 0xf006
 		{Position 1200 1200}
 		{Player 3}
 		{MID 79}
+		{Color 0xffff0000}
+		{Extender "map_point"
+			{name "sk_f006"}
+			{zone
+				{radius 350}
+			}
+			{phase 0}
+			{order 0}
+		}
 	}
 	{Entity "flag_skirmish" 0xf007
 		{Position 1200 1200}
 		{Player 0}
 		{MID 83}
+		{Color 0xff00ff00}
+		{Extender "map_point"
+			{name "sk_f007"}
+			{zone
+				{radius 350}
+			}
+			{phase 0}
+			{order 0}
+		}
 	}
 	{Entity "37mm_61k" 0x82d8
 		{Position 567.31 6137.84}
@@ -1754,12 +1826,30 @@
 		{xform zl 0.55}
 		{Player 0}
 		{MID 86}
+		{Color 0xff00ff00}
+		{Extender "map_point"
+			{name "sk_8298"}
+			{zone
+				{radius 350}
+			}
+			{phase 0}
+			{order 0}
+		}
 	}
 	{Entity "flag_skirmish_3" 0x8296
 		{Position 0 3500.03}
 		{xform zl 0.55}
 		{Player 3}
 		{MID 84}
+		{Color 0xffff0000}
+		{Extender "map_point"
+			{name "sk_8296"}
+			{zone
+				{radius 350}
+			}
+			{phase 0}
+			{order 0}
+		}
 	}
 	{Human "mp/rus/late/tankman" 0x8100
 		{Position 87.37 3924.63}
@@ -2965,12 +3055,30 @@
 		{xform zl -5.07}
 		{Player 3}
 		{MID 183}
+		{Color 0xffff0000}
+		{Extender "map_point"
+			{name "sk_8127"}
+			{zone
+				{radius 350}
+			}
+			{phase 0}
+			{order 0}
+		}
 	}
 	{Entity "flag_skirmish" 0x8128
 		{Position -2500 -4000}
 		{xform zl -5.07}
 		{Player 0}
 		{MID 192}
+		{Color 0xff00ff00}
+		{Extender "map_point"
+			{name "sk_8128"}
+			{zone
+				{radius 350}
+			}
+			{phase 0}
+			{order 0}
+		}
 	}
 	{Entity "sandbag_framed_straight" 0x812b
 		{Position 2546.86 -3965.9}
@@ -3034,11 +3142,29 @@
 		{Position 2500 -4000}
 		{Player 3}
 		{MID 228}
+		{Color 0xffff0000}
+		{Extender "map_point"
+			{name "sk_813e"}
+			{zone
+				{radius 350}
+			}
+			{phase 0}
+			{order 0}
+		}
 	}
 	{Entity "flag_skirmish" 0x813f
 		{Position 2500 -4000}
 		{Player 0}
 		{MID 230}
+		{Color 0xff00ff00}
+		{Extender "map_point"
+			{name "sk_813f"}
+			{zone
+				{radius 350}
+			}
+			{phase 0}
+			{order 0}
+		}
 	}
 	{Entity "sandbag_framed_straight" 0x8029
 		{Position -47.85 3530.03}

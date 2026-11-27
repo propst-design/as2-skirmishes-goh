@@ -391,6 +391,27 @@ def remap_mi_entities(text: str, goh_entities: set) -> tuple[str, int]:
                 cleaned.append(block[j])
                 j += 1
 
+            # For GoH flag_skirmish* entities, inject {Color} + {Extender "map_point"} so capture
+            # points render visibly on the terrain and minimap (AS2 flags didn't use map_point).
+            if new.startswith("flag_skirmish") and '{Extender "map_point"' not in "".join(cleaned):
+                hex_m = re.search(r"0x([0-9a-fA-F]+)", block[0])
+                fid = hex_m.group(1) if hex_m else str(count)
+                is_player = "{Player 0}" in "".join(cleaned)
+                color_hex = "0xff00ff00" if is_player else "0xffff0000"
+                mp_block = (
+                    f"\t\t{{Color {color_hex}}}\n"
+                    '\t\t{Extender "map_point"\n'
+                    f'\t\t\t{{name "sk_{fid}"}}\n'
+                    "\t\t\t{zone\n"
+                    "\t\t\t\t{radius 350}\n"
+                    "\t\t\t}\n"
+                    "\t\t\t{phase 0}\n"
+                    "\t\t\t{order 0}\n"
+                    "\t\t}\n"
+                )
+                # Insert right before closing `\t}` of the Entity block
+                cleaned.insert(-1, mp_block)
+
             out.extend(cleaned)
             continue
 
